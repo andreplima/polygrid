@@ -1,0 +1,17 @@
+__pycache__/
+userstudies/
+*.bak
+*.zip
+*.lnk
+*.pyc
+*.pkl
+*.mp4
+*.png
+*.jpg
+*.csv
+*.log
+celeryconfig.py
+~*.*
+datasets/elsa/original/*.sav
+datasets/elsa/original/*.dta
+

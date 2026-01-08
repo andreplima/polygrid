@@ -1,2 +1,5 @@
-# polygrid
-The Polygrid recommendatio model
+# Polygrid
+
+##The Polygrid recommendation model
+
+This is a research prototype of the Polygrid recommendation model.
