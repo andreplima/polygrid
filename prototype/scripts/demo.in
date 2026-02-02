@@ -1,0 +1,8 @@
+clear
+exec show_Polygrid_logo(self.configfile, static_logo=True)
+
+# slide 1
+p ''
+p ''
+p 'Welcome to Polygrid CLI'
+
