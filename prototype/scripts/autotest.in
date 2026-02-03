@@ -1,3 +1,5 @@
+clear
+exec show_Polygrid_logo(self.configfile, static_logo=True)
 load iris
 assign o
 upgrade
@@ -19,8 +21,8 @@ exec show_Polygrid_logo(self.configfile, static_logo=True)
 p         ''
 p         '+----------------------------------------------------------------------------------+'
 p         '| You should be able seeing the Polygrid explanation diagram shown in initial page |'
-p         '| of our github repo, at https://github.com/andreplima/polygrid. If the value of   |'       
-p         '| all tags match the reference values, consider this test successful.              |'
+p         '| of our github repo, at https://github.com/andreplima/polygrid. If the value of ..|'
+p         '| all tags match the reference values exactly, then this test was successful. .....|'
 p         '+----------------------------------------------------------------------------------+'
 
 show cross 95
