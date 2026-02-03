@@ -14,8 +14,8 @@ This work has derived from the following doctoral thesis:
 
 > [2] Andre Paulino de Lima. An interpretable recommendation model for psychometric
 >     data in multilabel classification and label ranking tasks, with an application
->     to gerontological primary care. 2026. Doctoral thesis (to be defended).
->     (an examination copy can be consulted here ./literature/polygrid_thesis.pdf)
+>     to gerontological primary care. 2026. Doctoral thesis (to be defended; the
+>     pre-examination version can be consulted here ./literature/polygrid_thesis.pdf)
 
 The detailed data collected from the offline evaluation and the user study reported in the paper/thesis are available in ./datasets/results and ./datasets/userstudy.
 
