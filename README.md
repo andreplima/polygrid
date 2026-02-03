@@ -53,7 +53,7 @@ python cli.py ../configs/evaluate_H01_C1.cfg
 ```
 
 ## Where is the supplementary data?
-The detailed data collected from the offline evaluation and the user study reported in the paper/thesis are available in ./datasets/offlineval and ./datasets/userstudy folders.
+The data collected during the offline evaluation and the user study reported in the paper/thesis are available in ./datasets/offlineval and ./datasets/userstudy folders, respectively.
 
 ## How to learn more about the Polygrid model?
 For a crash course on Polygrid model/CLI, consider watching some of these videos:
