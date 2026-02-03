@@ -20,7 +20,7 @@ This work has derived from the following doctoral thesis:
 
 Polygrid is a transparent, interpretable recommendation model that displays an interactive diagram as a visual explanation for any recommendation it provides, as shown below:
 
-![A Polygrid explanation diagram for instance 95 of the Iris dataset](logo.png
+![A Polygrid explanation diagram for instance 95 of the Iris dataset](logo.png)
 
 ## Installation (Windows):
 - After cloning this repository, run:
