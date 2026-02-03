@@ -17,8 +17,6 @@ This work has derived from the following doctoral thesis:
 >     to gerontological primary care. 2026. Doctoral thesis (to be defended; the
 >     pre-examination version can be consulted here ./literature/polygrid_thesis.pdf)
 
-The detailed data collected from the offline evaluation and the user study reported in the paper/thesis are available in ./datasets/results and ./datasets/userstudy.
-
 Polygrid is a transparent, interpretable recommendation model that displays an interactive diagram as a visual explanation for any recommendation it provides.
 ![A Polygrid explanation diagram for instance 95 of the Iris dataset](logo.svg)
 
@@ -67,3 +65,7 @@ python cli.py ../configs/evaluate_H01_C1.cfg
 ```
 python cli.py ../configs/evaluate_H01_C4.cfg < ../scripts/demo.in
 ```
+
+## Where is the supplementary data?
+The detailed data collected from the offline evaluation and the user study reported in the paper/thesis are available in ./datasets/offlineval and ./datasets/userstudy folders.
+
