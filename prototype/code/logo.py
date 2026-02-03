@@ -9,14 +9,7 @@
     With an Application to Gerontological Primary Care. 2026. 
     Available at https://arxiv.org/abs/2601.19824
     Available at ./literature/polygrid_thesis.pdf
- 
- This work has derived from the following doctoral thesis:
- 
- [2] Andre Paulino de Lima. An interpretable recommendation model for psychometric
-     data in multilabel classification and label ranking tasks, with an application 
-     to gerontological primary care. 2026. Doctoral thesis (to be defended).
-     Available at ./literature/polygrid_thesis.pdf
- 
+  
  Polygrid is a transparent, interpretable recommendation model that displays an 
  interactive diagram as a visual explanation for any recommendation it provides.
  For a crash course on Polygrid model/CLI, consider watching some of these videos:

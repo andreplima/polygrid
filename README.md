@@ -42,14 +42,14 @@ cd prototypes/code
 python cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
 ```
 
-## How to run the Polygrid CLI:
-```
-python cli.py ../configs/evaluate_H01_C1.cfg
-```
-
 ## Run a demo:
 ```
 python cli.py ../configs/evaluate_H01_C4.cfg < ../scripts/demo.in
+```
+
+## How to run the Polygrid CLI:
+```
+python cli.py ../configs/evaluate_H01_C1.cfg
 ```
 
 ## Where is the supplementary data?
@@ -68,4 +68,4 @@ For a crash course on Polygrid model/CLI, consider watching some of these videos
  (soon)
 
 Disclaimer: The first author provides this software "as is", with no express or implied warranties.
-Also, the healthcare datasets mentioned in the paper/thesis above do not come with the software: users must request them from their owners or curators and preprocess them using the corresponding “read*.py” scripts found in the ./prototypes/readers folder.
+Also, the healthcare datasets mentioned in the paper/thesis above do not come with the software: interested users must request them from their owners or curators and preprocess them using the corresponding “read*.py” scripts found in the ./prototypes/readers folder.
