@@ -22,7 +22,7 @@ Polygrid is a transparent, interpretable recommendation model that displays an i
 
 ![A Polygrid explanation diagram for instance 95 of the Iris dataset](logo.svg)
 
-##Installation (Windows):
+## Installation (Windows):
 - After cloning this repository, run:
 ```
 cd polygrid
@@ -32,7 +32,7 @@ cd prototypes\code
 python cli.py ..\configs\evaluate_H01_C4.cfg < ..\scripts\autotest.in
 ```
 
-##Installation (Linux):
+## Installation (Linux):
 - After cloning this repository, run:
 ```
 cd polygrid
@@ -42,12 +42,12 @@ cd prototypes/code
 python cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
 ```
 
-##How to run the Polygrid CLI:
+## How to run the Polygrid CLI:
 ```
 python cli.py ../configs/evaluate_H01_C1.cfg
 ```
 
-##Run a demo:
+## Run a demo:
 ```
 python cli.py ../configs/evaluate_H01_C4.cfg < ../scripts/demo.in
 ```
