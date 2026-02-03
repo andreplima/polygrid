@@ -1,8 +1,8 @@
 conda update -n root -c defaults conda
 conda remove --name recsys23 --all
 python -m pip install --upgrade pip
-conda create --name recsys23 shapely scikit-learn=1.2.2 matplotlib=3.3.2 ffmpeg
-activate recsys23
+conda create --name polygrid shapely scikit-learn=1.2.2 matplotlib=3.3.2 ffmpeg
+activate polygrid
 conda install psutil
 conda install -c conda-forge scikit-fuzzy pyreadstat
 python -m pip install bootstrapped

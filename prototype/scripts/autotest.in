@@ -1,12 +1,29 @@
-clear
-exec show_Polygrid_logo(self.configfile, static_logo=True)
 load iris
 assign o
 upgrade
 split
-train 1 3
-ls
-show cross 50
-show scales
+exec self.tr_idxs = np.array([90, 80, 20, 127, 4, 47, 66, 140, 3, 130, 14, 111, 96, 118, 116, 88, 38, 28, 135, 121, 104, 109, 148, 71, 129, 114, 31, 98, 143, 61, 134, 94, 123, 39, 69, 46, 145, 26, 81, 100, 65, 101, 0, 117, 146, 63, 21, 131, 92, 49, 29, 68, 54, 33, 138, 24, 137, 128, 2, 133, 97, 56, 43, 86, 12, 93, 7, 110, 17, 74, 108, 147, 34, 41, 83, 87, 102, 64, 144, 59, 30, 73, 112, 120, 9, 60, 22, 42, 13, 126, 11, 139, 99, 55, 1, 78, 5, 51, 52, 77, 25, 106, 149, 75, 32, 37, 132, 89, 136, 53, 79, 10, 8, 36, 107, 18, 82, 58, 23, 122])
+exec self.te_idxs = np.array([57, 16, 62, 15, 103, 125, 35, 115, 113, 6, 50, 48, 84, 44, 76, 119, 70, 124, 19, 40, 45, 95, 27, 91, 142, 141, 85, 105, 72, 67])
+
+set vorder averages
+set annulus r-invariant
+set sector cover
+set cutoff multiple
+set solver lstsq
+
+train 1 2
+
+clear
+exec show_Polygrid_logo(self.configfile, static_logo=True)
+
+p         ''
+p         '+----------------------------------------------------------------------------------+'
+p         '| You should be able seeing the Polygrid explanation diagram shown in initial page |'
+p         '| of our github repo, at https://github.com/andreplima/polygrid. If the value of   |'       
+p         '| all tags match the reference values, consider this test successful.              |'
+p         '+----------------------------------------------------------------------------------+'
+
+show cross 95
+
 quit
 
