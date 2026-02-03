@@ -1,0 +1,248 @@
+[20250402120529] Recovering parameters from ..\configs\evaluate_H01_C1.cfg
+[20250402120529] ESSAY_CONFIGID : C1 (as <class 'str'>)
+ESSAY_ESSAYID : H01 (as <class 'str'>)
+ESSAY_RUNS : 50 (as <class 'int'>)
+ESSAY_SCENARIO : Essay H01, Config C1: evaluate Polygrid on multiclass datasets (as <class 'str'>)
+PARAM_ALPHA_RANGE : (0.05, 0.95, 0.05) (as <class 'tuple'>)
+PARAM_BALANCE : False (as <class 'bool'>)
+PARAM_COMPETITORS : ['Polygrid', 'Linear', 'Ridge', 'MLP', 'DT', 'RF', 'BRDT', 'BRRF', 'Random'] (as <class 'list'>)
+PARAM_DATAPARS : {'iris (mc)': ('iris', 1.0, 'o', ''), 'wine (mc)': ('wine', 1.0, 'o', ''), 'cancer (mc)': ('cancer', 1.0, 'o', ''), 'penguins (mc)': ('penguins', 1.0, 'o', '')} (as <class 'dict'>)
+PARAM_DATASETS : ['iris (mc)', 'penguins (mc)', 'wine (mc)', 'cancer (mc)'] (as <class 'list'>)
+PARAM_FILENAME : multiclass_evaluation (as <class 'str'>)
+PARAM_GRIDSEARCH : {'nspd': [1, 2, 3], 'na': [1, 2, 3, 4, 5, 6, 7, 8], 'vorder': ['averages', 'rho', 'measures'], 'annulus_type': ['s-invariant', 'r-invariant', 'tree'], 'sector_type': ['cover', 'miss'], 'solver': ['lstsq', 'lstsqsym', 'ridge'], 'cutoff': ['single']} (as <class 'dict'>)
+PARAM_HIDE_TAGS : False (as <class 'bool'>)
+PARAM_MAXCORES : 4 (as <class 'int'>)
+PARAM_MAXLABELS : None (as <class 'NoneType'>)
+PARAM_POLYGRID : {'vorder': 'averages', 'init': 'full', 'norm': 'none', 'solver': 'lstsq', 'geoeng': 'shapely', 'annulus_type': 's-invariant', 'sector_type': 'cover', 'RAD': 1.0, 'ARES': 8, 'SRES': 8} (as <class 'dict'>)
+PARAM_SAVEIT : False (as <class 'bool'>)
+PARAM_SOURCEPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets'] (as <class 'list'>)
+PARAM_TARGETPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'results', 'multiclass'] (as <class 'list'>)
+PARAM_TESTFRAC : 0.2 (as <class 'float'>)
+
+[20250402120529] Recovering data from C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\datasets\results\multiclass\multiclass_evaluation.pkl
+[20250402120529] 
+[20250402120529] Indices of the best Polygrid configs for each metric and dataset (-1 indicates NA - 'Not Applicable')
+[20250402120529] metric       iris (mc) penguins (mc)     wine (mc)   cancer (mc)
+[20250402120529] accuracy           225             6           948           753
+[20250402120529] hammingl           225             6           948           753
+[20250402120529] f1.micro           225             6           948           753
+[20250402120529] f1.macro           225             6           948          1174
+[20250402120529] f1.weigh           225             6           948          1174
+[20250402120529] jaccsim            502           517           943           902
+[20250402120529] 
+[20250402120529] Performance data of the best Polygrid configs for each metric and dataset
+[20250402120529] dataset         metric     score   size   index   config                                                           
+[20250402120529] iris (mc)       accuracy   0.983     60     225   (1, 5, 'averages', 'r-invariant', 'miss', 'lstsq', 'single')     
+[20250402120529] iris (mc)       hammingl   0.011     60     225   (1, 5, 'averages', 'r-invariant', 'miss', 'lstsq', 'single')     
+[20250402120529] iris (mc)       f1.micro   0.983     60     225   (1, 5, 'averages', 'r-invariant', 'miss', 'lstsq', 'single')     
+[20250402120529] iris (mc)       f1.macro   0.983     60     225   (1, 5, 'averages', 'r-invariant', 'miss', 'lstsq', 'single')     
+[20250402120529] iris (mc)       f1.weigh   0.983     60     225   (1, 5, 'averages', 'r-invariant', 'miss', 'lstsq', 'single')     
+[20250402120529] iris (mc)       jaccsim    0.004     48     502   (2, 2, 'averages', 'tree', 'miss', 'lstsqsym', 'single')         
+[20250402120529] penguins (mc)   accuracy   0.992     12       6   (1, 1, 'averages', 'r-invariant', 'cover', 'lstsq', 'single')    
+[20250402120529] penguins (mc)   hammingl   0.006     12       6   (1, 1, 'averages', 'r-invariant', 'cover', 'lstsq', 'single')    
+[20250402120529] penguins (mc)   f1.micro   0.992     12       6   (1, 1, 'averages', 'r-invariant', 'cover', 'lstsq', 'single')    
+[20250402120529] penguins (mc)   f1.macro   0.989     12       6   (1, 1, 'averages', 'r-invariant', 'cover', 'lstsq', 'single')    
+[20250402120529] penguins (mc)   f1.weigh   0.991     12       6   (1, 1, 'averages', 'r-invariant', 'cover', 'lstsq', 'single')    
+[20250402120529] penguins (mc)   jaccsim    0.010     48     517   (2, 2, 'rho', 'tree', 'cover', 'lstsqsym', 'single')             
+[20250402120529] wine (mc)       accuracy   0.991    234     948   (3, 2, 'rho', 'tree', 'cover', 'lstsq', 'single')                
+[20250402120529] wine (mc)       hammingl   0.006    234     948   (3, 2, 'rho', 'tree', 'cover', 'lstsq', 'single')                
+[20250402120529] wine (mc)       f1.micro   0.991    234     948   (3, 2, 'rho', 'tree', 'cover', 'lstsq', 'single')                
+[20250402120529] wine (mc)       f1.macro   0.991    234     948   (3, 2, 'rho', 'tree', 'cover', 'lstsq', 'single')                
+[20250402120529] wine (mc)       f1.weigh   0.991    234     948   (3, 2, 'rho', 'tree', 'cover', 'lstsq', 'single')                
+[20250402120529] wine (mc)       jaccsim    0.001    234     943   (3, 2, 'rho', 'r-invariant', 'cover', 'lstsqsym', 'single')      
+[20250402120529] cancer (mc)     accuracy   0.948    240     753   (2, 6, 'measures', 'tree', 'miss', 'lstsq', 'single')            
+[20250402120529] cancer (mc)     hammingl   0.052    240     753   (2, 6, 'measures', 'tree', 'miss', 'lstsq', 'single')            
+[20250402120529] cancer (mc)     f1.micro   0.948    240     753   (2, 6, 'measures', 'tree', 'miss', 'lstsq', 'single')            
+[20250402120529] cancer (mc)     f1.macro   0.944    360    1174   (3, 6, 'measures', 's-invariant', 'miss', 'lstsqsym', 'single')  
+[20250402120529] cancer (mc)     f1.weigh   0.948    360    1174   (3, 6, 'measures', 's-invariant', 'miss', 'lstsqsym', 'single')  
+[20250402120529] cancer (mc)     jaccsim    0.123     62     902   (3, 1, 'measures', 's-invariant', 'cover', 'ridge', 'single')    
+[20250402120529] +------------------------------------------------------------------------------------------------------
+[20250402120529] -- processing performance data related to the iris (mc) dataset
+[20250402120711] +------------------------------------------------------------------------------------------------------
+[20250402120711] -- processing performance data related to the penguins (mc) dataset
+[20250402120853] +------------------------------------------------------------------------------------------------------
+[20250402120853] -- processing performance data related to the wine (mc) dataset
+[20250402121035] +------------------------------------------------------------------------------------------------------
+[20250402121035] -- processing performance data related to the cancer (mc) dataset
+[20250402121218] 
+[20250402121218] ++ sample-level replicability index:  1.0
+[20250402121218] 
+[20250402121218] Saving model performance details to C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\datasets\results\multiclass\multiclass_evaluation.csv
+[20250402121219] Saving model ranking details to C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\datasets\results\multiclass\multiclass_evaluation_rank.csv
+
++------------------------------------------------------------------------------------------------------
+| Computing model ranking according to accuracy
++------------------------------------------------------------------------------------------------------
+
+Average performance on accuracy, per classifier/dataset:
+classifier_name   BRDT   BRRF     DT  Linear    MLP  Polygrid     RF  Random  Ridge
+dataset_name                                                                       
+cancer (mc)      0.912  0.913  0.917   0.928  0.947     0.948  0.842   0.501  0.937
+iris (mc)        0.944  0.937  0.946   0.808  0.977     0.983  0.945   0.307  0.837
+penguins (mc)    0.932  0.840  0.918   0.987  0.823     0.992  0.774   0.327  0.979
+wine (mc)        0.846  0.960  0.905   0.970  0.969     0.991  0.933   0.340  0.988
+
+Average rank per model, considering accuracy:
+   Polygrid	1.00
+   Ridge   	3.75
+   MLP     	3.75
+   Linear  	4.25
+   DT      	5.00
+   BRRF    	5.75
+   BRDT    	6.00
+   RF      	6.50
+   Random  	9.00
+
+Models grouped by competitive performance:
+  Group 1: ('Polygrid',)
+  Group 2: ('Linear', 'Ridge', 'MLP')
+  Group 3: ('DT', 'RF', 'BRDT', 'BRRF')
+  Group 4: ('Random',)
+
++------------------------------------------------------------------------------------------------------
+| Computing model ranking according to hammingl
++------------------------------------------------------------------------------------------------------
+
+Average performance on hammingl, per classifier/dataset:
+classifier_name   BRDT   BRRF     DT  Linear    MLP  Polygrid     RF  Random  Ridge
+dataset_name                                                                       
+cancer (mc)      0.088  0.087  0.083   0.072  0.053     0.052  0.100   0.499  0.063
+iris (mc)        0.036  0.042  0.036   0.128  0.016     0.011  0.036   0.462  0.108
+penguins (mc)    0.046  0.107  0.054   0.008  0.118     0.006  0.151   0.449  0.014
+wine (mc)        0.078  0.027  0.063   0.020  0.021     0.006  0.045   0.440  0.008
+
+Average rank per model, considering hammingl:
+   Polygrid	1.00
+   Ridge   	3.75
+   MLP     	3.75
+   Linear  	4.25
+   DT      	5.25
+   BRDT    	5.75
+   BRRF    	5.75
+   RF      	6.50
+   Random  	9.00
+
+Models grouped by competitive performance:
+  Group 1: ('Polygrid',)
+  Group 2: ('Linear', 'Ridge', 'MLP')
+  Group 3: ('DT', 'RF', 'BRDT', 'BRRF')
+  Group 4: ('Random',)
+
++------------------------------------------------------------------------------------------------------
+| Computing model ranking according to f1.micro
++------------------------------------------------------------------------------------------------------
+
+Average performance on f1.micro, per classifier/dataset:
+classifier_name   BRDT   BRRF     DT  Linear    MLP  Polygrid     RF  Random  Ridge
+dataset_name                                                                       
+cancer (mc)      0.912  0.913  0.917   0.928  0.947     0.948  0.906   0.501  0.937
+iris (mc)        0.947  0.937  0.946   0.808  0.977     0.983  0.945   0.307  0.837
+penguins (mc)    0.932  0.840  0.920   0.987  0.823     0.992  0.774   0.327  0.979
+wine (mc)        0.894  0.960  0.905   0.970  0.969     0.991  0.934   0.340  0.988
+
+Average rank per model, considering f1.micro:
+   Polygrid	1.00
+   Ridge   	3.75
+   MLP     	3.75
+   Linear  	4.25
+   DT      	5.25
+   BRDT    	5.50
+   BRRF    	5.75
+   RF      	6.75
+   Random  	9.00
+
+Models grouped by competitive performance:
+  Group 1: ('Polygrid',)
+  Group 2: ('Linear', 'Ridge', 'MLP')
+  Group 3: ('DT', 'RF', 'BRDT', 'BRRF')
+  Group 4: ('Random',)
+
++------------------------------------------------------------------------------------------------------
+| Computing model ranking according to f1.macro
++------------------------------------------------------------------------------------------------------
+
+Average performance on f1.macro, per classifier/dataset:
+classifier_name   BRDT   BRRF     DT  Linear    MLP  Polygrid     RF  Random  Ridge
+dataset_name                                                                       
+cancer (mc)      0.914  0.920  0.907   0.924  0.936     0.944  0.899   0.495  0.935
+iris (mc)        0.947  0.936  0.945   0.804  0.977     0.983  0.945   0.302  0.834
+penguins (mc)    0.918  0.760  0.886   0.984  0.648     0.989  0.583   0.317  0.974
+wine (mc)        0.895  0.960  0.906   0.971  0.970     0.991  0.935   0.334  0.988
+
+Average rank per model, considering f1.macro:
+   Polygrid	1.00
+   Ridge   	3.75
+   MLP     	3.75
+   Linear  	4.25
+   BRDT    	5.25
+   BRRF    	5.50
+   DT      	5.88
+   RF      	6.62
+   Random  	9.00
+
+Models grouped by competitive performance:
+  Group 1: ('Polygrid',)
+  Group 2: ('Linear', 'Ridge', 'MLP')
+  Group 3: ('DT', 'RF', 'BRDT', 'BRRF')
+  Group 4: ('Random',)
+
++------------------------------------------------------------------------------------------------------
+| Computing model ranking according to f1.weigh
++------------------------------------------------------------------------------------------------------
+
+Average performance on f1.weigh, per classifier/dataset:
+classifier_name   BRDT   BRRF     DT  Linear    MLP  Polygrid     RF  Random  Ridge
+dataset_name                                                                       
+cancer (mc)      0.920  0.925  0.913   0.930  0.941     0.948  0.907   0.512  0.941
+iris (mc)        0.947  0.936  0.945   0.804  0.977     0.983  0.945   0.302  0.834
+penguins (mc)    0.930  0.809  0.908   0.987  0.747     0.991  0.691   0.333  0.979
+wine (mc)        0.895  0.960  0.904   0.970  0.969     0.991  0.934   0.337  0.988
+
+Average rank per model, considering f1.weigh:
+   Polygrid	1.00
+   Ridge   	3.62
+   MLP     	3.88
+   Linear  	4.25
+   BRDT    	5.25
+   BRRF    	5.50
+   DT      	5.88
+   RF      	6.62
+   Random  	9.00
+
+Models grouped by competitive performance:
+  Group 1: ('Polygrid',)
+  Group 2: ('Linear', 'Ridge', 'MLP')
+  Group 3: ('DT', 'RF', 'BRDT', 'BRRF')
+  Group 4: ('Random',)
+
++------------------------------------------------------------------------------------------------------
+| Computing model ranking according to jaccsim
++------------------------------------------------------------------------------------------------------
+
+Average performance on jaccsim, per classifier/dataset:
+classifier_name   BRDT   BRRF     DT  Linear    MLP  Polygrid     RF  Random  Ridge
+dataset_name                                                                       
+cancer (mc)      0.966  0.732  0.996   0.189  0.644     0.123  0.860   0.961  0.145
+iris (mc)        0.187  0.189  0.173   0.216  0.068     0.004  0.121   0.849  0.175
+penguins (mc)    0.307  0.322  0.324   0.010  0.025     0.010  0.311   0.910  0.022
+wine (mc)        0.393  0.096  0.513   0.029  0.017     0.001  0.169   0.852  0.006
+
+Average rank per model, considering jaccsim:
+   Polygrid	1.12
+   Ridge   	3.00
+   MLP     	3.25
+   Linear  	4.12
+   RF      	5.25
+   BRRF    	6.00
+   BRDT    	6.50
+   DT      	7.25
+   Random  	8.50
+
+Models grouped by competitive performance:
+  Group 1: ('Polygrid',)
+  Group 2: ('Ridge', 'MLP')
+  Group 3: ('Linear',)
+  Group 4: ('RF', 'BRRF')
+  Group 5: ('DT', 'BRDT')
+  Group 6: ('Random',)
+[20250402121219] This report was saved to C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\datasets\results\multiclass\display.log

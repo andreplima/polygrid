@@ -1,0 +1,58 @@
+[20250224000918] Loading parameters from ..\configs\readers_T01_C0.cfg
+[20250224000918] Loading and parsing file C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\datasets\cometa\original\foodtruck.arff
+[20250224000918] Converting data to types required by Polygrid CLI environment
+[20250224000918] ----------------------------------------------------------------------
+[20250224000918] Group	Field	Field Type
+[20250224000918] ----------------------------------------------------------------------
+[20250224000918] feature	taste	<class 'float'>
+[20250224000918] feature	hygiene	<class 'float'>
+[20250224000918] feature	menu	<class 'float'>
+[20250224000918] feature	presentation	<class 'float'>
+[20250224000918] feature	attendance	<class 'float'>
+[20250224000918] feature	ingredients	<class 'float'>
+[20250224000918] feature	place.to.sit	<class 'float'>
+[20250224000918] feature	takeaway	<class 'float'>
+[20250224000918] feature	variation	<class 'float'>
+[20250224000918] feature	stop.strucks	<class 'float'>
+[20250224000918] feature	schedule	<class 'float'>
+[20250224000918] ----------------------------------------------------------------------
+[20250224000918] target	street_food	<class 'int'>
+[20250224000918] target	gourmet	<class 'int'>
+[20250224000918] target	italian_food	<class 'int'>
+[20250224000918] target	brazilian_food	<class 'int'>
+[20250224000918] target	mexican_food	<class 'int'>
+[20250224000918] target	chinese_food	<class 'int'>
+[20250224000918] target	japanese_food	<class 'int'>
+[20250224000918] target	arabic_food	<class 'int'>
+[20250224000918] target	snacks	<class 'int'>
+[20250224000918] target	healthy_food	<class 'int'>
+[20250224000918] target	fitness_food	<class 'int'>
+[20250224000918] target	sweets_desserts	<class 'int'>
+[20250224000918] ----------------------------------------------------------------------
+[20250224000918] factor	frequency	<class 'str'>
+[20250224000918] factor	time	<class 'str'>
+[20250224000918] factor	expenses	<class 'str'>
+[20250224000918] factor	motivation	<class 'str'>
+[20250224000918] factor	gender	<class 'str'>
+[20250224000918] factor	marital.status	<class 'str'>
+[20250224000918] factor	age.group	<class 'str'>
+[20250224000918] factor	scholarity	<class 'str'>
+[20250224000918] factor	average.income	<class 'str'>
+[20250224000918] factor	has.work	<class 'str'>
+[20250224000918] ----------------------------------------------------------------------
+[20250224000918] Saving the converted data
+[20250224000918] Reproducing statistics shown in the original publication (see Table 2)
+[20250224000918] ----------------------------------------------------------------------
+[20250224000918] Characteristic		Value
+[20250224000918] ----------------------------------------------------------------------
+[20250224000918] #Attributes		21
+[20250224000918] #Instances		407
+[20250224000918] #Labels		12
+[20250224000918] Cardinality		2.28992628992629
+[20250224000918] #Labelsets		116
+[20250224000918] #Single labelsets	74
+[20250224000918] Label dependency	0.09300198946700777
+[20250224000918] Density		0.19082719082719082
+[20250224000918] ----------------------------------------------------------------------
+[20250224000918] This report was saved to C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\datasets\cometa\preprocessed\readfoodtruck.log
+[20250224000918] Done.

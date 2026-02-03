@@ -1,0 +1,55 @@
+[20250224001214] Loading parameters from ..\configs\readers_T01_C0.cfg
+[20250224001214] Loading and parsing file C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\datasets\kdis\original\water-quality-nom.arff
+[20250224001214] Converting data to types required by Polygrid CLI environment
+[20250224001214] ----------------------------------------------------------------------
+[20250224001214] Group	Field	Field Type
+[20250224001214] ----------------------------------------------------------------------
+[20250224001214] feature	std_temp	<class 'float'>
+[20250224001214] feature	std_pH	<class 'float'>
+[20250224001214] feature	conduct	<class 'float'>
+[20250224001214] feature	o2	<class 'float'>
+[20250224001214] feature	o2sat	<class 'float'>
+[20250224001214] feature	co2	<class 'float'>
+[20250224001214] feature	hardness	<class 'float'>
+[20250224001214] feature	no2	<class 'float'>
+[20250224001214] feature	no3	<class 'float'>
+[20250224001214] feature	nh4	<class 'float'>
+[20250224001214] feature	po4	<class 'float'>
+[20250224001214] feature	cl	<class 'float'>
+[20250224001214] feature	sio2	<class 'float'>
+[20250224001214] feature	kmno4	<class 'float'>
+[20250224001214] feature	k2cr2o7	<class 'float'>
+[20250224001214] feature	bod	<class 'float'>
+[20250224001214] ----------------------------------------------------------------------
+[20250224001214] target	25400	<class 'int'>
+[20250224001214] target	29600	<class 'int'>
+[20250224001214] target	30400	<class 'int'>
+[20250224001214] target	33400	<class 'int'>
+[20250224001214] target	17300	<class 'int'>
+[20250224001214] target	19400	<class 'int'>
+[20250224001214] target	34500	<class 'int'>
+[20250224001214] target	38100	<class 'int'>
+[20250224001214] target	49700	<class 'int'>
+[20250224001214] target	50390	<class 'int'>
+[20250224001214] target	55800	<class 'int'>
+[20250224001214] target	57500	<class 'int'>
+[20250224001214] target	59300	<class 'int'>
+[20250224001214] target	37880	<class 'int'>
+[20250224001214] ----------------------------------------------------------------------
+[20250224001214] ----------------------------------------------------------------------
+[20250224001214] Saving the converted data
+[20250224001214] Reproducing statistics shown in the original publication (see page 34)
+[20250224001214] ----------------------------------------------------------------------
+[20250224001214] Characteristic		Value
+[20250224001214] ----------------------------------------------------------------------
+[20250224001214] #Attributes		16
+[20250224001214] #Instances		1054
+[20250224001214] #Labels		14
+[20250224001214] Cardinality		 5.10
+[20250224001214] #Labelsets		824
+[20250224001214] #Single labelsets	692
+[20250224001214] Label dependency	0.039
+[20250224001214] Density		0.364
+[20250224001214] ----------------------------------------------------------------------
+[20250224001214] This report was saved to C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\datasets\kdis\preprocessed\readwater.log
+[20250224001214] Done.

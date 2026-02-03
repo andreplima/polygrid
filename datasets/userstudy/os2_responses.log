@@ -1,0 +1,2431 @@
+[20250917093732] Translation services set up for language [pt_BR]
+[20250917093732] Translation services set up for language [pt_BR]
+[20250917093732] Processing essay configuration file [..\configs\genexpscripts_H01_C0.cfg]
+ESSAY_CONFIGID : C0 (as <class 'str'>)
+ESSAY_ESSAYID : H01 (as <class 'str'>)
+ESSAY_RUNS : 1 (as <class 'int'>)
+ESSAY_SCENARIO : Essay H01, Config C0: Online Study 2, with undergraduates (hot) (as <class 'str'>)
+PARAM_ALPHA_RANGE : (0.05, 0.25, 0.05) (as <class 'tuple'>)
+PARAM_BACK2BACKAS : False (as <class 'bool'>)
+PARAM_BALANCE : True (as <class 'bool'>)
+PARAM_CONTENT_EVN : instructions_content_even.txt (as <class 'str'>)
+PARAM_CONTENT_ODD : instructions_content_odd.txt (as <class 'str'>)
+PARAM_DATACOPIES : 0 (as <class 'int'>)
+PARAM_DBNAME : iris (as <class 'str'>)
+PARAM_EXCLUDE : [('Status', ['FREE', 'ALLOCATED']), ('Withdraw', ['True'])] (as <class 'list'>)
+PARAM_HIDE_TAGS : True (as <class 'bool'>)
+PARAM_MAXCORES : 1 (as <class 'int'>)
+PARAM_NA : 1 (as <class 'int'>)
+PARAM_NSPD : 1 (as <class 'int'>)
+PARAM_NUMEXPERTS : 100 (as <class 'int'>)
+PARAM_POLYGRID : {'vorder': 'averages', 'init': 'full', 'norm': 'none', 'solver': 'pinv', 'geoeng': 'shapely', 'annulus_type': 's-invariant', 'sector_type': 'cover', 'RAD': 1.0, 'ARES': 8, 'SRES': 8} (as <class 'dict'>)
+PARAM_REPLICA : os2 (as <class 'str'>)
+PARAM_ROUTE2AGENT : None (as <class 'NoneType'>)
+PARAM_SCHEME : [('TT03', 1, 1, False, 'Section {0} diagram', 'instruction'), ('TT04', 3, 3, False, 'Section {0} diagram', 'warmup'), ('TT03', 1, 1, False, 'Section {0} diagram', 'set-ready'), ('TT04', 8, 2, True, 'Section {0} diagram', 'go')] (as <class 'list'>)
+PARAM_SKIPFIGURES : False (as <class 'bool'>)
+PARAM_SOURCEPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'prototypes', 'prototype07', 'configs'] (as <class 'list'>)
+PARAM_TARGETPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'userstudies'] (as <class 'list'>)
+PARAM_TESTFRAC : 0.2 (as <class 'float'>)
+PARAM_TTC_TASK : {'TT03': 120, 'TT04': 20} (as <class 'dict'>)
+PARAM_WARMUP_PASS : (3, 3) (as <class 'tuple'>)
+
+[20250917093732] Recovered file C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\userstudies\os2\H01\C0\os2_pt_BR_responses.csv
+[20250917093732] -- 2600 rows and 22 columns were recovered
+[20250917093732] -- 1144 rows were excluded because they met the exclusion criteria
+[20250917093732] -- 1456 rows and 22 columns remained
+[20250917093732] Demographics:
+ 
+	Replica
+		56 participant(s) with Replica os2
+
+	Age
+		6 participant(s) with Age -inf
+		2 participant(s) with Age 17
+		10 participant(s) with Age 18
+		8 participant(s) with Age 19
+		5 participant(s) with Age 20
+		4 participant(s) with Age 21
+		6 participant(s) with Age 22
+		1 participant(s) with Age 23
+		2 participant(s) with Age 24
+		1 participant(s) with Age 25
+		1 participant(s) with Age 27
+		1 participant(s) with Age 28
+		1 participant(s) with Age 29
+		1 participant(s) with Age 33
+		1 participant(s) with Age 34
+		2 participant(s) with Age 37
+		1 participant(s) with Age 41
+		1 participant(s) with Age 44
+		1 participant(s) with Age 50
+		1 participant(s) with Age 55
+
+	Sex
+		6 participant(s) with Sex 
+		9 participant(s) with Sex Feminino
+		40 participant(s) with Sex Masculino
+		1 participant(s) with Sex Prefiro não informar
+
+	Education
+		6 participant(s) with Education 
+		4 participant(s) with Education Ensino médio completo
+		4 participant(s) with Education Ensino superior completo
+		29 participant(s) with Education Ensino superior incompleto
+		9 participant(s) with Education Pós-graduação completa
+		4 participant(s) with Education Pós-graduação incompleta
+
+	Knowledge Area
+		6 participant(s) with Knowledge Area 
+		44 participant(s) with Knowledge Area Ciências Exatas e da Terra
+		1 participant(s) with Knowledge Area Ciências Sociais Aplicadas
+		2 participant(s) with Knowledge Area Engenharias
+		2 participant(s) with Knowledge Area Multidisciplinar
+		1 participant(s) with Knowledge Area Prefiro não informar
+
+
+[20250917093732] Distribution of categories per script
+[20250917093732] Script 01: [(1, 3), (2, 1), (3, 4)]
+[20250917093732] Script 02: [(1, 3), (2, 1), (3, 4)]
+[20250917093732] Script 03: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 04: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 05: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Script 06: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Script 07: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 08: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 09: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 10: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 11: [(1, 2), (2, 1), (3, 5)]
+[20250917093732] Script 12: [(1, 2), (2, 1), (3, 5)]
+[20250917093732] Script 13: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 14: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 15: [(1, 3), (2, 3), (3, 2)]
+[20250917093732] Script 16: [(1, 3), (2, 3), (3, 2)]
+[20250917093732] Script 17: [(1, 3), (2, 3), (3, 2)]
+[20250917093732] Script 18: [(1, 3), (2, 3), (3, 2)]
+[20250917093732] Script 19: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Script 20: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Script 21: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 22: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 23: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 24: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 25: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 26: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 27: [(1, 2), (3, 6)]
+[20250917093732] Script 28: [(1, 2), (3, 6)]
+[20250917093732] Script 29: [(1, 4), (2, 2), (3, 2)]
+[20250917093732] Script 30: [(1, 4), (2, 2), (3, 2)]
+[20250917093732] Script 31: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 32: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 33: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 37: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 39: [(1, 2), (3, 6)]
+[20250917093732] Script 42: [(1, 3), (2, 3), (3, 2)]
+[20250917093732] Script 47: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 51: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 52: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 59: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 60: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 66: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 67: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 68: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 70: [(1, 6), (3, 2)]
+[20250917093732] Script 72: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 73: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 77: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 78: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 80: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 86: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 87: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 91: [(1, 4), (3, 4)]
+[20250917093732] Script 92: [(1, 4), (3, 4)]
+[20250917093732] Script 96: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 100: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Totals   : [(1, 146), (2, 144), (3, 158)]
+[20250917093732] 
+[20250917093732] Distribution of responses per script
+[20250917093732] Script 01: [(1, 3), (2, 1), (3, 4)]
+[20250917093732] Script 02: [(1, 3), (2, 2), (3, 3)]
+[20250917093732] Script 03: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 04: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 05: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Script 06: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Script 07: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 08: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 09: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 10: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 11: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 12: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 13: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 14: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 15: [(1, 3), (2, 3), (3, 2)]
+[20250917093732] Script 16: [(1, 3), (2, 2), (3, 3)]
+[20250917093732] Script 17: [(1, 3), (2, 3), (3, 2)]
+[20250917093732] Script 18: [(1, 4), (2, 2), (3, 2)]
+[20250917093732] Script 19: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Script 20: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Script 21: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 22: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 23: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 24: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 25: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 26: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 27: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 28: [(1, 2), (2, 1), (3, 5)]
+[20250917093732] Script 29: [(1, 4), (2, 2), (3, 2)]
+[20250917093732] Script 30: [(1, 4), (2, 1), (3, 3)]
+[20250917093732] Script 31: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 32: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 33: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 37: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 39: [(1, 2), (2, 1), (3, 5)]
+[20250917093732] Script 42: [(1, 3), (2, 2), (3, 3)]
+[20250917093732] Script 47: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 51: [(1, 3), (2, 3), (3, 2)]
+[20250917093732] Script 52: [(1, 3), (2, 2), (3, 3)]
+[20250917093732] Script 59: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 60: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 66: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 67: [(1, 4), (2, 1), (3, 3)]
+[20250917093732] Script 68: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 70: [(1, 6), (3, 2)]
+[20250917093732] Script 72: [(1, 2), (2, 2), (3, 4)]
+[20250917093732] Script 73: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 77: [(1, 2), (2, 1), (3, 5)]
+[20250917093732] Script 78: [(1, 2), (2, 1), (3, 5)]
+[20250917093732] Script 80: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 86: [(1, 2), (2, 4), (3, 2)]
+[20250917093732] Script 87: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 91: [(1, 4), (3, 4)]
+[20250917093732] Script 92: [(1, 4), (3, 4)]
+[20250917093732] Script 96: [(1, 2), (2, 3), (3, 3)]
+[20250917093732] Script 100: [(1, 5), (2, 1), (3, 2)]
+[20250917093732] Totals   : [(1, 151), (2, 135), (3, 162)]
+[20250917093732] 
+
+
+[20250917093732] Hypothesis: Participants understood how to perform a Polygrid task (evidence from accuracy)
+Group ..: /warmup/polygrid
+Metric .: hits-per-script-histogram
+3 hits were attained by 54 participants
+0 hits were attained by 1 participants
+2 hits were attained by 1 participants
+participant 023: 0 hits
+participant 025: 2 hits
+
+
+[20250917093732] Hypothesis: Participants understood how to perform a Barsgrid task (evidence from accuracy)
+Group ..: /warmup/barsgrid
+Metric .: hits-per-script-histogram
+3 hits were attained by 46 participants
+1 hits were attained by 3 participants
+2 hits were attained by 7 participants
+participant 003: 1 hits
+participant 013: 2 hits
+participant 016: 2 hits
+participant 023: 1 hits
+participant 025: 2 hits
+participant 031: 2 hits
+participant 052: 2 hits
+participant 060: 2 hits
+participant 091: 1 hits
+participant 100: 2 hits
+
+
+[20250917093732] *** WARNING *** 10 participants failed to attain at least (3, 3) hits in (poly, bars) warmup tasks: the one(s) who answered script(s) [3, 100, 13, 16, 52, 23, 25, 91, 60, 31]
+[20250917093732] *** WARNING *** These scripts will be removed from the analysis
+[20250917093732] *** WARNING *** The following analysis will be performed on data from 46 participants
+[20250917093732] *** WARNING *** 1196 rows and 22 columns were kept
+
+
+[20250917093732] +------------------------------------------------------------------------+
+[20250917093732] |                        RESULTS FOR ALPHA = 0.05                        |
+[20250917093732] +------------------------------------------------------------------------+
+
+[20250917093732] Hypothesis: A2a | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition)
+Result .: True
+Overlap : False
+Group 0 : /go/.*/first/left
+Group 1 : /go/.*/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.957, 'lb': 0.924, 'ub': 1.0, 'ss': 92, 'alpha': 0.05}
+CI1 ....: {'mean': 0.804, 'lb': 0.728, 'ub': 0.891, 'ss': 92, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2a | --- Restricted mean accuracy (first, left)
+Group ..: /go/.*/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.957, 'lb': 0.924, 'ub': 1.0, 'ss': 92, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2a | --- Restricted mean accuracy (first, right)
+Group ..: /go/.*/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.804, 'lb': 0.728, 'ub': 0.891, 'ss': 92, 'alpha': 0.05}
+
+
+[20250917093732] Hypothesis: A2ab | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition and Barsgrid)
+Result .: True
+Overlap : False
+Group 0 : /go/barsgrid/first/left
+Group 1 : /go/barsgrid/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 1.0, 'lb': 1.0, 'ub': 1.0, 'ss': 50, 'alpha': 0.05}
+CI1 ....: {'mean': 0.8, 'lb': 0.7, 'ub': 0.92, 'ss': 50, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2ab | --- Restricted mean accuracy (first, Barsgrid, left)
+Group ..: /go/barsgrid/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 1.0, 'lb': 1.0, 'ub': 1.0, 'ss': 50, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2ab | --- Restricted mean accuracy (first, Barsgrid, right)
+Group ..: /go/barsgrid/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.8, 'lb': 0.7, 'ub': 0.92, 'ss': 50, 'alpha': 0.05}
+
+
+[20250917093732] Hypothesis: A2ap | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/left
+Group 1 : /go/polygrid/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.905, 'lb': 0.833, 'ub': 1.0, 'ss': 42, 'alpha': 0.05}
+CI1 ....: {'mean': 0.81, 'lb': 0.69, 'ub': 0.929, 'ss': 42, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2ap | --- Restricted mean accuracy (first, Polygrid, left)
+Group ..: /go/polygrid/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.905, 'lb': 0.833, 'ub': 1.0, 'ss': 42, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2ap | --- Restricted mean accuracy (first, Polygrid, right)
+Group ..: /go/polygrid/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.81, 'lb': 0.69, 'ub': 0.929, 'ss': 42, 'alpha': 0.05}
+
+
+[20250917093732] Hypothesis: A2t | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition)
+Result .: None
+Overlap : True
+Group 0 : /go/.*/first/left
+Group 1 : /go/.*/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 23.964, 'lb': 19.825, 'ub': 27.763, 'ss': 88, 'alpha': 0.05}
+CI1 ....: {'mean': 17.64, 'lb': 14.368, 'ub': 20.697, 'ss': 87, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2t | --- Restricted mean completion time (first, left)
+Group ..: /go/.*/first/left
+Metric .: ttc
+Estimate: {'mean': 24.0, 'lb': 19.8, 'ub': 27.8, 'ss': 88, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2t | --- Restricted mean completion time (first, right)
+Group ..: /go/.*/first/right
+Metric .: ttc
+Estimate: {'mean': 17.6, 'lb': 14.3, 'ub': 20.7, 'ss': 87, 'alpha': 0.05}
+
+
+[20250917093732] Hypothesis: A2tb | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition and Barsgrid)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first/left
+Group 1 : /go/barsgrid/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 26.256, 'lb': 20.196, 'ub': 31.751, 'ss': 47, 'alpha': 0.05}
+CI1 ....: {'mean': 20.552, 'lb': 15.272, 'ub': 25.418, 'ss': 47, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2tb | --- Restricted mean completion time (first, Barsgrid, left)
+Group ..: /go/barsgrid/first/left
+Metric .: ttc
+Estimate: {'mean': 26.3, 'lb': 19.9, 'ub': 31.9, 'ss': 47, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2tb | --- Restricted mean completion time (first, Barsgrid, right)
+Group ..: /go/barsgrid/first/right
+Metric .: ttc
+Estimate: {'mean': 20.6, 'lb': 15.3, 'ub': 25.5, 'ss': 47, 'alpha': 0.05}
+
+
+[20250917093732] Hypothesis: A2tp | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/left
+Group 1 : /go/polygrid/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 21.337, 'lb': 15.745, 'ub': 26.241, 'ss': 41, 'alpha': 0.05}
+CI1 ....: {'mean': 14.218, 'lb': 11.038, 'ub': 17.346, 'ss': 40, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2tb | --- Restricted mean completion time (first, Polygrid, left)
+Group ..: /go/polygrid/first/left
+Metric .: ttc
+Estimate: {'mean': 21.3, 'lb': 15.6, 'ub': 26.2, 'ss': 41, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A2tb | --- Restricted mean completion time (first, Polygrid, right)
+Group ..: /go/polygrid/first/right
+Metric .: ttc
+Estimate: {'mean': 14.2, 'lb': 11.1, 'ub': 17.2, 'ss': 40, 'alpha': 0.05}
+
+
+[20250917093732] Hypothesis: A3a | There is a decrease in accuracy (first vs. last condition, only paired scripts)
+Result .: None
+Overlap : True
+Group 0 : /go/.*/first/(?:left|common|right)
+Group 1 : /go/.*/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.917, 'lb': 0.875, 'ub': 0.965, 'ss': 144, 'alpha': 0.05}
+CI1 ....: {'mean': 0.875, 'lb': 0.826, 'ub': 0.931, 'ss': 144, 'alpha': 0.05}
+
+
+[20250917093732] Estimate: A3a | --- Restricted mean accuracy (first, paired)
+Group ..: /go/.*/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.917, 'lb': 0.875, 'ub': 0.965, 'ss': 144, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3a | --- Restricted mean accuracy (last, paired)
+Group ..: /go/.*/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.875, 'lb': 0.826, 'ub': 0.931, 'ss': 144, 'alpha': 0.05}
+
+
+[20250917093733] Hypothesis: A3ab | There is a decrease in accuracy (first vs. last condition, only paired scripts and Barsgrid)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first/(?:left|common|right)
+Group 1 : /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.958, 'lb': 0.917, 'ub': 1.0, 'ss': 72, 'alpha': 0.05}
+CI1 ....: {'mean': 0.847, 'lb': 0.764, 'ub': 0.931, 'ss': 72, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3ab | --- Restricted mean accuracy (first, paired, Barsgrid)
+Group ..: /go/barsgrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.958, 'lb': 0.917, 'ub': 1.0, 'ss': 72, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3ab | --- Restricted mean accuracy (last, paired, Barsgrid)
+Group ..: /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.847, 'lb': 0.764, 'ub': 0.931, 'ss': 72, 'alpha': 0.05}
+
+
+[20250917093733] Hypothesis: A3ap | There is a decrease in accuracy (first vs. last condition, only paired scripts and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/(?:left|common|right)
+Group 1 : /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.875, 'lb': 0.806, 'ub': 0.958, 'ss': 72, 'alpha': 0.05}
+CI1 ....: {'mean': 0.903, 'lb': 0.847, 'ub': 0.972, 'ss': 72, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3ap | --- Restricted mean accuracy (first, paired, Polygrid)
+Group ..: /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.875, 'lb': 0.806, 'ub': 0.958, 'ss': 72, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3ap | --- Restricted mean accuracy (last, paired, Polygrid)
+Group ..: /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.903, 'lb': 0.847, 'ub': 0.972, 'ss': 72, 'alpha': 0.05}
+
+
+[20250917093733] Hypothesis: A3t | There is a decrease in completion time (first vs. last condition, only paired scripts)
+Result .: None
+Overlap : True
+Group 0 : /go/.*/first
+Group 1 : /go/.*/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 15.281, 'lb': 13.06, 'ub': 17.294, 'ss': 190, 'alpha': 0.05}
+CI1 ....: {'mean': 11.557, 'lb': 9.864, 'ub': 13.128, 'ss': 192, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3t | --- Restricted mean completion time (first, paired)
+Group ..: /go/.*/first
+Metric .: ttc
+Estimate: {'mean': 15.3, 'lb': 13.1, 'ub': 17.3, 'ss': 190, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3t | --- Restricted mean completion time (last, paired)
+Group ..: /go/.*/last
+Metric .: ttc
+Estimate: {'mean': 11.6, 'lb': 9.9, 'ub': 13.1, 'ss': 192, 'alpha': 0.05}
+
+
+[20250917093733] Hypothesis: A3tb | There is a decrease in completion time (first vs. last condition, only paired scripts and Barsgrid)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first
+Group 1 : /go/barsgrid/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 16.863, 'lb': 13.639, 'ub': 19.883, 'ss': 95, 'alpha': 0.05}
+CI1 ....: {'mean': 15.387, 'lb': 12.556, 'ub': 18.049, 'ss': 96, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3tb | --- Restricted mean completion time (first, paired, Barsgrid)
+Group ..: /go/barsgrid/first
+Metric .: ttc
+Estimate: {'mean': 16.9, 'lb': 13.7, 'ub': 19.8, 'ss': 95, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3tb | --- Restricted mean completion time (last, paired, Barsgrid)
+Group ..: /go/barsgrid/last
+Metric .: ttc
+Estimate: {'mean': 15.4, 'lb': 12.7, 'ub': 18.0, 'ss': 96, 'alpha': 0.05}
+
+
+[20250917093733] Hypothesis: A3tp | There is a decrease in completion time (first vs. last condition, only paired scripts and Polygrid)
+Result .: True
+Overlap : False
+Group 0 : /go/polygrid/first
+Group 1 : /go/polygrid/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 13.698, 'lb': 10.823, 'ub': 16.294, 'ss': 95, 'alpha': 0.05}
+CI1 ....: {'mean': 7.726, 'lb': 6.308, 'ub': 8.993, 'ss': 96, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3tp | --- Restricted mean completion time (first, paired, Polygrid)
+Group ..: /go/polygrid/first
+Metric .: ttc
+Estimate: {'mean': 13.7, 'lb': 10.8, 'ub': 16.2, 'ss': 95, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: A3tp | --- Restricted mean completion time (last, paired, Polygrid)
+Group ..: /go/polygrid/last
+Metric .: ttc
+Estimate: {'mean': 7.7, 'lb': 6.3, 'ub': 9.0, 'ss': 96, 'alpha': 0.05}
+
+
+[20250917093733] Hypothesis: H1a | Barsgrid is more effective than Polygrid (evidence from accuracy)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.909, 'lb': 0.877, 'ub': 0.942, 'ss': 276, 'alpha': 0.05}
+CI1 ....: {'mean': 0.917, 'lb': 0.884, 'ub': 0.949, 'ss': 276, 'alpha': 0.05}
+
+
+[20250917093733] Estimate: H1a | --- Restricted mean accuracy (Barsgrid, except repeat)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.909, 'lb': 0.877, 'ub': 0.946, 'ss': 276, 'alpha': 0.05}
+
+
+[20250917093734] Estimate: H1a | --- Restricted mean accuracy (Polygrid, except repeat)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.917, 'lb': 0.884, 'ub': 0.953, 'ss': 276, 'alpha': 0.05}
+
+
+[20250917093734] Hypothesis: H1a1 | Barsgrid is more effective than Polygrid (evidence from accuracy, only 1st condition)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first/(?:left|common|right)
+Group 1 : /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.927, 'lb': 0.887, 'ub': 0.973, 'ss': 150, 'alpha': 0.05}
+CI1 ....: {'mean': 0.897, 'lb': 0.849, 'ub': 0.952, 'ss': 126, 'alpha': 0.05}
+
+
+[20250917093734] Estimate: H1a1 | --- Restricted mean accuracy (first, Barsgrid, except repeat)
+Group ..: /go/barsgrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.927, 'lb': 0.887, 'ub': 0.973, 'ss': 150, 'alpha': 0.05}
+
+
+[20250917093734] Estimate: H1a1 | --- Restricted mean accuracy (first, Polygrid, except repeat)
+Group ..: /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.897, 'lb': 0.849, 'ub': 0.952, 'ss': 126, 'alpha': 0.05}
+
+
+[20250917093734] Hypothesis: H1a2 | Barsgrid is more effective than Polygrid (evidence from accuracy, only 2nd condition)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/last/(?:left|common|right)
+Group 1 : /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.889, 'lb': 0.833, 'ub': 0.944, 'ss': 126, 'alpha': 0.05}
+CI1 ....: {'mean': 0.933, 'lb': 0.893, 'ub': 0.973, 'ss': 150, 'alpha': 0.05}
+
+
+[20250917093734] Estimate: H1a2 | --- Restricted mean accuracy (last, Barsgrid, except repeat)
+Group ..: /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.889, 'lb': 0.833, 'ub': 0.944, 'ss': 126, 'alpha': 0.05}
+
+
+[20250917093734] Estimate: H1a2 | --- Restricted mean accuracy (last, Polygrid, except repeat)
+Group ..: /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.933, 'lb': 0.893, 'ub': 0.973, 'ss': 150, 'alpha': 0.05}
+
+
+[20250917093734] Hypothesis: H1t | Barsgrid is more effective than Polygrid (evidence from completion time)
+Result .: False
+Overlap : False
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 18.812, 'lb': 16.822, 'ub': 20.723, 'ss': 267, 'alpha': 0.05}
+CI1 ....: {'mean': 11.506, 'lb': 10.086, 'ub': 12.807, 'ss': 272, 'alpha': 0.05}
+
+
+[20250917093734] Estimate: H1t | --- Restricted mean completion time (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: ttc
+Estimate: {'mean': 18.8, 'lb': 16.9, 'ub': 20.7, 'ss': 267, 'alpha': 0.05}
+
+
+[20250917093734] Estimate: H1t | --- Restricted mean completion time (just Polygrid)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: ttc
+Estimate: {'mean': 11.5, 'lb': 10.1, 'ub': 12.8, 'ss': 272, 'alpha': 0.05}
+
+
+[20250917093734] Hypothesis: H2 | Barsgrid is more effective than Polygrid (evidence from consistency)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:common|repeat)
+Group 1 : /go/polygrid/.*/(?:common|repeat)
+Metric .: consistency
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.971, 'lb': 0.942, 'ub': 1.0, 'ss': 46, 'alpha': 0.05}
+CI1 ....: {'mean': 0.986, 'lb': 0.971, 'ub': 1.0, 'ss': 46, 'alpha': 0.05}
+
+
+[20250917093735] Estimate: H2 | --- Restricted consistency (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:common|repeat)
+Metric .: consistency
+Estimate: {'mean': 0.971, 'lb': 0.942, 'ub': 1.0, 'ss': 46, 'alpha': 0.05}
+
+
+[20250917093735] Estimate: H2 | --- Restricted consistency (just Polygrid)
+Group ..: /go/polygrid/.*/(?:common|repeat)
+Metric .: consistency
+Estimate: {'mean': 0.986, 'lb': 0.971, 'ub': 1.0, 'ss': 46, 'alpha': 0.05}
+
+
+[20250917093735] Hypothesis: H2- | Barsgrid is more effective than Polygrid (evidence from consistency)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/115
+Group 1 : /go/polygrid/.*/115
+Metric .: consistency
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.957, 'lb': 0.913, 'ub': 1.0, 'ss': 46, 'alpha': 0.05}
+CI1 ....: {'mean': 0.978, 'lb': 0.957, 'ub': 1.0, 'ss': 46, 'alpha': 0.05}
+
+
+[20250917093735] Estimate: H2- | --- Restricted consistency (just Barsgrid)
+Group ..: /go/barsgrid/.*/115
+Metric .: consistency
+Estimate: {'mean': 0.957, 'lb': 0.913, 'ub': 1.0, 'ss': 46, 'alpha': 0.05}
+
+
+[20250917093735] Estimate: H2- | --- Restricted consistency (just Polygrid)
+Group ..: /go/polygrid/.*/115
+Metric .: consistency
+Estimate: {'mean': 0.978, 'lb': 0.957, 'ub': 1.0, 'ss': 46, 'alpha': 0.05}
+
+
+[20250917093738] Hypothesis: H3 | Barsgrid is more effective than Polygrid (evidence from consensus)
+Result .: False
+Overlap : False
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: consensus
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.878, 'lb': 0.864, 'ub': 0.892, 'ss': 1035, 'alpha': 0.05}
+CI1 ....: {'mean': 0.906, 'lb': 0.894, 'ub': 0.919, 'ss': 1035, 'alpha': 0.05}
+
+
+[20250917093739] Estimate: H3 | --- Restricted consensus (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: consensus
+Estimate: {'mean': 0.878, 'lb': 0.864, 'ub': 0.892, 'ss': 1035, 'alpha': 0.05}
+
+
+[20250917093741] Estimate: H3 | --- Restricted consensus (just Polygrid)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: consensus
+Estimate: {'mean': 0.906, 'lb': 0.894, 'ub': 0.919, 'ss': 1035, 'alpha': 0.05}
+
+
+[20250917093742] Hypothesis: H4 | Barsgrid is more effective than Polygrid (evidence from consensus, easy + hard)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:left|right)
+Group 1 : /go/polygrid/.*/(?:left|right)
+Metric .: consensus
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.715, 'lb': 0.68, 'ub': 0.752, 'ss': 601, 'alpha': 0.05}
+CI1 ....: {'mean': 0.737, 'lb': 0.701, 'ub': 0.774, 'ss': 601, 'alpha': 0.05}
+
+
+[20250917093742] Estimate: H4 | --- Restricted consensus (just Barsgrid, easy + hard)
+Group ..: /go/barsgrid/.*/(?:left|right)
+Metric .: consensus
+Estimate: {'mean': 0.715, 'lb': 0.678, 'ub': 0.753, 'ss': 601, 'alpha': 0.05}
+
+
+[20250917093742] Estimate: H4 | --- Restricted consensus (just Polygrid, easy + hard)
+Group ..: /go/polygrid/.*/(?:left|right)
+Metric .: consensus
+Estimate: {'mean': 0.737, 'lb': 0.702, 'ub': 0.773, 'ss': 601, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: EG | Overall mean accuracy
+Group ..: /go
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.932, 'lb': 0.914, 'ub': 0.951, 'ss': 736, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: EG | Mean accuracy in Polygrid condition (proxy for interpretability)
+Group ..: /go/polygrid
+Metric .: accuracy-model
+Estimate: {'mean': 0.927, 'lb': 0.899, 'ub': 0.954, 'ss': 368, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: EG | Mean accuracy in Polygrid condition
+Group ..: /go/polygrid
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.938, 'lb': 0.913, 'ub': 0.965, 'ss': 368, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: ES | Restricted mean accuracy (left)
+Group ..: /go/.*/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.913, 'lb': 0.875, 'ub': 0.957, 'ss': 184, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: ES | Restricted mean accuracy (common)
+Group ..: /go/.*/common
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.984, 'lb': 0.967, 'ub': 1.0, 'ss': 184, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: ES | Restricted mean accuracy (repeat)
+Group ..: /go/.*/repeat
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.989, 'lb': 0.978, 'ub': 1.0, 'ss': 184, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: ES | Restricted mean accuracy (right)
+Group ..: /go/.*/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.842, 'lb': 0.793, 'ub': 0.897, 'ss': 184, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: ES | Overall mean completion time per task (in seconds)
+Group ..: /(?:warmup|go)
+Metric .: ttc
+Estimate: {'mean': 13.1, 'lb': 12.3, 'ub': 13.9, 'ss': 996, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: ES | Restricted mean completion time per task (left, just Barsgrid)
+Group ..: /go/barsgrid/.*/left
+Metric .: ttc
+Estimate: {'mean': 21.5, 'lb': 17.7, 'ub': 24.8, 'ss': 89, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: ES | Restricted mean completion time per task (right, just Barsgrid)
+Group ..: /go/barsgrid/.*/right
+Metric .: ttc
+Estimate: {'mean': 21.4, 'lb': 17.6, 'ub': 25.1, 'ss': 87, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: ES | Restricted mean completion time per task (left, just Polygrid)
+Group ..: /go/polygrid/.*/left
+Metric .: ttc
+Estimate: {'mean': 15.5, 'lb': 12.5, 'ub': 18.2, 'ss': 91, 'alpha': 0.05}
+
+
+[20250917093743] Estimate: ES | Restricted mean completion time per task (right, just Polygrid)
+Group ..: /go/polygrid/.*/right
+Metric .: ttc
+Estimate: {'mean': 12.2, 'lb': 9.9, 'ub': 14.2, 'ss': 89, 'alpha': 0.05}
+
+
+[20250917093743] +------------------------------------------------------------------------+
+[20250917093743] |                        RESULTS FOR ALPHA = 0.10                        |
+[20250917093743] +------------------------------------------------------------------------+
+
+[20250917093743] Hypothesis: A2a | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition)
+Result .: True
+Overlap : False
+Group 0 : /go/.*/first/left
+Group 1 : /go/.*/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.957, 'lb': 0.924, 'ub': 0.989, 'ss': 92, 'alpha': 0.1}
+CI1 ....: {'mean': 0.804, 'lb': 0.739, 'ub': 0.87, 'ss': 92, 'alpha': 0.1}
+
+
+[20250917093743] Estimate: A2a | --- Restricted mean accuracy (first, left)
+Group ..: /go/.*/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.957, 'lb': 0.924, 'ub': 0.989, 'ss': 92, 'alpha': 0.1}
+
+
+[20250917093743] Estimate: A2a | --- Restricted mean accuracy (first, right)
+Group ..: /go/.*/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.804, 'lb': 0.739, 'ub': 0.87, 'ss': 92, 'alpha': 0.1}
+
+
+[20250917093743] Hypothesis: A2ab | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition and Barsgrid)
+Result .: True
+Overlap : False
+Group 0 : /go/barsgrid/first/left
+Group 1 : /go/barsgrid/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 1.0, 'lb': 1.0, 'ub': 1.0, 'ss': 50, 'alpha': 0.1}
+CI1 ....: {'mean': 0.8, 'lb': 0.72, 'ub': 0.9, 'ss': 50, 'alpha': 0.1}
+
+
+[20250917093743] Estimate: A2ab | --- Restricted mean accuracy (first, Barsgrid, left)
+Group ..: /go/barsgrid/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 1.0, 'lb': 1.0, 'ub': 1.0, 'ss': 50, 'alpha': 0.1}
+
+
+[20250917093743] Estimate: A2ab | --- Restricted mean accuracy (first, Barsgrid, right)
+Group ..: /go/barsgrid/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.8, 'lb': 0.72, 'ub': 0.9, 'ss': 50, 'alpha': 0.1}
+
+
+[20250917093743] Hypothesis: A2ap | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/left
+Group 1 : /go/polygrid/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.905, 'lb': 0.833, 'ub': 0.976, 'ss': 42, 'alpha': 0.1}
+CI1 ....: {'mean': 0.81, 'lb': 0.714, 'ub': 0.905, 'ss': 42, 'alpha': 0.1}
+
+
+[20250917093743] Estimate: A2ap | --- Restricted mean accuracy (first, Polygrid, left)
+Group ..: /go/polygrid/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.905, 'lb': 0.833, 'ub': 0.976, 'ss': 42, 'alpha': 0.1}
+
+
+[20250917093743] Estimate: A2ap | --- Restricted mean accuracy (first, Polygrid, right)
+Group ..: /go/polygrid/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.81, 'lb': 0.714, 'ub': 0.905, 'ss': 42, 'alpha': 0.1}
+
+
+[20250917093743] Hypothesis: A2t | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition)
+Result .: False
+Overlap : False
+Group 0 : /go/.*/first/left
+Group 1 : /go/.*/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 23.964, 'lb': 20.532, 'ub': 27.242, 'ss': 88, 'alpha': 0.1}
+CI1 ....: {'mean': 17.64, 'lb': 14.946, 'ub': 20.2, 'ss': 87, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A2t | --- Restricted mean completion time (first, left)
+Group ..: /go/.*/first/left
+Metric .: ttc
+Estimate: {'mean': 24.0, 'lb': 20.5, 'ub': 27.3, 'ss': 88, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A2t | --- Restricted mean completion time (first, right)
+Group ..: /go/.*/first/right
+Metric .: ttc
+Estimate: {'mean': 17.6, 'lb': 15.0, 'ub': 20.3, 'ss': 87, 'alpha': 0.1}
+
+
+[20250917093744] Hypothesis: A2tb | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition and Barsgrid)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first/left
+Group 1 : /go/barsgrid/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 26.256, 'lb': 21.205, 'ub': 30.977, 'ss': 47, 'alpha': 0.1}
+CI1 ....: {'mean': 20.552, 'lb': 16.036, 'ub': 24.633, 'ss': 47, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A2tb | --- Restricted mean completion time (first, Barsgrid, left)
+Group ..: /go/barsgrid/first/left
+Metric .: ttc
+Estimate: {'mean': 26.3, 'lb': 21.2, 'ub': 30.9, 'ss': 47, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A2tb | --- Restricted mean completion time (first, Barsgrid, right)
+Group ..: /go/barsgrid/first/right
+Metric .: ttc
+Estimate: {'mean': 20.6, 'lb': 16.1, 'ub': 24.6, 'ss': 47, 'alpha': 0.1}
+
+
+[20250917093744] Hypothesis: A2tp | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/left
+Group 1 : /go/polygrid/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 21.337, 'lb': 16.727, 'ub': 25.548, 'ss': 41, 'alpha': 0.1}
+CI1 ....: {'mean': 14.218, 'lb': 11.483, 'ub': 16.797, 'ss': 40, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A2tb | --- Restricted mean completion time (first, Polygrid, left)
+Group ..: /go/polygrid/first/left
+Metric .: ttc
+Estimate: {'mean': 21.3, 'lb': 16.7, 'ub': 25.5, 'ss': 41, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A2tb | --- Restricted mean completion time (first, Polygrid, right)
+Group ..: /go/polygrid/first/right
+Metric .: ttc
+Estimate: {'mean': 14.2, 'lb': 11.6, 'ub': 16.8, 'ss': 40, 'alpha': 0.1}
+
+
+[20250917093744] Hypothesis: A3a | There is a decrease in accuracy (first vs. last condition, only paired scripts)
+Result .: None
+Overlap : True
+Group 0 : /go/.*/first/(?:left|common|right)
+Group 1 : /go/.*/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.917, 'lb': 0.882, 'ub': 0.958, 'ss': 144, 'alpha': 0.1}
+CI1 ....: {'mean': 0.875, 'lb': 0.833, 'ub': 0.924, 'ss': 144, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3a | --- Restricted mean accuracy (first, paired)
+Group ..: /go/.*/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.917, 'lb': 0.882, 'ub': 0.958, 'ss': 144, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3a | --- Restricted mean accuracy (last, paired)
+Group ..: /go/.*/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.875, 'lb': 0.833, 'ub': 0.924, 'ss': 144, 'alpha': 0.1}
+
+
+[20250917093744] Hypothesis: A3ab | There is a decrease in accuracy (first vs. last condition, only paired scripts and Barsgrid)
+Result .: True
+Overlap : False
+Group 0 : /go/barsgrid/first/(?:left|common|right)
+Group 1 : /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.958, 'lb': 0.931, 'ub': 1.0, 'ss': 72, 'alpha': 0.1}
+CI1 ....: {'mean': 0.847, 'lb': 0.778, 'ub': 0.917, 'ss': 72, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3ab | --- Restricted mean accuracy (first, paired, Barsgrid)
+Group ..: /go/barsgrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.958, 'lb': 0.931, 'ub': 1.0, 'ss': 72, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3ab | --- Restricted mean accuracy (last, paired, Barsgrid)
+Group ..: /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.847, 'lb': 0.778, 'ub': 0.917, 'ss': 72, 'alpha': 0.1}
+
+
+[20250917093744] Hypothesis: A3ap | There is a decrease in accuracy (first vs. last condition, only paired scripts and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/(?:left|common|right)
+Group 1 : /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.875, 'lb': 0.819, 'ub': 0.944, 'ss': 72, 'alpha': 0.1}
+CI1 ....: {'mean': 0.903, 'lb': 0.847, 'ub': 0.958, 'ss': 72, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3ap | --- Restricted mean accuracy (first, paired, Polygrid)
+Group ..: /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.875, 'lb': 0.819, 'ub': 0.944, 'ss': 72, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3ap | --- Restricted mean accuracy (last, paired, Polygrid)
+Group ..: /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.903, 'lb': 0.847, 'ub': 0.958, 'ss': 72, 'alpha': 0.1}
+
+
+[20250917093744] Hypothesis: A3t | There is a decrease in completion time (first vs. last condition, only paired scripts)
+Result .: True
+Overlap : False
+Group 0 : /go/.*/first
+Group 1 : /go/.*/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 15.281, 'lb': 13.443, 'ub': 17.011, 'ss': 190, 'alpha': 0.1}
+CI1 ....: {'mean': 11.557, 'lb': 10.142, 'ub': 12.891, 'ss': 192, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3t | --- Restricted mean completion time (first, paired)
+Group ..: /go/.*/first
+Metric .: ttc
+Estimate: {'mean': 15.3, 'lb': 13.5, 'ub': 17.0, 'ss': 190, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3t | --- Restricted mean completion time (last, paired)
+Group ..: /go/.*/last
+Metric .: ttc
+Estimate: {'mean': 11.6, 'lb': 10.1, 'ub': 12.9, 'ss': 192, 'alpha': 0.1}
+
+
+[20250917093744] Hypothesis: A3tb | There is a decrease in completion time (first vs. last condition, only paired scripts and Barsgrid)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first
+Group 1 : /go/barsgrid/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 16.863, 'lb': 14.192, 'ub': 19.401, 'ss': 95, 'alpha': 0.1}
+CI1 ....: {'mean': 15.387, 'lb': 13.091, 'ub': 17.641, 'ss': 96, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3tb | --- Restricted mean completion time (first, paired, Barsgrid)
+Group ..: /go/barsgrid/first
+Metric .: ttc
+Estimate: {'mean': 16.9, 'lb': 14.2, 'ub': 19.4, 'ss': 95, 'alpha': 0.1}
+
+
+[20250917093744] Estimate: A3tb | --- Restricted mean completion time (last, paired, Barsgrid)
+Group ..: /go/barsgrid/last
+Metric .: ttc
+Estimate: {'mean': 15.4, 'lb': 13.1, 'ub': 17.6, 'ss': 96, 'alpha': 0.1}
+
+
+[20250917093745] Hypothesis: A3tp | There is a decrease in completion time (first vs. last condition, only paired scripts and Polygrid)
+Result .: True
+Overlap : False
+Group 0 : /go/polygrid/first
+Group 1 : /go/polygrid/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 13.698, 'lb': 11.323, 'ub': 15.917, 'ss': 95, 'alpha': 0.1}
+CI1 ....: {'mean': 7.726, 'lb': 6.512, 'ub': 8.796, 'ss': 96, 'alpha': 0.1}
+
+
+[20250917093745] Estimate: A3tp | --- Restricted mean completion time (first, paired, Polygrid)
+Group ..: /go/polygrid/first
+Metric .: ttc
+Estimate: {'mean': 13.7, 'lb': 11.3, 'ub': 15.9, 'ss': 95, 'alpha': 0.1}
+
+
+[20250917093745] Estimate: A3tp | --- Restricted mean completion time (last, paired, Polygrid)
+Group ..: /go/polygrid/last
+Metric .: ttc
+Estimate: {'mean': 7.7, 'lb': 6.5, 'ub': 8.8, 'ss': 96, 'alpha': 0.1}
+
+
+[20250917093745] Hypothesis: H1a | Barsgrid is more effective than Polygrid (evidence from accuracy)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.909, 'lb': 0.88, 'ub': 0.938, 'ss': 276, 'alpha': 0.1}
+CI1 ....: {'mean': 0.917, 'lb': 0.891, 'ub': 0.946, 'ss': 276, 'alpha': 0.1}
+
+
+[20250917093745] Estimate: H1a | --- Restricted mean accuracy (Barsgrid, except repeat)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.909, 'lb': 0.88, 'ub': 0.938, 'ss': 276, 'alpha': 0.1}
+
+
+[20250917093745] Estimate: H1a | --- Restricted mean accuracy (Polygrid, except repeat)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.917, 'lb': 0.891, 'ub': 0.946, 'ss': 276, 'alpha': 0.1}
+
+
+[20250917093745] Hypothesis: H1a1 | Barsgrid is more effective than Polygrid (evidence from accuracy, only 1st condition)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first/(?:left|common|right)
+Group 1 : /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.927, 'lb': 0.893, 'ub': 0.96, 'ss': 150, 'alpha': 0.1}
+CI1 ....: {'mean': 0.897, 'lb': 0.857, 'ub': 0.944, 'ss': 126, 'alpha': 0.1}
+
+
+[20250917093745] Estimate: H1a1 | --- Restricted mean accuracy (first, Barsgrid, except repeat)
+Group ..: /go/barsgrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.927, 'lb': 0.893, 'ub': 0.967, 'ss': 150, 'alpha': 0.1}
+
+
+[20250917093745] Estimate: H1a1 | --- Restricted mean accuracy (first, Polygrid, except repeat)
+Group ..: /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.897, 'lb': 0.857, 'ub': 0.944, 'ss': 126, 'alpha': 0.1}
+
+
+[20250917093745] Hypothesis: H1a2 | Barsgrid is more effective than Polygrid (evidence from accuracy, only 2nd condition)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/last/(?:left|common|right)
+Group 1 : /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.889, 'lb': 0.841, 'ub': 0.937, 'ss': 126, 'alpha': 0.1}
+CI1 ....: {'mean': 0.933, 'lb': 0.9, 'ub': 0.967, 'ss': 150, 'alpha': 0.1}
+
+
+[20250917093745] Estimate: H1a2 | --- Restricted mean accuracy (last, Barsgrid, except repeat)
+Group ..: /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.889, 'lb': 0.841, 'ub': 0.937, 'ss': 126, 'alpha': 0.1}
+
+
+[20250917093745] Estimate: H1a2 | --- Restricted mean accuracy (last, Polygrid, except repeat)
+Group ..: /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.933, 'lb': 0.9, 'ub': 0.967, 'ss': 150, 'alpha': 0.1}
+
+
+[20250917093745] Hypothesis: H1t | Barsgrid is more effective than Polygrid (evidence from completion time)
+Result .: False
+Overlap : False
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 18.812, 'lb': 17.155, 'ub': 20.422, 'ss': 267, 'alpha': 0.1}
+CI1 ....: {'mean': 11.506, 'lb': 10.361, 'ub': 12.616, 'ss': 272, 'alpha': 0.1}
+
+
+[20250917093746] Estimate: H1t | --- Restricted mean completion time (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: ttc
+Estimate: {'mean': 18.8, 'lb': 17.2, 'ub': 20.4, 'ss': 267, 'alpha': 0.1}
+
+
+[20250917093746] Estimate: H1t | --- Restricted mean completion time (just Polygrid)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: ttc
+Estimate: {'mean': 11.5, 'lb': 10.3, 'ub': 12.6, 'ss': 272, 'alpha': 0.1}
+
+
+[20250917093746] Hypothesis: H2 | Barsgrid is more effective than Polygrid (evidence from consistency)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:common|repeat)
+Group 1 : /go/polygrid/.*/(?:common|repeat)
+Metric .: consistency
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.971, 'lb': 0.942, 'ub': 1.0, 'ss': 46, 'alpha': 0.1}
+CI1 ....: {'mean': 0.986, 'lb': 0.971, 'ub': 1.0, 'ss': 46, 'alpha': 0.1}
+
+
+[20250917093746] Estimate: H2 | --- Restricted consistency (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:common|repeat)
+Metric .: consistency
+Estimate: {'mean': 0.971, 'lb': 0.942, 'ub': 1.0, 'ss': 46, 'alpha': 0.1}
+
+
+[20250917093746] Estimate: H2 | --- Restricted consistency (just Polygrid)
+Group ..: /go/polygrid/.*/(?:common|repeat)
+Metric .: consistency
+Estimate: {'mean': 0.986, 'lb': 0.971, 'ub': 1.0, 'ss': 46, 'alpha': 0.1}
+
+
+[20250917093746] Hypothesis: H2- | Barsgrid is more effective than Polygrid (evidence from consistency)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/115
+Group 1 : /go/polygrid/.*/115
+Metric .: consistency
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.957, 'lb': 0.913, 'ub': 1.0, 'ss': 46, 'alpha': 0.1}
+CI1 ....: {'mean': 0.978, 'lb': 0.957, 'ub': 1.0, 'ss': 46, 'alpha': 0.1}
+
+
+[20250917093746] Estimate: H2- | --- Restricted consistency (just Barsgrid)
+Group ..: /go/barsgrid/.*/115
+Metric .: consistency
+Estimate: {'mean': 0.957, 'lb': 0.913, 'ub': 1.0, 'ss': 46, 'alpha': 0.1}
+
+
+[20250917093746] Estimate: H2- | --- Restricted consistency (just Polygrid)
+Group ..: /go/polygrid/.*/115
+Metric .: consistency
+Estimate: {'mean': 0.978, 'lb': 0.957, 'ub': 1.0, 'ss': 46, 'alpha': 0.1}
+
+
+[20250917093749] Hypothesis: H3 | Barsgrid is more effective than Polygrid (evidence from consensus)
+Result .: False
+Overlap : False
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: consensus
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.878, 'lb': 0.866, 'ub': 0.89, 'ss': 1035, 'alpha': 0.1}
+CI1 ....: {'mean': 0.906, 'lb': 0.896, 'ub': 0.917, 'ss': 1035, 'alpha': 0.1}
+
+
+[20250917093751] Estimate: H3 | --- Restricted consensus (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: consensus
+Estimate: {'mean': 0.878, 'lb': 0.866, 'ub': 0.89, 'ss': 1035, 'alpha': 0.1}
+
+
+[20250917093752] Estimate: H3 | --- Restricted consensus (just Polygrid)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: consensus
+Estimate: {'mean': 0.906, 'lb': 0.896, 'ub': 0.917, 'ss': 1035, 'alpha': 0.1}
+
+
+[20250917093754] Hypothesis: H4 | Barsgrid is more effective than Polygrid (evidence from consensus, easy + hard)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:left|right)
+Group 1 : /go/polygrid/.*/(?:left|right)
+Metric .: consensus
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.715, 'lb': 0.684, 'ub': 0.747, 'ss': 601, 'alpha': 0.1}
+CI1 ....: {'mean': 0.737, 'lb': 0.707, 'ub': 0.768, 'ss': 601, 'alpha': 0.1}
+
+
+[20250917093754] Estimate: H4 | --- Restricted consensus (just Barsgrid, easy + hard)
+Group ..: /go/barsgrid/.*/(?:left|right)
+Metric .: consensus
+Estimate: {'mean': 0.715, 'lb': 0.685, 'ub': 0.746, 'ss': 601, 'alpha': 0.1}
+
+
+[20250917093755] Estimate: H4 | --- Restricted consensus (just Polygrid, easy + hard)
+Group ..: /go/polygrid/.*/(?:left|right)
+Metric .: consensus
+Estimate: {'mean': 0.737, 'lb': 0.707, 'ub': 0.768, 'ss': 601, 'alpha': 0.1}
+
+
+[20250917093755] Estimate: EG | Overall mean accuracy
+Group ..: /go
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.932, 'lb': 0.917, 'ub': 0.947, 'ss': 736, 'alpha': 0.1}
+
+
+[20250917093755] Estimate: EG | Mean accuracy in Polygrid condition (proxy for interpretability)
+Group ..: /go/polygrid
+Metric .: accuracy-model
+Estimate: {'mean': 0.927, 'lb': 0.905, 'ub': 0.948, 'ss': 368, 'alpha': 0.1}
+
+
+[20250917093755] Estimate: EG | Mean accuracy in Polygrid condition
+Group ..: /go/polygrid
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.938, 'lb': 0.918, 'ub': 0.959, 'ss': 368, 'alpha': 0.1}
+
+
+[20250917093755] Estimate: ES | Restricted mean accuracy (left)
+Group ..: /go/.*/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.913, 'lb': 0.88, 'ub': 0.951, 'ss': 184, 'alpha': 0.1}
+
+
+[20250917093755] Estimate: ES | Restricted mean accuracy (common)
+Group ..: /go/.*/common
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.984, 'lb': 0.973, 'ub': 1.0, 'ss': 184, 'alpha': 0.1}
+
+
+[20250917093755] Estimate: ES | Restricted mean accuracy (repeat)
+Group ..: /go/.*/repeat
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.989, 'lb': 0.978, 'ub': 1.0, 'ss': 184, 'alpha': 0.1}
+
+
+[20250917093755] Estimate: ES | Restricted mean accuracy (right)
+Group ..: /go/.*/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.842, 'lb': 0.799, 'ub': 0.886, 'ss': 184, 'alpha': 0.1}
+
+
+[20250917093756] Estimate: ES | Overall mean completion time per task (in seconds)
+Group ..: /(?:warmup|go)
+Metric .: ttc
+Estimate: {'mean': 13.1, 'lb': 12.4, 'ub': 13.8, 'ss': 996, 'alpha': 0.1}
+
+
+[20250917093756] Estimate: ES | Restricted mean completion time per task (left, just Barsgrid)
+Group ..: /go/barsgrid/.*/left
+Metric .: ttc
+Estimate: {'mean': 21.5, 'lb': 18.4, 'ub': 24.4, 'ss': 89, 'alpha': 0.1}
+
+
+[20250917093756] Estimate: ES | Restricted mean completion time per task (right, just Barsgrid)
+Group ..: /go/barsgrid/.*/right
+Metric .: ttc
+Estimate: {'mean': 21.4, 'lb': 18.2, 'ub': 24.6, 'ss': 87, 'alpha': 0.1}
+
+
+[20250917093756] Estimate: ES | Restricted mean completion time per task (left, just Polygrid)
+Group ..: /go/polygrid/.*/left
+Metric .: ttc
+Estimate: {'mean': 15.5, 'lb': 13.0, 'ub': 17.8, 'ss': 91, 'alpha': 0.1}
+
+
+[20250917093756] Estimate: ES | Restricted mean completion time per task (right, just Polygrid)
+Group ..: /go/polygrid/.*/right
+Metric .: ttc
+Estimate: {'mean': 12.2, 'lb': 10.2, 'ub': 13.9, 'ss': 89, 'alpha': 0.1}
+
+
+[20250917093756] +------------------------------------------------------------------------+
+[20250917093756] |                        RESULTS FOR ALPHA = 0.15                        |
+[20250917093756] +------------------------------------------------------------------------+
+
+[20250917093756] Hypothesis: A2a | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition)
+Result .: True
+Overlap : False
+Group 0 : /go/.*/first/left
+Group 1 : /go/.*/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.957, 'lb': 0.924, 'ub': 0.989, 'ss': 92, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.804, 'lb': 0.75, 'ub': 0.87, 'ss': 92, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2a | --- Restricted mean accuracy (first, left)
+Group ..: /go/.*/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.957, 'lb': 0.924, 'ub': 0.989, 'ss': 92, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2a | --- Restricted mean accuracy (first, right)
+Group ..: /go/.*/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.804, 'lb': 0.75, 'ub': 0.87, 'ss': 92, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Hypothesis: A2ab | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition and Barsgrid)
+Result .: True
+Overlap : False
+Group 0 : /go/barsgrid/first/left
+Group 1 : /go/barsgrid/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 1.0, 'lb': 1.0, 'ub': 1.0, 'ss': 50, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.8, 'lb': 0.72, 'ub': 0.88, 'ss': 50, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2ab | --- Restricted mean accuracy (first, Barsgrid, left)
+Group ..: /go/barsgrid/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 1.0, 'lb': 1.0, 'ub': 1.0, 'ss': 50, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2ab | --- Restricted mean accuracy (first, Barsgrid, right)
+Group ..: /go/barsgrid/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.8, 'lb': 0.72, 'ub': 0.88, 'ss': 50, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Hypothesis: A2ap | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/left
+Group 1 : /go/polygrid/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.905, 'lb': 0.833, 'ub': 0.976, 'ss': 42, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.81, 'lb': 0.714, 'ub': 0.905, 'ss': 42, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2ap | --- Restricted mean accuracy (first, Polygrid, left)
+Group ..: /go/polygrid/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.905, 'lb': 0.833, 'ub': 0.976, 'ss': 42, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2ap | --- Restricted mean accuracy (first, Polygrid, right)
+Group ..: /go/polygrid/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.81, 'lb': 0.714, 'ub': 0.905, 'ss': 42, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Hypothesis: A2t | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition)
+Result .: False
+Overlap : False
+Group 0 : /go/.*/first/left
+Group 1 : /go/.*/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 23.964, 'lb': 21.005, 'ub': 26.882, 'ss': 88, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 17.64, 'lb': 15.235, 'ub': 19.925, 'ss': 87, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2t | --- Restricted mean completion time (first, left)
+Group ..: /go/.*/first/left
+Metric .: ttc
+Estimate: {'mean': 24.0, 'lb': 20.9, 'ub': 26.8, 'ss': 88, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2t | --- Restricted mean completion time (first, right)
+Group ..: /go/.*/first/right
+Metric .: ttc
+Estimate: {'mean': 17.6, 'lb': 15.3, 'ub': 19.9, 'ss': 87, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Hypothesis: A2tb | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition and Barsgrid)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first/left
+Group 1 : /go/barsgrid/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 26.256, 'lb': 21.922, 'ub': 30.433, 'ss': 47, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 20.552, 'lb': 16.739, 'ub': 24.262, 'ss': 47, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2tb | --- Restricted mean completion time (first, Barsgrid, left)
+Group ..: /go/barsgrid/first/left
+Metric .: ttc
+Estimate: {'mean': 26.3, 'lb': 21.8, 'ub': 30.4, 'ss': 47, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2tb | --- Restricted mean completion time (first, Barsgrid, right)
+Group ..: /go/barsgrid/first/right
+Metric .: ttc
+Estimate: {'mean': 20.6, 'lb': 16.8, 'ub': 24.1, 'ss': 47, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Hypothesis: A2tp | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition and Polygrid)
+Result .: False
+Overlap : False
+Group 0 : /go/polygrid/first/left
+Group 1 : /go/polygrid/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 21.337, 'lb': 17.332, 'ub': 25.034, 'ss': 41, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 14.218, 'lb': 11.924, 'ub': 16.492, 'ss': 40, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2tb | --- Restricted mean completion time (first, Polygrid, left)
+Group ..: /go/polygrid/first/left
+Metric .: ttc
+Estimate: {'mean': 21.3, 'lb': 17.4, 'ub': 25.1, 'ss': 41, 'alpha': 0.15000000000000002}
+
+
+[20250917093756] Estimate: A2tb | --- Restricted mean completion time (first, Polygrid, right)
+Group ..: /go/polygrid/first/right
+Metric .: ttc
+Estimate: {'mean': 14.2, 'lb': 11.9, 'ub': 16.5, 'ss': 40, 'alpha': 0.15000000000000002}
+
+
+[20250917093757] Hypothesis: A3a | There is a decrease in accuracy (first vs. last condition, only paired scripts)
+Result .: None
+Overlap : True
+Group 0 : /go/.*/first/(?:left|common|right)
+Group 1 : /go/.*/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.917, 'lb': 0.882, 'ub': 0.951, 'ss': 144, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.875, 'lb': 0.84, 'ub': 0.917, 'ss': 144, 'alpha': 0.15000000000000002}
+
+
+[20250917093757] Estimate: A3a | --- Restricted mean accuracy (first, paired)
+Group ..: /go/.*/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.917, 'lb': 0.882, 'ub': 0.951, 'ss': 144, 'alpha': 0.15000000000000002}
+
+
+[20250917093757] Estimate: A3a | --- Restricted mean accuracy (last, paired)
+Group ..: /go/.*/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.875, 'lb': 0.833, 'ub': 0.917, 'ss': 144, 'alpha': 0.15000000000000002}
+
+
+[20250917093757] Hypothesis: A3ab | There is a decrease in accuracy (first vs. last condition, only paired scripts and Barsgrid)
+Result .: True
+Overlap : False
+Group 0 : /go/barsgrid/first/(?:left|common|right)
+Group 1 : /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.958, 'lb': 0.931, 'ub': 1.0, 'ss': 72, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.847, 'lb': 0.792, 'ub': 0.917, 'ss': 72, 'alpha': 0.15000000000000002}
+
+
+[20250917093757] Estimate: A3ab | --- Restricted mean accuracy (first, paired, Barsgrid)
+Group ..: /go/barsgrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.958, 'lb': 0.931, 'ub': 1.0, 'ss': 72, 'alpha': 0.15000000000000002}
+
+
+[20250917093757] Estimate: A3ab | --- Restricted mean accuracy (last, paired, Barsgrid)
+Group ..: /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.847, 'lb': 0.792, 'ub': 0.917, 'ss': 72, 'alpha': 0.15000000000000002}
+
+
+[20250917093757] Hypothesis: A3ap | There is a decrease in accuracy (first vs. last condition, only paired scripts and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/(?:left|common|right)
+Group 1 : /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.875, 'lb': 0.819, 'ub': 0.931, 'ss': 72, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.903, 'lb': 0.861, 'ub': 0.958, 'ss': 72, 'alpha': 0.15000000000000002}
+
+
+[20250917093757] Estimate: A3ap | --- Restricted mean accuracy (first, paired, Polygrid)
+Group ..: /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.875, 'lb': 0.819, 'ub': 0.931, 'ss': 72, 'alpha': 0.15000000000000002}
+
+
+[20250917093757] Estimate: A3ap | --- Restricted mean accuracy (last, paired, Polygrid)
+Group ..: /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.903, 'lb': 0.861, 'ub': 0.958, 'ss': 72, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Hypothesis: A3t | There is a decrease in completion time (first vs. last condition, only paired scripts)
+Result .: True
+Overlap : False
+Group 0 : /go/.*/first
+Group 1 : /go/.*/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 15.281, 'lb': 13.679, 'ub': 16.784, 'ss': 190, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 11.557, 'lb': 10.327, 'ub': 12.709, 'ss': 192, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Estimate: A3t | --- Restricted mean completion time (first, paired)
+Group ..: /go/.*/first
+Metric .: ttc
+Estimate: {'mean': 15.3, 'lb': 13.7, 'ub': 16.8, 'ss': 190, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Estimate: A3t | --- Restricted mean completion time (last, paired)
+Group ..: /go/.*/last
+Metric .: ttc
+Estimate: {'mean': 11.6, 'lb': 10.3, 'ub': 12.7, 'ss': 192, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Hypothesis: A3tb | There is a decrease in completion time (first vs. last condition, only paired scripts and Barsgrid)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first
+Group 1 : /go/barsgrid/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 16.863, 'lb': 14.509, 'ub': 19.13, 'ss': 95, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 15.387, 'lb': 13.362, 'ub': 17.351, 'ss': 96, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Estimate: A3tb | --- Restricted mean completion time (first, paired, Barsgrid)
+Group ..: /go/barsgrid/first
+Metric .: ttc
+Estimate: {'mean': 16.9, 'lb': 14.5, 'ub': 19.2, 'ss': 95, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Estimate: A3tb | --- Restricted mean completion time (last, paired, Barsgrid)
+Group ..: /go/barsgrid/last
+Metric .: ttc
+Estimate: {'mean': 15.4, 'lb': 13.4, 'ub': 17.3, 'ss': 96, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Hypothesis: A3tp | There is a decrease in completion time (first vs. last condition, only paired scripts and Polygrid)
+Result .: True
+Overlap : False
+Group 0 : /go/polygrid/first
+Group 1 : /go/polygrid/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 13.698, 'lb': 11.6, 'ub': 15.657, 'ss': 95, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 7.726, 'lb': 6.688, 'ub': 8.702, 'ss': 96, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Estimate: A3tp | --- Restricted mean completion time (first, paired, Polygrid)
+Group ..: /go/polygrid/first
+Metric .: ttc
+Estimate: {'mean': 13.7, 'lb': 11.7, 'ub': 15.6, 'ss': 95, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Estimate: A3tp | --- Restricted mean completion time (last, paired, Polygrid)
+Group ..: /go/polygrid/last
+Metric .: ttc
+Estimate: {'mean': 7.7, 'lb': 6.7, 'ub': 8.7, 'ss': 96, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Hypothesis: H1a | Barsgrid is more effective than Polygrid (evidence from accuracy)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.909, 'lb': 0.884, 'ub': 0.935, 'ss': 276, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.917, 'lb': 0.895, 'ub': 0.942, 'ss': 276, 'alpha': 0.15000000000000002}
+
+
+[20250917093758] Estimate: H1a | --- Restricted mean accuracy (Barsgrid, except repeat)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.909, 'lb': 0.884, 'ub': 0.935, 'ss': 276, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Estimate: H1a | --- Restricted mean accuracy (Polygrid, except repeat)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.917, 'lb': 0.895, 'ub': 0.942, 'ss': 276, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Hypothesis: H1a1 | Barsgrid is more effective than Polygrid (evidence from accuracy, only 1st condition)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first/(?:left|common|right)
+Group 1 : /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.927, 'lb': 0.9, 'ub': 0.96, 'ss': 150, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.897, 'lb': 0.857, 'ub': 0.937, 'ss': 126, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Estimate: H1a1 | --- Restricted mean accuracy (first, Barsgrid, except repeat)
+Group ..: /go/barsgrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.927, 'lb': 0.9, 'ub': 0.96, 'ss': 150, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Estimate: H1a1 | --- Restricted mean accuracy (first, Polygrid, except repeat)
+Group ..: /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.897, 'lb': 0.857, 'ub': 0.937, 'ss': 126, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Hypothesis: H1a2 | Barsgrid is more effective than Polygrid (evidence from accuracy, only 2nd condition)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/last/(?:left|common|right)
+Group 1 : /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.889, 'lb': 0.849, 'ub': 0.929, 'ss': 126, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.933, 'lb': 0.907, 'ub': 0.967, 'ss': 150, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Estimate: H1a2 | --- Restricted mean accuracy (last, Barsgrid, except repeat)
+Group ..: /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.889, 'lb': 0.849, 'ub': 0.929, 'ss': 126, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Estimate: H1a2 | --- Restricted mean accuracy (last, Polygrid, except repeat)
+Group ..: /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.933, 'lb': 0.907, 'ub': 0.967, 'ss': 150, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Hypothesis: H1t | Barsgrid is more effective than Polygrid (evidence from completion time)
+Result .: False
+Overlap : False
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 18.812, 'lb': 17.363, 'ub': 20.215, 'ss': 267, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 11.506, 'lb': 10.538, 'ub': 12.476, 'ss': 272, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Estimate: H1t | --- Restricted mean completion time (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: ttc
+Estimate: {'mean': 18.8, 'lb': 17.4, 'ub': 20.2, 'ss': 267, 'alpha': 0.15000000000000002}
+
+
+[20250917093759] Estimate: H1t | --- Restricted mean completion time (just Polygrid)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: ttc
+Estimate: {'mean': 11.5, 'lb': 10.5, 'ub': 12.5, 'ss': 272, 'alpha': 0.15000000000000002}
+
+
+[20250917093800] Hypothesis: H2 | Barsgrid is more effective than Polygrid (evidence from consistency)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:common|repeat)
+Group 1 : /go/polygrid/.*/(?:common|repeat)
+Metric .: consistency
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.971, 'lb': 0.942, 'ub': 1.0, 'ss': 46, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.986, 'lb': 0.971, 'ub': 1.0, 'ss': 46, 'alpha': 0.15000000000000002}
+
+
+[20250917093800] Estimate: H2 | --- Restricted consistency (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:common|repeat)
+Metric .: consistency
+Estimate: {'mean': 0.971, 'lb': 0.942, 'ub': 1.0, 'ss': 46, 'alpha': 0.15000000000000002}
+
+
+[20250917093800] Estimate: H2 | --- Restricted consistency (just Polygrid)
+Group ..: /go/polygrid/.*/(?:common|repeat)
+Metric .: consistency
+Estimate: {'mean': 0.986, 'lb': 0.971, 'ub': 1.0, 'ss': 46, 'alpha': 0.15000000000000002}
+
+
+[20250917093800] Hypothesis: H2- | Barsgrid is more effective than Polygrid (evidence from consistency)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/115
+Group 1 : /go/polygrid/.*/115
+Metric .: consistency
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.957, 'lb': 0.913, 'ub': 1.0, 'ss': 46, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.978, 'lb': 0.957, 'ub': 1.0, 'ss': 46, 'alpha': 0.15000000000000002}
+
+
+[20250917093800] Estimate: H2- | --- Restricted consistency (just Barsgrid)
+Group ..: /go/barsgrid/.*/115
+Metric .: consistency
+Estimate: {'mean': 0.957, 'lb': 0.913, 'ub': 1.0, 'ss': 46, 'alpha': 0.15000000000000002}
+
+
+[20250917093800] Estimate: H2- | --- Restricted consistency (just Polygrid)
+Group ..: /go/polygrid/.*/115
+Metric .: consistency
+Estimate: {'mean': 0.978, 'lb': 0.957, 'ub': 1.0, 'ss': 46, 'alpha': 0.15000000000000002}
+
+
+[20250917093803] Hypothesis: H3 | Barsgrid is more effective than Polygrid (evidence from consensus)
+Result .: False
+Overlap : False
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: consensus
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.878, 'lb': 0.868, 'ub': 0.888, 'ss': 1035, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.906, 'lb': 0.897, 'ub': 0.916, 'ss': 1035, 'alpha': 0.15000000000000002}
+
+
+[20250917093805] Estimate: H3 | --- Restricted consensus (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: consensus
+Estimate: {'mean': 0.878, 'lb': 0.868, 'ub': 0.888, 'ss': 1035, 'alpha': 0.15000000000000002}
+
+
+[20250917093807] Estimate: H3 | --- Restricted consensus (just Polygrid)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: consensus
+Estimate: {'mean': 0.906, 'lb': 0.897, 'ub': 0.915, 'ss': 1035, 'alpha': 0.15000000000000002}
+
+
+[20250917093808] Hypothesis: H4 | Barsgrid is more effective than Polygrid (evidence from consensus, easy + hard)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:left|right)
+Group 1 : /go/polygrid/.*/(?:left|right)
+Metric .: consensus
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.715, 'lb': 0.689, 'ub': 0.743, 'ss': 601, 'alpha': 0.15000000000000002}
+CI1 ....: {'mean': 0.737, 'lb': 0.711, 'ub': 0.764, 'ss': 601, 'alpha': 0.15000000000000002}
+
+
+[20250917093808] Estimate: H4 | --- Restricted consensus (just Barsgrid, easy + hard)
+Group ..: /go/barsgrid/.*/(?:left|right)
+Metric .: consensus
+Estimate: {'mean': 0.715, 'lb': 0.688, 'ub': 0.743, 'ss': 601, 'alpha': 0.15000000000000002}
+
+
+[20250917093809] Estimate: H4 | --- Restricted consensus (just Polygrid, easy + hard)
+Group ..: /go/polygrid/.*/(?:left|right)
+Metric .: consensus
+Estimate: {'mean': 0.737, 'lb': 0.71, 'ub': 0.764, 'ss': 601, 'alpha': 0.15000000000000002}
+
+
+[20250917093809] Estimate: EG | Overall mean accuracy
+Group ..: /go
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.932, 'lb': 0.918, 'ub': 0.946, 'ss': 736, 'alpha': 0.15000000000000002}
+
+
+[20250917093809] Estimate: EG | Mean accuracy in Polygrid condition (proxy for interpretability)
+Group ..: /go/polygrid
+Metric .: accuracy-model
+Estimate: {'mean': 0.927, 'lb': 0.908, 'ub': 0.946, 'ss': 368, 'alpha': 0.15000000000000002}
+
+
+[20250917093809] Estimate: EG | Mean accuracy in Polygrid condition
+Group ..: /go/polygrid
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.938, 'lb': 0.918, 'ub': 0.957, 'ss': 368, 'alpha': 0.15000000000000002}
+
+
+[20250917093809] Estimate: ES | Restricted mean accuracy (left)
+Group ..: /go/.*/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.913, 'lb': 0.886, 'ub': 0.946, 'ss': 184, 'alpha': 0.15000000000000002}
+
+
+[20250917093809] Estimate: ES | Restricted mean accuracy (common)
+Group ..: /go/.*/common
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.984, 'lb': 0.973, 'ub': 1.0, 'ss': 184, 'alpha': 0.15000000000000002}
+
+
+[20250917093809] Estimate: ES | Restricted mean accuracy (repeat)
+Group ..: /go/.*/repeat
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.989, 'lb': 0.978, 'ub': 1.0, 'ss': 184, 'alpha': 0.15000000000000002}
+
+
+[20250917093809] Estimate: ES | Restricted mean accuracy (right)
+Group ..: /go/.*/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.842, 'lb': 0.804, 'ub': 0.88, 'ss': 184, 'alpha': 0.15000000000000002}
+
+
+[20250917093810] Estimate: ES | Overall mean completion time per task (in seconds)
+Group ..: /(?:warmup|go)
+Metric .: ttc
+Estimate: {'mean': 13.1, 'lb': 12.5, 'ub': 13.7, 'ss': 996, 'alpha': 0.15000000000000002}
+
+
+[20250917093810] Estimate: ES | Restricted mean completion time per task (left, just Barsgrid)
+Group ..: /go/barsgrid/.*/left
+Metric .: ttc
+Estimate: {'mean': 21.5, 'lb': 18.8, 'ub': 24.0, 'ss': 89, 'alpha': 0.15000000000000002}
+
+
+[20250917093810] Estimate: ES | Restricted mean completion time per task (right, just Barsgrid)
+Group ..: /go/barsgrid/.*/right
+Metric .: ttc
+Estimate: {'mean': 21.4, 'lb': 18.5, 'ub': 24.2, 'ss': 87, 'alpha': 0.15000000000000002}
+
+
+[20250917093810] Estimate: ES | Restricted mean completion time per task (left, just Polygrid)
+Group ..: /go/polygrid/.*/left
+Metric .: ttc
+Estimate: {'mean': 15.5, 'lb': 13.3, 'ub': 17.6, 'ss': 91, 'alpha': 0.15000000000000002}
+
+
+[20250917093810] Estimate: ES | Restricted mean completion time per task (right, just Polygrid)
+Group ..: /go/polygrid/.*/right
+Metric .: ttc
+Estimate: {'mean': 12.2, 'lb': 10.5, 'ub': 13.7, 'ss': 89, 'alpha': 0.15000000000000002}
+
+
+[20250917093810] +------------------------------------------------------------------------+
+[20250917093810] |                        RESULTS FOR ALPHA = 0.20                        |
+[20250917093810] +------------------------------------------------------------------------+
+
+[20250917093810] Hypothesis: A2a | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition)
+Result .: True
+Overlap : False
+Group 0 : /go/.*/first/left
+Group 1 : /go/.*/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.957, 'lb': 0.935, 'ub': 0.989, 'ss': 92, 'alpha': 0.2}
+CI1 ....: {'mean': 0.804, 'lb': 0.75, 'ub': 0.859, 'ss': 92, 'alpha': 0.2}
+
+
+[20250917093810] Estimate: A2a | --- Restricted mean accuracy (first, left)
+Group ..: /go/.*/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.957, 'lb': 0.935, 'ub': 0.989, 'ss': 92, 'alpha': 0.2}
+
+
+[20250917093810] Estimate: A2a | --- Restricted mean accuracy (first, right)
+Group ..: /go/.*/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.804, 'lb': 0.75, 'ub': 0.859, 'ss': 92, 'alpha': 0.2}
+
+
+[20250917093810] Hypothesis: A2ab | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition and Barsgrid)
+Result .: True
+Overlap : False
+Group 0 : /go/barsgrid/first/left
+Group 1 : /go/barsgrid/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 1.0, 'lb': 1.0, 'ub': 1.0, 'ss': 50, 'alpha': 0.2}
+CI1 ....: {'mean': 0.8, 'lb': 0.72, 'ub': 0.88, 'ss': 50, 'alpha': 0.2}
+
+
+[20250917093810] Estimate: A2ab | --- Restricted mean accuracy (first, Barsgrid, left)
+Group ..: /go/barsgrid/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 1.0, 'lb': 1.0, 'ub': 1.0, 'ss': 50, 'alpha': 0.2}
+
+
+[20250917093810] Estimate: A2ab | --- Restricted mean accuracy (first, Barsgrid, right)
+Group ..: /go/barsgrid/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.8, 'lb': 0.74, 'ub': 0.88, 'ss': 50, 'alpha': 0.2}
+
+
+[20250917093810] Hypothesis: A2ap | Tasks are arranged in increasing order of difficulty (evidence from accuracy, only 1st condition and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/left
+Group 1 : /go/polygrid/first/right
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.905, 'lb': 0.857, 'ub': 0.976, 'ss': 42, 'alpha': 0.2}
+CI1 ....: {'mean': 0.81, 'lb': 0.738, 'ub': 0.881, 'ss': 42, 'alpha': 0.2}
+
+
+[20250917093810] Estimate: A2ap | --- Restricted mean accuracy (first, Polygrid, left)
+Group ..: /go/polygrid/first/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.905, 'lb': 0.857, 'ub': 0.976, 'ss': 42, 'alpha': 0.2}
+
+
+[20250917093810] Estimate: A2ap | --- Restricted mean accuracy (first, Polygrid, right)
+Group ..: /go/polygrid/first/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.81, 'lb': 0.738, 'ub': 0.881, 'ss': 42, 'alpha': 0.2}
+
+
+[20250917093810] Hypothesis: A2t | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition)
+Result .: False
+Overlap : False
+Group 0 : /go/.*/first/left
+Group 1 : /go/.*/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 23.964, 'lb': 21.332, 'ub': 26.563, 'ss': 88, 'alpha': 0.2}
+CI1 ....: {'mean': 17.64, 'lb': 15.543, 'ub': 19.695, 'ss': 87, 'alpha': 0.2}
+
+
+[20250917093810] Estimate: A2t | --- Restricted mean completion time (first, left)
+Group ..: /go/.*/first/left
+Metric .: ttc
+Estimate: {'mean': 24.0, 'lb': 21.3, 'ub': 26.6, 'ss': 88, 'alpha': 0.2}
+
+
+[20250917093810] Estimate: A2t | --- Restricted mean completion time (first, right)
+Group ..: /go/.*/first/right
+Metric .: ttc
+Estimate: {'mean': 17.6, 'lb': 15.5, 'ub': 19.7, 'ss': 87, 'alpha': 0.2}
+
+
+[20250917093810] Hypothesis: A2tb | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition and Barsgrid)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first/left
+Group 1 : /go/barsgrid/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 26.256, 'lb': 22.451, 'ub': 29.915, 'ss': 47, 'alpha': 0.2}
+CI1 ....: {'mean': 20.552, 'lb': 17.109, 'ub': 23.811, 'ss': 47, 'alpha': 0.2}
+
+
+[20250917093810] Estimate: A2tb | --- Restricted mean completion time (first, Barsgrid, left)
+Group ..: /go/barsgrid/first/left
+Metric .: ttc
+Estimate: {'mean': 26.3, 'lb': 22.5, 'ub': 30.0, 'ss': 47, 'alpha': 0.2}
+
+
+[20250917093811] Estimate: A2tb | --- Restricted mean completion time (first, Barsgrid, right)
+Group ..: /go/barsgrid/first/right
+Metric .: ttc
+Estimate: {'mean': 20.6, 'lb': 17.2, 'ub': 23.8, 'ss': 47, 'alpha': 0.2}
+
+
+[20250917093811] Hypothesis: A2tp | Tasks are arranged in increasing order of difficulty (evidence from completion time, only 1st condition and Polygrid)
+Result .: False
+Overlap : False
+Group 0 : /go/polygrid/first/left
+Group 1 : /go/polygrid/first/right
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 21.337, 'lb': 17.81, 'ub': 24.73, 'ss': 41, 'alpha': 0.2}
+CI1 ....: {'mean': 14.218, 'lb': 12.111, 'ub': 16.256, 'ss': 40, 'alpha': 0.2}
+
+
+[20250917093811] Estimate: A2tb | --- Restricted mean completion time (first, Polygrid, left)
+Group ..: /go/polygrid/first/left
+Metric .: ttc
+Estimate: {'mean': 21.3, 'lb': 17.8, 'ub': 24.7, 'ss': 41, 'alpha': 0.2}
+
+
+[20250917093811] Estimate: A2tb | --- Restricted mean completion time (first, Polygrid, right)
+Group ..: /go/polygrid/first/right
+Metric .: ttc
+Estimate: {'mean': 14.2, 'lb': 12.2, 'ub': 16.3, 'ss': 40, 'alpha': 0.2}
+
+
+[20250917093811] Hypothesis: A3a | There is a decrease in accuracy (first vs. last condition, only paired scripts)
+Result .: None
+Overlap : True
+Group 0 : /go/.*/first/(?:left|common|right)
+Group 1 : /go/.*/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.917, 'lb': 0.889, 'ub': 0.944, 'ss': 144, 'alpha': 0.2}
+CI1 ....: {'mean': 0.875, 'lb': 0.84, 'ub': 0.91, 'ss': 144, 'alpha': 0.2}
+
+
+[20250917093811] Estimate: A3a | --- Restricted mean accuracy (first, paired)
+Group ..: /go/.*/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.917, 'lb': 0.889, 'ub': 0.944, 'ss': 144, 'alpha': 0.2}
+
+
+[20250917093811] Estimate: A3a | --- Restricted mean accuracy (last, paired)
+Group ..: /go/.*/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.875, 'lb': 0.84, 'ub': 0.91, 'ss': 144, 'alpha': 0.2}
+
+
+[20250917093811] Hypothesis: A3ab | There is a decrease in accuracy (first vs. last condition, only paired scripts and Barsgrid)
+Result .: True
+Overlap : False
+Group 0 : /go/barsgrid/first/(?:left|common|right)
+Group 1 : /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.958, 'lb': 0.931, 'ub': 0.986, 'ss': 72, 'alpha': 0.2}
+CI1 ....: {'mean': 0.847, 'lb': 0.792, 'ub': 0.903, 'ss': 72, 'alpha': 0.2}
+
+
+[20250917093811] Estimate: A3ab | --- Restricted mean accuracy (first, paired, Barsgrid)
+Group ..: /go/barsgrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.958, 'lb': 0.931, 'ub': 0.986, 'ss': 72, 'alpha': 0.2}
+
+
+[20250917093811] Estimate: A3ab | --- Restricted mean accuracy (last, paired, Barsgrid)
+Group ..: /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.847, 'lb': 0.792, 'ub': 0.903, 'ss': 72, 'alpha': 0.2}
+
+
+[20250917093811] Hypothesis: A3ap | There is a decrease in accuracy (first vs. last condition, only paired scripts and Polygrid)
+Result .: None
+Overlap : True
+Group 0 : /go/polygrid/first/(?:left|common|right)
+Group 1 : /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.875, 'lb': 0.819, 'ub': 0.931, 'ss': 72, 'alpha': 0.2}
+CI1 ....: {'mean': 0.903, 'lb': 0.861, 'ub': 0.944, 'ss': 72, 'alpha': 0.2}
+
+
+[20250917093811] Estimate: A3ap | --- Restricted mean accuracy (first, paired, Polygrid)
+Group ..: /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.875, 'lb': 0.819, 'ub': 0.931, 'ss': 72, 'alpha': 0.2}
+
+
+[20250917093811] Estimate: A3ap | --- Restricted mean accuracy (last, paired, Polygrid)
+Group ..: /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.903, 'lb': 0.861, 'ub': 0.944, 'ss': 72, 'alpha': 0.2}
+
+
+[20250917093811] Hypothesis: A3t | There is a decrease in completion time (first vs. last condition, only paired scripts)
+Result .: True
+Overlap : False
+Group 0 : /go/.*/first
+Group 1 : /go/.*/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 15.281, 'lb': 13.855, 'ub': 16.646, 'ss': 190, 'alpha': 0.2}
+CI1 ....: {'mean': 11.557, 'lb': 10.472, 'ub': 12.622, 'ss': 192, 'alpha': 0.2}
+
+
+[20250917093812] Estimate: A3t | --- Restricted mean completion time (first, paired)
+Group ..: /go/.*/first
+Metric .: ttc
+Estimate: {'mean': 15.3, 'lb': 13.9, 'ub': 16.6, 'ss': 190, 'alpha': 0.2}
+
+
+[20250917093812] Estimate: A3t | --- Restricted mean completion time (last, paired)
+Group ..: /go/.*/last
+Metric .: ttc
+Estimate: {'mean': 11.6, 'lb': 10.5, 'ub': 12.6, 'ss': 192, 'alpha': 0.2}
+
+
+[20250917093812] Hypothesis: A3tb | There is a decrease in completion time (first vs. last condition, only paired scripts and Barsgrid)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first
+Group 1 : /go/barsgrid/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 16.863, 'lb': 14.755, 'ub': 18.91, 'ss': 95, 'alpha': 0.2}
+CI1 ....: {'mean': 15.387, 'lb': 13.553, 'ub': 17.146, 'ss': 96, 'alpha': 0.2}
+
+
+[20250917093812] Estimate: A3tb | --- Restricted mean completion time (first, paired, Barsgrid)
+Group ..: /go/barsgrid/first
+Metric .: ttc
+Estimate: {'mean': 16.9, 'lb': 14.7, 'ub': 18.9, 'ss': 95, 'alpha': 0.2}
+
+
+[20250917093812] Estimate: A3tb | --- Restricted mean completion time (last, paired, Barsgrid)
+Group ..: /go/barsgrid/last
+Metric .: ttc
+Estimate: {'mean': 15.4, 'lb': 13.6, 'ub': 17.1, 'ss': 96, 'alpha': 0.2}
+
+
+[20250917093812] Hypothesis: A3tp | There is a decrease in completion time (first vs. last condition, only paired scripts and Polygrid)
+Result .: True
+Overlap : False
+Group 0 : /go/polygrid/first
+Group 1 : /go/polygrid/last
+Metric .: ttc
+Test ...: {0} > {1}
+CI0 ....: {'mean': 13.698, 'lb': 11.856, 'ub': 15.436, 'ss': 95, 'alpha': 0.2}
+CI1 ....: {'mean': 7.726, 'lb': 6.795, 'ub': 8.589, 'ss': 96, 'alpha': 0.2}
+
+
+[20250917093812] Estimate: A3tp | --- Restricted mean completion time (first, paired, Polygrid)
+Group ..: /go/polygrid/first
+Metric .: ttc
+Estimate: {'mean': 13.7, 'lb': 11.9, 'ub': 15.5, 'ss': 95, 'alpha': 0.2}
+
+
+[20250917093812] Estimate: A3tp | --- Restricted mean completion time (last, paired, Polygrid)
+Group ..: /go/polygrid/last
+Metric .: ttc
+Estimate: {'mean': 7.7, 'lb': 6.8, 'ub': 8.6, 'ss': 96, 'alpha': 0.2}
+
+
+[20250917093812] Hypothesis: H1a | Barsgrid is more effective than Polygrid (evidence from accuracy)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.909, 'lb': 0.888, 'ub': 0.931, 'ss': 276, 'alpha': 0.2}
+CI1 ....: {'mean': 0.917, 'lb': 0.895, 'ub': 0.938, 'ss': 276, 'alpha': 0.2}
+
+
+[20250917093812] Estimate: H1a | --- Restricted mean accuracy (Barsgrid, except repeat)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.909, 'lb': 0.888, 'ub': 0.931, 'ss': 276, 'alpha': 0.2}
+
+
+[20250917093812] Estimate: H1a | --- Restricted mean accuracy (Polygrid, except repeat)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.917, 'lb': 0.895, 'ub': 0.938, 'ss': 276, 'alpha': 0.2}
+
+
+[20250917093812] Hypothesis: H1a1 | Barsgrid is more effective than Polygrid (evidence from accuracy, only 1st condition)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/first/(?:left|common|right)
+Group 1 : /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.927, 'lb': 0.9, 'ub': 0.953, 'ss': 150, 'alpha': 0.2}
+CI1 ....: {'mean': 0.897, 'lb': 0.865, 'ub': 0.929, 'ss': 126, 'alpha': 0.2}
+
+
+[20250917093813] Estimate: H1a1 | --- Restricted mean accuracy (first, Barsgrid, except repeat)
+Group ..: /go/barsgrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.927, 'lb': 0.9, 'ub': 0.953, 'ss': 150, 'alpha': 0.2}
+
+
+[20250917093813] Estimate: H1a1 | --- Restricted mean accuracy (first, Polygrid, except repeat)
+Group ..: /go/polygrid/first/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.897, 'lb': 0.865, 'ub': 0.937, 'ss': 126, 'alpha': 0.2}
+
+
+[20250917093813] Hypothesis: H1a2 | Barsgrid is more effective than Polygrid (evidence from accuracy, only 2nd condition)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/last/(?:left|common|right)
+Group 1 : /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.889, 'lb': 0.857, 'ub': 0.929, 'ss': 126, 'alpha': 0.2}
+CI1 ....: {'mean': 0.933, 'lb': 0.907, 'ub': 0.96, 'ss': 150, 'alpha': 0.2}
+
+
+[20250917093813] Estimate: H1a2 | --- Restricted mean accuracy (last, Barsgrid, except repeat)
+Group ..: /go/barsgrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.889, 'lb': 0.857, 'ub': 0.929, 'ss': 126, 'alpha': 0.2}
+
+
+[20250917093813] Estimate: H1a2 | --- Restricted mean accuracy (last, Polygrid, except repeat)
+Group ..: /go/polygrid/last/(?:left|common|right)
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.933, 'lb': 0.907, 'ub': 0.96, 'ss': 150, 'alpha': 0.2}
+
+
+[20250917093813] Hypothesis: H1t | Barsgrid is more effective than Polygrid (evidence from completion time)
+Result .: False
+Overlap : False
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: ttc
+Test ...: {0} < {1}
+CI0 ....: {'mean': 18.812, 'lb': 17.511, 'ub': 20.057, 'ss': 267, 'alpha': 0.2}
+CI1 ....: {'mean': 11.506, 'lb': 10.652, 'ub': 12.381, 'ss': 272, 'alpha': 0.2}
+
+
+[20250917093813] Estimate: H1t | --- Restricted mean completion time (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: ttc
+Estimate: {'mean': 18.8, 'lb': 17.6, 'ub': 20.1, 'ss': 267, 'alpha': 0.2}
+
+
+[20250917093813] Estimate: H1t | --- Restricted mean completion time (just Polygrid)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: ttc
+Estimate: {'mean': 11.5, 'lb': 10.6, 'ub': 12.4, 'ss': 272, 'alpha': 0.2}
+
+
+[20250917093813] Hypothesis: H2 | Barsgrid is more effective than Polygrid (evidence from consistency)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:common|repeat)
+Group 1 : /go/polygrid/.*/(?:common|repeat)
+Metric .: consistency
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.971, 'lb': 0.942, 'ub': 1.0, 'ss': 46, 'alpha': 0.2}
+CI1 ....: {'mean': 0.986, 'lb': 0.971, 'ub': 1.0, 'ss': 46, 'alpha': 0.2}
+
+
+[20250917093813] Estimate: H2 | --- Restricted consistency (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:common|repeat)
+Metric .: consistency
+Estimate: {'mean': 0.971, 'lb': 0.942, 'ub': 1.0, 'ss': 46, 'alpha': 0.2}
+
+
+[20250917093813] Estimate: H2 | --- Restricted consistency (just Polygrid)
+Group ..: /go/polygrid/.*/(?:common|repeat)
+Metric .: consistency
+Estimate: {'mean': 0.986, 'lb': 0.971, 'ub': 1.0, 'ss': 46, 'alpha': 0.2}
+
+
+[20250917093813] Hypothesis: H2- | Barsgrid is more effective than Polygrid (evidence from consistency)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/115
+Group 1 : /go/polygrid/.*/115
+Metric .: consistency
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.957, 'lb': 0.913, 'ub': 1.0, 'ss': 46, 'alpha': 0.2}
+CI1 ....: {'mean': 0.978, 'lb': 0.957, 'ub': 1.0, 'ss': 46, 'alpha': 0.2}
+
+
+[20250917093814] Estimate: H2- | --- Restricted consistency (just Barsgrid)
+Group ..: /go/barsgrid/.*/115
+Metric .: consistency
+Estimate: {'mean': 0.957, 'lb': 0.913, 'ub': 1.0, 'ss': 46, 'alpha': 0.2}
+
+
+[20250917093814] Estimate: H2- | --- Restricted consistency (just Polygrid)
+Group ..: /go/polygrid/.*/115
+Metric .: consistency
+Estimate: {'mean': 0.978, 'lb': 0.957, 'ub': 1.0, 'ss': 46, 'alpha': 0.2}
+
+
+[20250917093817] Hypothesis: H3 | Barsgrid is more effective than Polygrid (evidence from consensus)
+Result .: False
+Overlap : False
+Group 0 : /go/barsgrid/.*/(?:left|common|right)
+Group 1 : /go/polygrid/.*/(?:left|common|right)
+Metric .: consensus
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.878, 'lb': 0.869, 'ub': 0.887, 'ss': 1035, 'alpha': 0.2}
+CI1 ....: {'mean': 0.906, 'lb': 0.898, 'ub': 0.914, 'ss': 1035, 'alpha': 0.2}
+
+
+[20250917093820] Estimate: H3 | --- Restricted consensus (just Barsgrid)
+Group ..: /go/barsgrid/.*/(?:left|common|right)
+Metric .: consensus
+Estimate: {'mean': 0.878, 'lb': 0.869, 'ub': 0.887, 'ss': 1035, 'alpha': 0.2}
+
+
+[20250917093821] Estimate: H3 | --- Restricted consensus (just Polygrid)
+Group ..: /go/polygrid/.*/(?:left|common|right)
+Metric .: consensus
+Estimate: {'mean': 0.906, 'lb': 0.898, 'ub': 0.914, 'ss': 1035, 'alpha': 0.2}
+
+
+[20250917093822] Hypothesis: H4 | Barsgrid is more effective than Polygrid (evidence from consensus, easy + hard)
+Result .: None
+Overlap : True
+Group 0 : /go/barsgrid/.*/(?:left|right)
+Group 1 : /go/polygrid/.*/(?:left|right)
+Metric .: consensus
+Test ...: {0} > {1}
+CI0 ....: {'mean': 0.715, 'lb': 0.691, 'ub': 0.739, 'ss': 601, 'alpha': 0.2}
+CI1 ....: {'mean': 0.737, 'lb': 0.714, 'ub': 0.761, 'ss': 601, 'alpha': 0.2}
+
+
+[20250917093823] Estimate: H4 | --- Restricted consensus (just Barsgrid, easy + hard)
+Group ..: /go/barsgrid/.*/(?:left|right)
+Metric .: consensus
+Estimate: {'mean': 0.715, 'lb': 0.691, 'ub': 0.74, 'ss': 601, 'alpha': 0.2}
+
+
+[20250917093823] Estimate: H4 | --- Restricted consensus (just Polygrid, easy + hard)
+Group ..: /go/polygrid/.*/(?:left|right)
+Metric .: consensus
+Estimate: {'mean': 0.737, 'lb': 0.713, 'ub': 0.761, 'ss': 601, 'alpha': 0.2}
+
+
+[20250917093823] Estimate: EG | Overall mean accuracy
+Group ..: /go
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.932, 'lb': 0.921, 'ub': 0.944, 'ss': 736, 'alpha': 0.2}
+
+
+[20250917093823] Estimate: EG | Mean accuracy in Polygrid condition (proxy for interpretability)
+Group ..: /go/polygrid
+Metric .: accuracy-model
+Estimate: {'mean': 0.927, 'lb': 0.91, 'ub': 0.946, 'ss': 368, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: EG | Mean accuracy in Polygrid condition
+Group ..: /go/polygrid
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.938, 'lb': 0.921, 'ub': 0.954, 'ss': 368, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: ES | Restricted mean accuracy (left)
+Group ..: /go/.*/left
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.913, 'lb': 0.886, 'ub': 0.94, 'ss': 184, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: ES | Restricted mean accuracy (common)
+Group ..: /go/.*/common
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.984, 'lb': 0.973, 'ub': 0.995, 'ss': 184, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: ES | Restricted mean accuracy (repeat)
+Group ..: /go/.*/repeat
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.989, 'lb': 0.978, 'ub': 1.0, 'ss': 184, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: ES | Restricted mean accuracy (right)
+Group ..: /go/.*/right
+Metric .: accuracy-oracle
+Estimate: {'mean': 0.842, 'lb': 0.81, 'ub': 0.875, 'ss': 184, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: ES | Overall mean completion time per task (in seconds)
+Group ..: /(?:warmup|go)
+Metric .: ttc
+Estimate: {'mean': 13.1, 'lb': 12.6, 'ub': 13.6, 'ss': 996, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: ES | Restricted mean completion time per task (left, just Barsgrid)
+Group ..: /go/barsgrid/.*/left
+Metric .: ttc
+Estimate: {'mean': 21.5, 'lb': 19.1, 'ub': 23.8, 'ss': 89, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: ES | Restricted mean completion time per task (right, just Barsgrid)
+Group ..: /go/barsgrid/.*/right
+Metric .: ttc
+Estimate: {'mean': 21.4, 'lb': 18.9, 'ub': 23.9, 'ss': 87, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: ES | Restricted mean completion time per task (left, just Polygrid)
+Group ..: /go/polygrid/.*/left
+Metric .: ttc
+Estimate: {'mean': 15.5, 'lb': 13.6, 'ub': 17.4, 'ss': 91, 'alpha': 0.2}
+
+
+[20250917093824] Estimate: ES | Restricted mean completion time per task (right, just Polygrid)
+Group ..: /go/polygrid/.*/right
+Metric .: ttc
+Estimate: {'mean': 12.2, 'lb': 10.7, 'ub': 13.5, 'ss': 89, 'alpha': 0.2}
+
+
+[20250917093824] Creating response sheets
+[20250917093825] -- Response sheet for script 1 saved as os2_responses_01.html
+[20250917093825] -- Response sheet for script 2 saved as os2_responses_02.html
+[20250917093825] -- Response sheet for script 4 saved as os2_responses_04.html
+[20250917093825] -- Response sheet for script 5 saved as os2_responses_05.html
+[20250917093825] -- Response sheet for script 6 saved as os2_responses_06.html
+[20250917093825] -- Response sheet for script 7 saved as os2_responses_07.html
+[20250917093825] -- Response sheet for script 8 saved as os2_responses_08.html
+[20250917093825] -- Response sheet for script 9 saved as os2_responses_09.html
+[20250917093825] -- Response sheet for script 10 saved as os2_responses_10.html
+[20250917093825] -- Response sheet for script 11 saved as os2_responses_11.html
+[20250917093825] -- Response sheet for script 12 saved as os2_responses_12.html
+[20250917093825] -- Response sheet for script 14 saved as os2_responses_14.html
+[20250917093825] -- Response sheet for script 15 saved as os2_responses_15.html
+[20250917093825] -- Response sheet for script 17 saved as os2_responses_17.html
+[20250917093825] -- Response sheet for script 18 saved as os2_responses_18.html
+[20250917093825] -- Response sheet for script 19 saved as os2_responses_19.html
+[20250917093825] -- Response sheet for script 20 saved as os2_responses_20.html
+[20250917093825] -- Response sheet for script 21 saved as os2_responses_21.html
+[20250917093825] -- Response sheet for script 22 saved as os2_responses_22.html
+[20250917093825] -- Response sheet for script 24 saved as os2_responses_24.html
+[20250917093825] -- Response sheet for script 26 saved as os2_responses_26.html
+[20250917093825] -- Response sheet for script 27 saved as os2_responses_27.html
+[20250917093825] -- Response sheet for script 28 saved as os2_responses_28.html
+[20250917093825] -- Response sheet for script 29 saved as os2_responses_29.html
+[20250917093825] -- Response sheet for script 30 saved as os2_responses_30.html
+[20250917093825] -- Response sheet for script 32 saved as os2_responses_32.html
+[20250917093825] -- Response sheet for script 33 saved as os2_responses_33.html
+[20250917093825] -- Response sheet for script 37 saved as os2_responses_37.html
+[20250917093825] -- Response sheet for script 39 saved as os2_responses_39.html
+[20250917093825] -- Response sheet for script 42 saved as os2_responses_42.html
+[20250917093825] -- Response sheet for script 47 saved as os2_responses_47.html
+[20250917093825] -- Response sheet for script 51 saved as os2_responses_51.html
+[20250917093825] -- Response sheet for script 59 saved as os2_responses_59.html
+[20250917093825] -- Response sheet for script 66 saved as os2_responses_66.html
+[20250917093825] -- Response sheet for script 67 saved as os2_responses_67.html
+[20250917093825] -- Response sheet for script 68 saved as os2_responses_68.html
+[20250917093825] -- Response sheet for script 70 saved as os2_responses_70.html
+[20250917093825] -- Response sheet for script 72 saved as os2_responses_72.html
+[20250917093825] -- Response sheet for script 73 saved as os2_responses_73.html
+[20250917093825] -- Response sheet for script 77 saved as os2_responses_77.html
+[20250917093825] -- Response sheet for script 78 saved as os2_responses_78.html
+[20250917093825] -- Response sheet for script 80 saved as os2_responses_80.html
+[20250917093825] -- Response sheet for script 86 saved as os2_responses_86.html
+[20250917093825] -- Response sheet for script 87 saved as os2_responses_87.html
+[20250917093825] -- Response sheet for script 92 saved as os2_responses_92.html
+[20250917093825] -- Response sheet for script 96 saved as os2_responses_96.html
+[20250917093825] This report was saved to C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\userstudies\os2\H01\C0\os2_responses.log

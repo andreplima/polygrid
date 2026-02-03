@@ -1,0 +1,47 @@
+[20250401201641] Recovering definitions from ..\configs\evaluate_H01_C4.cfg
+[20250401201641] ESSAY_CONFIGID : C4 (as <class 'str'>)
+ESSAY_ESSAYID : H01 (as <class 'str'>)
+ESSAY_RUNS : 50 (as <class 'int'>)
+ESSAY_SCENARIO : Essay H01, Config C4: evaluate Polygrid on healthcare datasets (as <class 'str'>)
+PARAM_ALPHA_RANGE : (0.05, 0.95, 0.05) (as <class 'tuple'>)
+PARAM_BALANCE : False (as <class 'bool'>)
+PARAM_COMPETITORS : ['Polygrid', 'Linear', 'Ridge', 'MLP', 'DT', 'RF', 'BRDT', 'BRRF', 'Random'] (as <class 'list'>)
+PARAM_DATAPARS : {'whoqol': ('whoqol', 1.0, 'o', ''), 'whoqol-ml-11': ('whoqol-ml-11', 1.0, 'o', ''), 'whoqol-ml-22': ('whoqol-ml-22', 1.0, 'o', ''), 'whoqol-lr-11': ('whoqol-lr-11', 1.0, 'o', ''), 'whoqol-lr-22': ('whoqol-lr-22', 1.0, 'o', ''), 'ampiab': ('ampiab', 1.0, 'o', ''), 'ampiab-ml-11': ('ampiab-ml-11', 1.0, 'o', ''), 'ampiab-ml-22': ('ampiab-ml-22', 1.0, 'o', ''), 'ampiab-lr-11': ('ampiab-lr-11', 1.0, 'o', ''), 'ampiab-lr-22': ('ampiab-lr-22', 1.0, 'o', ''), 'elsio1': ('elsio1', 1.0, 'o', ''), 'elsio1-ml-11': ('elsio1-ml-11', 1.0, 'o', ''), 'elsio1-ml-22': ('elsio1-ml-22', 1.0, 'o', ''), 'elsio1-lr-11': ('elsio1-lr-11', 1.0, 'o', ''), 'elsio1-lr-22': ('elsio1-lr-22', 1.0, 'o', '')} (as <class 'dict'>)
+PARAM_DATASETS : ['whoqol', 'whoqol-ml-11', 'whoqol-ml-22', 'whoqol-lr-11', 'whoqol-lr-22', 'ampiab', 'ampiab-ml-11', 'ampiab-ml-22', 'ampiab-lr-11', 'ampiab-lr-22', 'elsio1', 'elsio1-ml-11', 'elsio1-ml-22', 'elsio1-lr-11', 'elsio1-lr-22'] (as <class 'list'>)
+PARAM_FILENAME : healthcare_evaluation (as <class 'str'>)
+PARAM_GRIDSEARCH : {'nspd': [1, 2, 3], 'na': [1, 2, 3, 4, 5, 6, 7, 8], 'vorder': ['averages', 'rho', 'measures'], 'annulus_type': ['s-invariant', 'r-invariant', 'tree'], 'sector_type': ['cover', 'miss'], 'solver': ['lstsq', 'lstsqsym', 'lstsquni', 'ridge'], 'cutoff': ['single', 'multiple']} (as <class 'dict'>)
+PARAM_HIDE_TAGS : False (as <class 'bool'>)
+PARAM_MAXCORES : 4 (as <class 'int'>)
+PARAM_MAXLABELS : None (as <class 'NoneType'>)
+PARAM_POLYGRID : {'vorder': 'averages', 'init': 'full', 'norm': 'none', 'solver': 'lstsq', 'geoeng': 'shapely', 'annulus_type': 's-invariant', 'sector_type': 'cover', 'RAD': 1.0, 'ARES': 8, 'SRES': 8} (as <class 'dict'>)
+PARAM_SAVEIT : False (as <class 'bool'>)
+PARAM_SOURCEPATH : ['D:\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets'] (as <class 'list'>)
+PARAM_TARGETPATH : ['D:\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'results', 'healthcare'] (as <class 'list'>)
+PARAM_TESTFRAC : 0.2 (as <class 'float'>)
+
+[20250401201641] Determining which Polygrid configs will be explored
+[20250401201645] Starting producer in resume mode
+[20250401201645] -------------------------------------------------------------------------------------------------------
+[20250401201645] Stage 1A: assessing the Polygrid model across relevant contexts
+[20250401201645] -------------------------------------------------------------------------------------------------------
+[20250401201645] -------------------------------------------------------------------------------------------------------
+[20250401201645] Monitoring progress:
+[20250401201645] -- 0/0 tasks have been completed, with 0 failures
+[20250401201646] -------------------------------------------------------------------------------------------------------
+[20250401201646] Stage 1B - Determining the best Polygrid config for each dataset/scenario/metric:
+[20250401201647] -------------------------------------------------------------------------------------------------------
+[20250401201647] Stage 2: assessing competitors' performance across relevant contexts
+[20250401201647] -------------------------------------------------------------------------------------------------------
+[20250401201647] -------------------------------------------------------------------------------------------------------
+[20250401201647] Monitoring progress:
+[20250401201647] -- 0/0 tasks have been completed, with 0 failures (  0.0 tasks/min)
+[20250401201647] -------------------------------------------------------------------------------------------------------
+[20250401201647] Overall results:
+[20250401201647] 12, 3, 2275, 8f26017c-2571-4231-8399-8362bd504f18
+[20250401201647] 12, 3, 2275, None
+[20250401201647] 12, 3, 2275, None
+[20250401201647] 12, 3, 2275, None
+[20250401201647] 14, 3, 2173, 693773d7-3e8e-42ed-840c-48e80291392c
+[20250401201647] 14, 3, 3281, ce8d9ef4-2157-4cda-9e04-0976b3ff35c0
+[20250401201648] -------------------------------------------------------------------------------------------------------
+[20250401201648] This report was saved to D:\Task Stage\Task - SRESPIM\SRESPIM\datasets\results\healthcare\distribute_20250401201641_resume.log

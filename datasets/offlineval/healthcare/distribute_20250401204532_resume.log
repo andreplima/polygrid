@@ -1,0 +1,41 @@
+[20250401204532] Recovering definitions from ..\configs\evaluate_H01_C4.cfg
+[20250401204532] ESSAY_CONFIGID : C4 (as <class 'str'>)
+ESSAY_ESSAYID : H01 (as <class 'str'>)
+ESSAY_RUNS : 50 (as <class 'int'>)
+ESSAY_SCENARIO : Essay H01, Config C4: evaluate Polygrid on healthcare datasets (as <class 'str'>)
+PARAM_ALPHA_RANGE : (0.05, 0.95, 0.05) (as <class 'tuple'>)
+PARAM_BALANCE : False (as <class 'bool'>)
+PARAM_COMPETITORS : ['Polygrid', 'Linear', 'Ridge', 'MLP', 'DT', 'RF', 'BRDT', 'BRRF', 'Random'] (as <class 'list'>)
+PARAM_DATAPARS : {'whoqol': ('whoqol', 1.0, 'o', ''), 'whoqol-ml-11': ('whoqol-ml-11', 1.0, 'o', ''), 'whoqol-ml-22': ('whoqol-ml-22', 1.0, 'o', ''), 'whoqol-lr-11': ('whoqol-lr-11', 1.0, 'o', ''), 'whoqol-lr-22': ('whoqol-lr-22', 1.0, 'o', ''), 'ampiab': ('ampiab', 1.0, 'o', ''), 'ampiab-ml-11': ('ampiab-ml-11', 1.0, 'o', ''), 'ampiab-ml-22': ('ampiab-ml-22', 1.0, 'o', ''), 'ampiab-lr-11': ('ampiab-lr-11', 1.0, 'o', ''), 'ampiab-lr-22': ('ampiab-lr-22', 1.0, 'o', ''), 'elsio1': ('elsio1', 1.0, 'o', ''), 'elsio1-ml-11': ('elsio1-ml-11', 1.0, 'o', ''), 'elsio1-ml-22': ('elsio1-ml-22', 1.0, 'o', ''), 'elsio1-lr-11': ('elsio1-lr-11', 1.0, 'o', ''), 'elsio1-lr-22': ('elsio1-lr-22', 1.0, 'o', '')} (as <class 'dict'>)
+PARAM_DATASETS : ['whoqol', 'whoqol-ml-11', 'whoqol-ml-22', 'whoqol-lr-11', 'whoqol-lr-22', 'ampiab', 'ampiab-ml-11', 'ampiab-ml-22', 'ampiab-lr-11', 'ampiab-lr-22', 'elsio1', 'elsio1-ml-11', 'elsio1-ml-22', 'elsio1-lr-11', 'elsio1-lr-22'] (as <class 'list'>)
+PARAM_FILENAME : healthcare_evaluation (as <class 'str'>)
+PARAM_GRIDSEARCH : {'nspd': [1, 2, 3], 'na': [1, 2, 3, 4, 5, 6, 7, 8], 'vorder': ['averages', 'rho', 'measures'], 'annulus_type': ['s-invariant', 'r-invariant', 'tree'], 'sector_type': ['cover', 'miss'], 'solver': ['lstsq', 'lstsqsym', 'lstsquni', 'ridge'], 'cutoff': ['single', 'multiple']} (as <class 'dict'>)
+PARAM_HIDE_TAGS : False (as <class 'bool'>)
+PARAM_MAXCORES : 4 (as <class 'int'>)
+PARAM_MAXLABELS : None (as <class 'NoneType'>)
+PARAM_POLYGRID : {'vorder': 'averages', 'init': 'full', 'norm': 'none', 'solver': 'lstsq', 'geoeng': 'shapely', 'annulus_type': 's-invariant', 'sector_type': 'cover', 'RAD': 1.0, 'ARES': 8, 'SRES': 8} (as <class 'dict'>)
+PARAM_SAVEIT : False (as <class 'bool'>)
+PARAM_SOURCEPATH : ['D:\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets'] (as <class 'list'>)
+PARAM_TARGETPATH : ['D:\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'results', 'healthcare'] (as <class 'list'>)
+PARAM_TESTFRAC : 0.2 (as <class 'float'>)
+
+[20250401204532] Determining which Polygrid configs will be explored
+[20250401204536] Starting producer in resume mode
+[20250401204536] -------------------------------------------------------------------------------------------------------
+[20250401204536] Stage 1A: assessing the Polygrid model across relevant contexts
+[20250401204536] -------------------------------------------------------------------------------------------------------
+[20250401204536] -------------------------------------------------------------------------------------------------------
+[20250401204536] Monitoring progress:
+[20250401204536] -- 0/0 tasks have been completed, with 0 failures
+[20250401204537] -------------------------------------------------------------------------------------------------------
+[20250401204537] Stage 1B - Determining the best Polygrid config for each dataset/scenario/metric:
+[20250401204538] -------------------------------------------------------------------------------------------------------
+[20250401204538] Stage 2: assessing competitors' performance across relevant contexts
+[20250401204538] -------------------------------------------------------------------------------------------------------
+[20250401204538] MLP     	elsio1-ml-22 	(2, 8, 'measures', 'r-invariant', 'cover', 'lstsqsym', 'multiple')	[1760, 22, 5]
+[20250401204538] MLP     	elsio1-lr-22 	(2, 8, 'averages', 's-invariant', 'miss', 'lstsquni', 'multiple')	[1760, 22, 5]
+[20250401204538] MLP     	elsio1-lr-22 	(3, 7, 'measures', 'r-invariant', 'cover', 'lstsq', 'multiple')	[2310, 22, 5]
+[20250401204538] -------------------------------------------------------------------------------------------------------
+[20250401204538] Monitoring progress:
+[20250401204538] -- 0/3 tasks have been completed, with 0 failures
+[20250401204639] -- 0/3 tasks have been completed, with 0 failures

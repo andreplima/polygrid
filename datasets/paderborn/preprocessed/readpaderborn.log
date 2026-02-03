@@ -1,0 +1,165 @@
+[20250223235240] 
+  This script processes data files that were made available from the Paderborn repository:
+  https://en.cs.uni-paderborn.de/de/is/research/research-projects/software/label-ranking-datasets
+
+  The Paderborn repository contains the standard label ranking benchmark datasets, both
+  real and semi-synthetic, as proposed in:
+
+  [1] Cheng, Weiwei, and Eyke Hüllermeier. "Instance-Based Label Ranking using the
+      Mallows Model." In ECCBR workshops, pp. 143-157. 2008.
+
+  Most Paderborn datasets have been derived from datasets widely known by the machine
+  learning community. To the best of our knowledge, the process of derivation has
+  not been documented, but it can be shown that at least some Paderborn datasets:
+  1) have probably been derived by applyng min-max[-1, 1] to the original dataset
+     (e.g., iris and wine datasets), while others have been derived by applying
+     z-score normalisation (e.g., bodyfat);
+  2) include all the features from the original dataset (e.g., iris and wine
+     datasets), while others include just a subset of the original features (e.g.,
+     bodyfat);
+  3) have feature values expressed with a precision that, although compatible with
+     a normalisation procedure, differs significantly from the precision with which
+     the original data were reported. For example, feature values of the original
+     Iris dataset are reported in centimeters with single decimal precision, but
+     its Paderborn version reports adimensional feature values with six decimals.
+     It must be said that it is not possible to determine the original values of
+     each feature after normalisation is applied (and, thus, neither is it
+     possible to determine their original precision) unless additional metadata
+     is included to the dataset -- and this absence leads us to the next point;
+  4) miss significant metadata, such as feature and target names, description and
+     traceable history of the dataset (e.g., citation of the original article),
+     and the minimal data required to reproduce the process that was used to
+     transform the original dataset into its corresponding version in the
+     Paderborn repository.
+
+  These facts make it difficult to train the Polygrid model with data from the
+  Paderborn datasets, since Polygrid expects counting data. For this reason, this
+  script converts some data files into the format required by Polygrid CLI (i.e.,
+  pickled Bunch object, the standard used in sklearn.datasets). It looks for data
+  files in a local filesystem indicated in the config file for reader scripts
+  (e.g., readers_T01_C0.cfg). Selected data files are recovered from
+  [basepath]/[repository_i]/[sourcefolder]/*.txt, the original feature matrix of
+  the dataset is recovered, and then results are saved to
+  [basepath]/[repository_i]/[targetfolder] as a pickle file. Only files with
+  parameters defined in filename2pars are considered.
+
+
+[20250223235240] Parameters loaded from ..\configs\readers_T01_C0.cfg:
+ESSAY_CONFIGID : C0 (as <class 'str'>)
+ESSAY_ESSAYID : T01 (as <class 'str'>)
+ESSAY_RUNS : 10 (as <class 'int'>)
+ESSAY_SCENARIO : Essay T01, Config C0: configs for preprocessing dataset scripts (as <class 'str'>)
+PARAM_AMPIAB_FILENAME : AMPIAB.sav (as <class 'str'>)
+PARAM_AMPIAB_FUZZFACTOR : {11: 3.1, 22: 0.83} (as <class 'dict'>)
+PARAM_AMPIAB_SOURCEPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'each', 'original'] (as <class 'list'>)
+PARAM_AMPIAB_TARGETPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'each', 'preprocessed'] (as <class 'list'>)
+PARAM_ELSA_FILENAME : ELSAO1.sav (as <class 'str'>)
+PARAM_ELSA_SOURCEPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'elsa', 'original'] (as <class 'list'>)
+PARAM_ELSA_TARGETPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'elsa', 'preprocessed'] (as <class 'list'>)
+PARAM_ELSIO1_FILENAME : ELSIO1.dta (as <class 'str'>)
+PARAM_ELSIO1_FUZZFACTOR : {11: 3.6, 22: 1.132} (as <class 'dict'>)
+PARAM_ELSIO1_SOURCEPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'fiocruz', 'original'] (as <class 'list'>)
+PARAM_ELSIO1_TARGETPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'fiocruz', 'preprocessed'] (as <class 'list'>)
+PARAM_FOODTRUCK_A4ID : False (as <class 'bool'>)
+PARAM_FOODTRUCK_FILENAME : foodtruck.arff (as <class 'str'>)
+PARAM_FOODTRUCK_NO_FACTORS : False (as <class 'bool'>)
+PARAM_FOODTRUCK_SOURCEPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'foodtruck', 'original'] (as <class 'list'>)
+PARAM_FOODTRUCK_TARGETPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'foodtruck', 'preprocessed'] (as <class 'list'>)
+PARAM_PADERBORN_BASEPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets'] (as <class 'list'>)
+PARAM_PADERBORN_REPOSITORIES : ['paderborn'] (as <class 'list'>)
+PARAM_PADERBORN_SOURCEFOLDER : original (as <class 'str'>)
+PARAM_PADERBORN_TARGETFOLDER : preprocessed (as <class 'str'>)
+PARAM_WATER_FILENAME : water-quality-nom.arff (as <class 'str'>)
+PARAM_WATER_SOURCEPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'water', 'original'] (as <class 'list'>)
+PARAM_WATER_TARGETPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'water', 'preprocessed'] (as <class 'list'>)
+PARAM_WHOQOL_FILENAME : WHOQOL.xlsx (as <class 'str'>)
+PARAM_WHOQOL_FUZZFACTOR : {11: 2.46, 22: 1.1} (as <class 'dict'>)
+PARAM_WHOQOL_SOURCEPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'ufscar', 'original'] (as <class 'list'>)
+PARAM_WHOQOL_TARGETPATH : ['C:\\USERS\\ANDRE\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'datasets', 'ufscar', 'preprocessed'] (as <class 'list'>)
+
+[20250223235240] --------------------------------------------------------------------------------
+[20250223235240] Processing Paderborn data file iris_dense.txt
+[20250223235240] --------------------------------------------------------------------------------
+[20250223235240] -- feature matrix Z is 150 by 4, precision 6
+[20250223235240]    z_min (4,): [-1. -1. -1. -1.]
+[20250223235240]    z_max (4,): [1. 1. 1. 1.]
+[20250223235240]    z_mu  (4,): [-0.142593 -0.121667 -0.064859 -0.084444]
+[20250223235240]    set of labels: [0, 1, 2]
+[20250223235240]    the dataset seems to have been normalised by min-max [-1, 1]
+[20250223235240] -- recovering alternative dataset image (openmlid = 61)
+[20250223235240]    feature names: ['sepallength', 'sepalwidth', 'petallength', 'petalwidth']
+[20250223235240]    target names: ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
+[20250223235240]    feature matrix X is 150 by 4, precision 1
+[20250223235240]    x_min (4,): [4.3 2.  1.  0.1]
+[20250223235240]    x_max (4,): [7.9 4.4 6.9 2.5]
+[20250223235240]    x_mu  (4,): [5.8 3.1 3.8 1.2]
+[20250223235240] -- applying min-max [-1, 1] normalisation, column matching, and precision adjustment to the recovered data
+[20250223235240]    the following columns of X were selected: [0, 1, 2, 3]
+[20250223235240]    feature matrix W is 150 by 4, precision 6
+[20250223235240]    w_min (4,): [-1. -1. -1. -1.]
+[20250223235240]    w_max (4,): [1. 1. 1. 1.]
+[20250223235240]    w_mu  (4,): [-0.142593 -0.121667 -0.064859 -0.084444]
+[20250223235240] -- comparing feature matrices recovered from Paderborn data file (Z) and OpenML (W)
+[20250223235240]    Frobenius norm: 4.4007316679024525e-06
+[20250223235240]    0 exceptions found:
+[20250223235240] --------------------------------------------------------------------------------
+[20250223235240] Processing Paderborn data file vowel_dense.txt
+[20250223235240] --------------------------------------------------------------------------------
+[20250223235240] -- feature matrix Z is 528 by 10, precision 6
+[20250223235240]    z_min (10,): [-1. -1. -1. -1. -1. -1. -1. -1. -1. -1.]
+[20250223235240]    z_max (10,): [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+[20250223235240]    z_mu  (10,): [-0.04248  -0.051877  0.04564   0.074435 -0.12192  -0.101511  0.057468
+  0.153334 -0.079474  0.037342]
+[20250223235240]    set of labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[20250223235240]    the dataset seems to have been normalised by min-max [-1, 1]
+[20250223235240] -- recovering alternative dataset image (openmlid = 42865)
+[20250223235240]    feature names: ('A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10')
+[20250223235240]    target names: ('L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8', 'L9', 'L10', 'L11')
+[20250223235240]    feature matrix X is 528 by 10, precision 6
+[20250223235240]    x_min (10,): [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[20250223235240]    x_max (10,): [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+[20250223235240]    x_mu  (10,): [0.47876  0.474062 0.52282  0.537217 0.43904  0.449244 0.528734 0.576667
+ 0.460263 0.518671]
+[20250223235240] -- applying min-max [-1, 1] normalisation, column matching, and precision adjustment to the recovered data
+[20250223235240]    the following columns of X were selected: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[20250223235240]    feature matrix W is 528 by 10, precision 6
+[20250223235240]    w_min (10,): [-1. -1. -1. -1. -1. -1. -1. -1. -1. -1.]
+[20250223235240]    w_max (10,): [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+[20250223235240]    w_mu  (10,): [-0.04248  -0.051877  0.04564   0.074435 -0.12192  -0.101511  0.057467
+  0.153334 -0.079474  0.037342]
+[20250223235240] -- comparing feature matrices recovered from Paderborn data file (Z) and OpenML (W)
+[20250223235240]    Frobenius norm: 0.00020997973094593402
+[20250223235240]    0 exceptions found:
+[20250223235240] --------------------------------------------------------------------------------
+[20250223235240] Processing Paderborn data file wine_dense.txt
+[20250223235240] --------------------------------------------------------------------------------
+[20250223235240] -- feature matrix Z is 178 by 13, precision 6
+[20250223235240]    z_min (13,): [-1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1.]
+[20250223235240]    z_max (13,): [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+[20250223235240]    z_mu  (13,): [ 0.037167 -0.369032  0.076489 -0.082996 -0.353444 -0.093026 -0.287228
+ -0.12508  -0.254953 -0.355275 -0.223659 -0.01708  -0.331108]
+[20250223235240]    set of labels: [0, 1, 2]
+[20250223235240]    the dataset seems to have been normalised by min-max [-1, 1]
+[20250223235240] -- recovering alternative dataset image (openmlid = 187)
+[20250223235240]    feature names: ['Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium', 'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity', 'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
+[20250223235240]    target names: ['1', '2', '3']
+[20250223235240]    feature matrix X is 178 by 13, precision 2
+[20250223235240]    x_min (13,): [ 11.03   0.74   1.36  10.6   70.     0.98   0.34   0.13   0.41   1.28
+   0.48   1.27 278.  ]
+[20250223235240]    x_max (13,): [  14.83    5.8     3.23   30.    162.      3.88    5.08    0.66    3.58
+   13.      1.71    4.   1680.  ]
+[20250223235240]    x_mu  (13,): [ 13.     2.34   2.37  19.49  99.74   2.3    2.03   0.36   1.59   5.06
+   0.96   2.61 746.89]
+[20250223235240] -- applying min-max [-1, 1] normalisation, column matching, and precision adjustment to the recovered data
+[20250223235240]    the following columns of X were selected: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+[20250223235240]    feature matrix W is 178 by 13, precision 6
+[20250223235240]    w_min (13,): [-1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1. -1.]
+[20250223235240]    w_max (13,): [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+[20250223235240]    w_mu  (13,): [ 0.037167 -0.369032  0.076489 -0.082995 -0.353444 -0.093026 -0.287228
+ -0.125079 -0.254953 -0.355275 -0.223659 -0.01708  -0.331108]
+[20250223235240] -- comparing feature matrices recovered from Paderborn data file (Z) and OpenML (W)
+[20250223235240]    Frobenius norm: 9.576742087249438e-06
+[20250223235240]    0 exceptions found:
+[20250223235240] 
+[20250223235240] This report was saved to C:\USERS\ANDRE\Task Stage\Task - SRESPIM\SRESPIM\datasets\paderborn\preprocessed\readpaderborn.log
+[20250223235240] Done.

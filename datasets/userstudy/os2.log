@@ -1,0 +1,303 @@
+[20240320204742] Translation services set up for language [pt_BR]
+[20240320204742] Processing essay configuration file [..\configs\genexpscripts_H01_C0.cfg]
+ESSAY_CONFIGID : C0 (as <class 'str'>)
+ESSAY_ESSAYID : H01 (as <class 'str'>)
+ESSAY_RUNS : 1 (as <class 'int'>)
+ESSAY_SCENARIO : Essay H01, Config C0: Online Study 2, with undergraduates (hot) (as <class 'str'>)
+PARAM_ALPHA_RANGE : (0.05, 1.0, 0.05) (as <class 'tuple'>)
+PARAM_BACK2BACKAS : False (as <class 'bool'>)
+PARAM_BALANCE : True (as <class 'bool'>)
+PARAM_CONTENT_EVN : instructions_content_even.txt (as <class 'str'>)
+PARAM_CONTENT_ODD : instructions_content_odd.txt (as <class 'str'>)
+PARAM_DATACOPIES : 0 (as <class 'int'>)
+PARAM_DBNAME : iris (as <class 'str'>)
+PARAM_EXCLUDE : [('Status', ['FREE', 'ALLOCATED']), ('Withdraw', ['True'])] (as <class 'list'>)
+PARAM_HIDE_TAGS : True (as <class 'bool'>)
+PARAM_MAXCORES : 1 (as <class 'int'>)
+PARAM_NA : 1 (as <class 'int'>)
+PARAM_NSPD : 1 (as <class 'int'>)
+PARAM_NUMEXPERTS : 100 (as <class 'int'>)
+PARAM_POLYGRID : {'vorder': 'averages', 'init': 'full', 'norm': 'none', 'solver': 'pinv', 'geoeng': 'shapely', 'annulus_type': 's-invariant', 'sector_type': 'cover', 'RAD': 1.0, 'ARES': 8, 'SRES': 8} (as <class 'dict'>)
+PARAM_REPLICA : os2 (as <class 'str'>)
+PARAM_ROUTE2AGENT : None (as <class 'NoneType'>)
+PARAM_SCHEME : [('TT03', 1, 1, False, 'Section {0} diagram', 'instruction'), ('TT04', 3, 3, False, 'Section {0} diagram', 'warmup'), ('TT03', 1, 1, False, 'Section {0} diagram', 'set-ready'), ('TT04', 8, 2, True, 'Section {0} diagram', 'go')] (as <class 'list'>)
+PARAM_SKIPFIGURES : False (as <class 'bool'>)
+PARAM_SOURCEPATH : ['D:\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'prototypes', 'prototype06', 'configs'] (as <class 'list'>)
+PARAM_SPLITFRAC : 0.2 (as <class 'float'>)
+PARAM_TARGETPATH : ['D:\\', 'Task Stage', 'Task - SRESPIM', 'SRESPIM', 'userstudies'] (as <class 'list'>)
+PARAM_TTC_TASK : {'TT03': 120, 'TT04': 20} (as <class 'dict'>)
+PARAM_WARMUP_PASS : (3, 3) (as <class 'tuple'>)
+
+[20240320204742] Loading iris dataset
+[20240320204742] Training Polygrid model
+[20240320204742] -- Model Polygrid, config (1, 1, 'averages', 'full', 'none', 'pinv', 'shapely', 's-invariant', 'cover', 1.0, 8, 8)
+[20240320204742]    performance: precision	 [1.  0.9 0.9]
+[20240320204742]    performance: recall	 [1.  0.9 0.9]
+[20240320204742]    model size : (24, 3, 4)
+[20240320204742] Creating experiment scripts file (to be uploaded to Marjoryws)
+[20240320204744] -- Experiment scripts file saved as os2_pt_BR.csv
+[20240320204744] Distribution of categories per script
+[20240320204744] -- Script 00: [(0, 3), (1, 1), (2, 4)]
+[20240320204744] -- Script 01: [(0, 3), (1, 1), (2, 4)]
+[20240320204744] -- Script 02: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 03: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 04: [(0, 5), (1, 1), (2, 2)]
+[20240320204744] -- Script 05: [(0, 5), (1, 1), (2, 2)]
+[20240320204744] -- Script 06: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 07: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 08: [(0, 2), (1, 3), (2, 3)]
+[20240320204744] -- Script 09: [(0, 2), (1, 3), (2, 3)]
+[20240320204744] -- Script 10: [(0, 2), (1, 1), (2, 5)]
+[20240320204744] -- Script 11: [(0, 2), (1, 1), (2, 5)]
+[20240320204744] -- Script 12: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 13: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 14: [(0, 3), (1, 3), (2, 2)]
+[20240320204744] -- Script 15: [(0, 3), (1, 3), (2, 2)]
+[20240320204744] -- Script 16: [(0, 3), (1, 3), (2, 2)]
+[20240320204744] -- Script 17: [(0, 3), (1, 3), (2, 2)]
+[20240320204744] -- Script 18: [(0, 5), (1, 1), (2, 2)]
+[20240320204744] -- Script 19: [(0, 5), (1, 1), (2, 2)]
+[20240320204744] -- Script 20: [(0, 2), (1, 3), (2, 3)]
+[20240320204744] -- Script 21: [(0, 2), (1, 3), (2, 3)]
+[20240320204744] -- Script 22: [(0, 2), (1, 3), (2, 3)]
+[20240320204744] -- Script 23: [(0, 2), (1, 3), (2, 3)]
+[20240320204744] -- Script 24: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 25: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 26: [(0, 2), (2, 6)]
+[20240320204744] -- Script 27: [(0, 2), (2, 6)]
+[20240320204744] -- Script 28: [(0, 4), (1, 2), (2, 2)]
+[20240320204744] -- Script 29: [(0, 4), (1, 2), (2, 2)]
+[20240320204744] -- Script 30: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 31: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 32: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 33: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 34: [(0, 4), (1, 2), (2, 2)]
+[20240320204744] -- Script 35: [(0, 4), (1, 2), (2, 2)]
+[20240320204744] -- Script 36: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 37: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 38: [(0, 2), (2, 6)]
+[20240320204744] -- Script 39: [(0, 2), (2, 6)]
+[20240320204744] -- Script 40: [(0, 3), (1, 3), (2, 2)]
+[20240320204744] -- Script 41: [(0, 3), (1, 3), (2, 2)]
+[20240320204744] -- Script 42: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 43: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 44: [(0, 4), (1, 2), (2, 2)]
+[20240320204744] -- Script 45: [(0, 4), (1, 2), (2, 2)]
+[20240320204744] -- Script 46: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 47: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 48: [(0, 3), (2, 5)]
+[20240320204744] -- Script 49: [(0, 3), (2, 5)]
+[20240320204744] -- Script 50: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 51: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 52: [(0, 3), (1, 3), (2, 2)]
+[20240320204744] -- Script 53: [(0, 3), (1, 3), (2, 2)]
+[20240320204744] -- Script 54: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 55: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 56: [(0, 6), (2, 2)]
+[20240320204744] -- Script 57: [(0, 6), (2, 2)]
+[20240320204744] -- Script 58: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 59: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 60: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 61: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 62: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 63: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 64: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 65: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 66: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 67: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 68: [(0, 6), (2, 2)]
+[20240320204744] -- Script 69: [(0, 6), (2, 2)]
+[20240320204744] -- Script 70: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 71: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 72: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 73: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 74: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 75: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 76: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 77: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 78: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 79: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 80: [(0, 6), (2, 2)]
+[20240320204744] -- Script 81: [(0, 6), (2, 2)]
+[20240320204744] -- Script 82: [(0, 2), (1, 3), (2, 3)]
+[20240320204744] -- Script 83: [(0, 2), (1, 3), (2, 3)]
+[20240320204744] -- Script 84: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 85: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 86: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 87: [(0, 2), (1, 2), (2, 4)]
+[20240320204744] -- Script 88: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 89: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 90: [(0, 4), (2, 4)]
+[20240320204744] -- Script 91: [(0, 4), (2, 4)]
+[20240320204744] -- Script 92: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 93: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 94: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 95: [(0, 2), (1, 4), (2, 2)]
+[20240320204744] -- Script 96: [(0, 2), (1, 1), (2, 5)]
+[20240320204744] -- Script 97: [(0, 2), (1, 1), (2, 5)]
+[20240320204744] -- Script 98: [(0, 5), (1, 1), (2, 2)]
+[20240320204744] -- Script 99: [(0, 5), (1, 1), (2, 2)]
+[20240320204744] -- Totals   : [(0, 270), (1, 260), (2, 270)]
+[20240320204744] Creating answer sheets
+[20240320204745] -- Answer sheet for script 0 saved as os2_script_01.html
+[20240320204745] -- Answer sheet for script 1 saved as os2_script_02.html
+[20240320204745] -- Answer sheet for script 2 saved as os2_script_03.html
+[20240320204745] -- Answer sheet for script 3 saved as os2_script_04.html
+[20240320204745] -- Answer sheet for script 4 saved as os2_script_05.html
+[20240320204745] -- Answer sheet for script 5 saved as os2_script_06.html
+[20240320204745] -- Answer sheet for script 6 saved as os2_script_07.html
+[20240320204745] -- Answer sheet for script 7 saved as os2_script_08.html
+[20240320204745] -- Answer sheet for script 8 saved as os2_script_09.html
+[20240320204745] -- Answer sheet for script 9 saved as os2_script_10.html
+[20240320204745] -- Answer sheet for script 10 saved as os2_script_11.html
+[20240320204745] -- Answer sheet for script 11 saved as os2_script_12.html
+[20240320204745] -- Answer sheet for script 12 saved as os2_script_13.html
+[20240320204745] -- Answer sheet for script 13 saved as os2_script_14.html
+[20240320204745] -- Answer sheet for script 14 saved as os2_script_15.html
+[20240320204745] -- Answer sheet for script 15 saved as os2_script_16.html
+[20240320204745] -- Answer sheet for script 16 saved as os2_script_17.html
+[20240320204745] -- Answer sheet for script 17 saved as os2_script_18.html
+[20240320204745] -- Answer sheet for script 18 saved as os2_script_19.html
+[20240320204745] -- Answer sheet for script 19 saved as os2_script_20.html
+[20240320204745] -- Answer sheet for script 20 saved as os2_script_21.html
+[20240320204745] -- Answer sheet for script 21 saved as os2_script_22.html
+[20240320204745] -- Answer sheet for script 22 saved as os2_script_23.html
+[20240320204745] -- Answer sheet for script 23 saved as os2_script_24.html
+[20240320204745] -- Answer sheet for script 24 saved as os2_script_25.html
+[20240320204745] -- Answer sheet for script 25 saved as os2_script_26.html
+[20240320204745] -- Answer sheet for script 26 saved as os2_script_27.html
+[20240320204745] -- Answer sheet for script 27 saved as os2_script_28.html
+[20240320204745] -- Answer sheet for script 28 saved as os2_script_29.html
+[20240320204745] -- Answer sheet for script 29 saved as os2_script_30.html
+[20240320204745] -- Answer sheet for script 30 saved as os2_script_31.html
+[20240320204745] -- Answer sheet for script 31 saved as os2_script_32.html
+[20240320204745] -- Answer sheet for script 32 saved as os2_script_33.html
+[20240320204745] -- Answer sheet for script 33 saved as os2_script_34.html
+[20240320204745] -- Answer sheet for script 34 saved as os2_script_35.html
+[20240320204745] -- Answer sheet for script 35 saved as os2_script_36.html
+[20240320204745] -- Answer sheet for script 36 saved as os2_script_37.html
+[20240320204745] -- Answer sheet for script 37 saved as os2_script_38.html
+[20240320204745] -- Answer sheet for script 38 saved as os2_script_39.html
+[20240320204745] -- Answer sheet for script 39 saved as os2_script_40.html
+[20240320204745] -- Answer sheet for script 40 saved as os2_script_41.html
+[20240320204745] -- Answer sheet for script 41 saved as os2_script_42.html
+[20240320204745] -- Answer sheet for script 42 saved as os2_script_43.html
+[20240320204745] -- Answer sheet for script 43 saved as os2_script_44.html
+[20240320204745] -- Answer sheet for script 44 saved as os2_script_45.html
+[20240320204745] -- Answer sheet for script 45 saved as os2_script_46.html
+[20240320204745] -- Answer sheet for script 46 saved as os2_script_47.html
+[20240320204745] -- Answer sheet for script 47 saved as os2_script_48.html
+[20240320204745] -- Answer sheet for script 48 saved as os2_script_49.html
+[20240320204745] -- Answer sheet for script 49 saved as os2_script_50.html
+[20240320204745] -- Answer sheet for script 50 saved as os2_script_51.html
+[20240320204745] -- Answer sheet for script 51 saved as os2_script_52.html
+[20240320204745] -- Answer sheet for script 52 saved as os2_script_53.html
+[20240320204745] -- Answer sheet for script 53 saved as os2_script_54.html
+[20240320204745] -- Answer sheet for script 54 saved as os2_script_55.html
+[20240320204745] -- Answer sheet for script 55 saved as os2_script_56.html
+[20240320204745] -- Answer sheet for script 56 saved as os2_script_57.html
+[20240320204745] -- Answer sheet for script 57 saved as os2_script_58.html
+[20240320204745] -- Answer sheet for script 58 saved as os2_script_59.html
+[20240320204745] -- Answer sheet for script 59 saved as os2_script_60.html
+[20240320204745] -- Answer sheet for script 60 saved as os2_script_61.html
+[20240320204745] -- Answer sheet for script 61 saved as os2_script_62.html
+[20240320204745] -- Answer sheet for script 62 saved as os2_script_63.html
+[20240320204745] -- Answer sheet for script 63 saved as os2_script_64.html
+[20240320204745] -- Answer sheet for script 64 saved as os2_script_65.html
+[20240320204745] -- Answer sheet for script 65 saved as os2_script_66.html
+[20240320204745] -- Answer sheet for script 66 saved as os2_script_67.html
+[20240320204745] -- Answer sheet for script 67 saved as os2_script_68.html
+[20240320204745] -- Answer sheet for script 68 saved as os2_script_69.html
+[20240320204745] -- Answer sheet for script 69 saved as os2_script_70.html
+[20240320204745] -- Answer sheet for script 70 saved as os2_script_71.html
+[20240320204745] -- Answer sheet for script 71 saved as os2_script_72.html
+[20240320204745] -- Answer sheet for script 72 saved as os2_script_73.html
+[20240320204745] -- Answer sheet for script 73 saved as os2_script_74.html
+[20240320204745] -- Answer sheet for script 74 saved as os2_script_75.html
+[20240320204745] -- Answer sheet for script 75 saved as os2_script_76.html
+[20240320204745] -- Answer sheet for script 76 saved as os2_script_77.html
+[20240320204745] -- Answer sheet for script 77 saved as os2_script_78.html
+[20240320204745] -- Answer sheet for script 78 saved as os2_script_79.html
+[20240320204745] -- Answer sheet for script 79 saved as os2_script_80.html
+[20240320204745] -- Answer sheet for script 80 saved as os2_script_81.html
+[20240320204745] -- Answer sheet for script 81 saved as os2_script_82.html
+[20240320204745] -- Answer sheet for script 82 saved as os2_script_83.html
+[20240320204745] -- Answer sheet for script 83 saved as os2_script_84.html
+[20240320204745] -- Answer sheet for script 84 saved as os2_script_85.html
+[20240320204745] -- Answer sheet for script 85 saved as os2_script_86.html
+[20240320204745] -- Answer sheet for script 86 saved as os2_script_87.html
+[20240320204745] -- Answer sheet for script 87 saved as os2_script_88.html
+[20240320204745] -- Answer sheet for script 88 saved as os2_script_89.html
+[20240320204745] -- Answer sheet for script 89 saved as os2_script_90.html
+[20240320204745] -- Answer sheet for script 90 saved as os2_script_91.html
+[20240320204745] -- Answer sheet for script 91 saved as os2_script_92.html
+[20240320204745] -- Answer sheet for script 92 saved as os2_script_93.html
+[20240320204745] -- Answer sheet for script 93 saved as os2_script_94.html
+[20240320204745] -- Answer sheet for script 94 saved as os2_script_95.html
+[20240320204745] -- Answer sheet for script 95 saved as os2_script_96.html
+[20240320204745] -- Answer sheet for script 96 saved as os2_script_97.html
+[20240320204745] -- Answer sheet for script 97 saved as os2_script_98.html
+[20240320204745] -- Answer sheet for script 98 saved as os2_script_99.html
+[20240320204745] -- Answer sheet for script 99 saved as os2_script_100.html
+[20240320204745] Creating image resources
+[20240320204745] -- Case 49 (/os2/1/warmup/polygrid/first/common/49) saved to os2_iris_case_049_polygrid.png
+[20240320204747] -- Case 82 (/os2/1/warmup/polygrid/first/common/82) saved to os2_iris_case_082_polygrid.png
+[20240320204749] -- Case 104 (/os2/1/warmup/polygrid/first/common/104) saved to os2_iris_case_104_polygrid.png
+[20240320204750] -- Case 103 (/os2/3/go/polygrid/first/left/103) saved to os2_iris_case_103_polygrid.png
+[20240320204751] -- Case 75 (/os2/3/go/polygrid/first/left/75) saved to os2_iris_case_075_polygrid.png
+[20240320204753] -- Case 115 (/os2/3/go/polygrid/first/common/115) saved to os2_iris_case_115_polygrid.png
+[20240320204754] -- Case 38 (/os2/3/go/polygrid/first/common/38) saved to os2_iris_case_038_polygrid.png
+[20240320204756] -- Case 41 (/os2/3/go/polygrid/first/right/41) saved to os2_iris_case_041_polygrid.png
+[20240320204757] -- Case 131 (/os2/3/go/polygrid/first/right/131) saved to os2_iris_case_131_polygrid.png
+[20240320204759] -- Case 49 (/os2/5/warmup/barsgrid/last/common/49) saved to os2_iris_case_049_barsgrid.png
+[20240320204800] -- Case 82 (/os2/5/warmup/barsgrid/last/common/82) saved to os2_iris_case_082_barsgrid.png
+[20240320204801] -- Case 104 (/os2/5/warmup/barsgrid/last/common/104) saved to os2_iris_case_104_barsgrid.png
+[20240320204803] -- Case 103 (/os2/7/go/barsgrid/last/left/103) saved to os2_iris_case_103_barsgrid.png
+[20240320204804] -- Case 75 (/os2/7/go/barsgrid/last/left/75) saved to os2_iris_case_075_barsgrid.png
+[20240320204806] -- Case 115 (/os2/7/go/barsgrid/last/common/115) saved to os2_iris_case_115_barsgrid.png
+[20240320204807] -- Case 38 (/os2/7/go/barsgrid/last/common/38) saved to os2_iris_case_038_barsgrid.png
+[20240320204808] -- Case 41 (/os2/7/go/barsgrid/last/right/41) saved to os2_iris_case_041_barsgrid.png
+[20240320204810] -- Case 131 (/os2/7/go/barsgrid/last/right/131) saved to os2_iris_case_131_barsgrid.png
+[20240320204811] -- Case 95 (/os2/3/go/polygrid/first/left/95) saved to os2_iris_case_095_polygrid.png
+[20240320204812] -- Case 84 (/os2/3/go/polygrid/first/left/84) saved to os2_iris_case_084_polygrid.png
+[20240320204814] -- Case 51 (/os2/3/go/polygrid/first/right/51) saved to os2_iris_case_051_polygrid.png
+[20240320204815] -- Case 98 (/os2/3/go/polygrid/first/right/98) saved to os2_iris_case_098_polygrid.png
+[20240320204817] -- Case 95 (/os2/7/go/barsgrid/last/left/95) saved to os2_iris_case_095_barsgrid.png
+[20240320204818] -- Case 84 (/os2/7/go/barsgrid/last/left/84) saved to os2_iris_case_084_barsgrid.png
+[20240320204820] -- Case 51 (/os2/7/go/barsgrid/last/right/51) saved to os2_iris_case_051_barsgrid.png
+[20240320204821] -- Case 98 (/os2/7/go/barsgrid/last/right/98) saved to os2_iris_case_098_barsgrid.png
+[20240320204822] -- Case 54 (/os2/3/go/polygrid/first/left/54) saved to os2_iris_case_054_polygrid.png
+[20240320204824] -- Case 23 (/os2/3/go/polygrid/first/left/23) saved to os2_iris_case_023_polygrid.png
+[20240320204825] -- Case 13 (/os2/3/go/polygrid/first/right/13) saved to os2_iris_case_013_polygrid.png
+[20240320204827] -- Case 54 (/os2/7/go/barsgrid/last/left/54) saved to os2_iris_case_054_barsgrid.png
+[20240320204828] -- Case 23 (/os2/7/go/barsgrid/last/left/23) saved to os2_iris_case_023_barsgrid.png
+[20240320204830] -- Case 13 (/os2/7/go/barsgrid/last/right/13) saved to os2_iris_case_013_barsgrid.png
+[20240320204831] -- Case 53 (/os2/3/go/polygrid/first/left/53) saved to os2_iris_case_053_polygrid.png
+[20240320204832] -- Case 53 (/os2/7/go/barsgrid/last/left/53) saved to os2_iris_case_053_barsgrid.png
+[20240320204834] -- Case 121 (/os2/3/go/polygrid/first/right/121) saved to os2_iris_case_121_polygrid.png
+[20240320204835] -- Case 121 (/os2/7/go/barsgrid/last/right/121) saved to os2_iris_case_121_barsgrid.png
+[20240320204837] -- Case 126 (/os2/3/go/polygrid/first/right/126) saved to os2_iris_case_126_polygrid.png
+[20240320204838] -- Case 129 (/os2/3/go/polygrid/first/right/129) saved to os2_iris_case_129_polygrid.png
+[20240320204839] -- Case 126 (/os2/7/go/barsgrid/last/right/126) saved to os2_iris_case_126_barsgrid.png
+[20240320204841] -- Case 129 (/os2/7/go/barsgrid/last/right/129) saved to os2_iris_case_129_barsgrid.png
+[20240320204842] -- Case 89 (/os2/3/go/polygrid/first/left/89) saved to os2_iris_case_089_polygrid.png
+[20240320204843] -- Case 52 (/os2/3/go/polygrid/first/right/52) saved to os2_iris_case_052_polygrid.png
+[20240320204845] -- Case 89 (/os2/7/go/barsgrid/last/left/89) saved to os2_iris_case_089_barsgrid.png
+[20240320204846] -- Case 52 (/os2/7/go/barsgrid/last/right/52) saved to os2_iris_case_052_barsgrid.png
+[20240320204848] -- Case 18 (/os2/3/go/polygrid/first/left/18) saved to os2_iris_case_018_polygrid.png
+[20240320204849] -- Case 18 (/os2/7/go/barsgrid/last/left/18) saved to os2_iris_case_018_barsgrid.png
+[20240320204850] -- Case 15 (/os2/3/go/polygrid/first/right/15) saved to os2_iris_case_015_polygrid.png
+[20240320204852] -- Case 15 (/os2/7/go/barsgrid/last/right/15) saved to os2_iris_case_015_barsgrid.png
+[20240320204853] -- Case 45 (/os2/3/go/polygrid/first/left/45) saved to os2_iris_case_045_polygrid.png
+[20240320204854] -- Case 45 (/os2/7/go/barsgrid/last/left/45) saved to os2_iris_case_045_barsgrid.png
+[20240320204856] -- Case 124 (/os2/3/go/polygrid/first/left/124) saved to os2_iris_case_124_polygrid.png
+[20240320204857] -- Case 118 (/os2/3/go/polygrid/first/right/118) saved to os2_iris_case_118_polygrid.png
+[20240320204859] -- Case 124 (/os2/7/go/barsgrid/last/left/124) saved to os2_iris_case_124_barsgrid.png
+[20240320204900] -- Case 118 (/os2/7/go/barsgrid/last/right/118) saved to os2_iris_case_118_barsgrid.png
+[20240320204901] -- Case 46 (/os2/3/go/polygrid/first/left/46) saved to os2_iris_case_046_polygrid.png
+[20240320204903] -- Case 46 (/os2/7/go/barsgrid/last/left/46) saved to os2_iris_case_046_barsgrid.png
+[20240320204904] -- Case 141 (/os2/3/go/polygrid/first/right/141) saved to os2_iris_case_141_polygrid.png
+[20240320204906] -- Case 141 (/os2/7/go/barsgrid/last/right/141) saved to os2_iris_case_141_barsgrid.png
+[20240320204907] -- Case 12 (/os2/3/go/polygrid/first/left/12) saved to os2_iris_case_012_polygrid.png
+[20240320204908] -- Case 12 (/os2/7/go/barsgrid/last/left/12) saved to os2_iris_case_012_barsgrid.png
+[20240320204910] All resources saved to D:\Task Stage\Task - SRESPIM\SRESPIM\userstudies\os2\H01\C0
