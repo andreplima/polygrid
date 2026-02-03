@@ -10,6 +10,7 @@ It is a research prototype that was created to automate recurring tasks during t
 >     Available at https://arxiv.org/abs/2601.19824 
 >     (and also here ./literature/polygrid_paper.pdf)
 
+Please cite the article if this software turns out to be useful for your research.
 This work has derived from the following doctoral thesis:
 
 > [2] Andre Paulino de Lima. An interpretable recommendation model for psychometric
@@ -17,24 +18,9 @@ This work has derived from the following doctoral thesis:
 >     to gerontological primary care. 2026. Doctoral thesis (to be defended; the
 >     pre-examination version can be consulted here ./literature/polygrid_thesis.pdf)
 
-Polygrid is a transparent, interpretable recommendation model that displays an interactive diagram as a visual explanation for any recommendation it provides.
+Polygrid is a transparent, interpretable recommendation model that displays an interactive diagram as a visual explanation for any recommendation it provides, as shown below:
+
 ![A Polygrid explanation diagram for instance 95 of the Iris dataset](logo.svg)
-
-For a crash course on Polygrid model/CLI, consider watching some of these videos:
-
-- I want a 5-min intro to Polygrid
- (soon)
-
-- I want to watch a hands-on presentation of the paper (15-min)
- (soon)
-
-- I want to explore my dataset with the Polygrid CLI
- (soon)
-
-Please cite the article if this software turns out to be useful for your research.
-
-Disclaimer: The first author provides this software "as is", with no express or implied warranties.
-Also, the healthcare datasets mentioned in the paper/thesis above do not come with the software: users must request them from their owners or curators and preprocess them using the corresponding “read*.py” scripts found in the ./prototypes/readers folder.
 
 ##Installation (Windows):
 - After cloning this repository, run:
@@ -69,3 +55,17 @@ python cli.py ../configs/evaluate_H01_C4.cfg < ../scripts/demo.in
 ## Where is the supplementary data?
 The detailed data collected from the offline evaluation and the user study reported in the paper/thesis are available in ./datasets/offlineval and ./datasets/userstudy folders.
 
+## How to learn more about the Polygrid model?
+For a crash course on Polygrid model/CLI, consider watching some of these videos:
+
+- I want a 5-min intro to Polygrid
+ (soon)
+
+- I want to watch a hands-on presentation of the paper (15-min)
+ (soon)
+
+- I want to explore my dataset with the Polygrid CLI
+ (soon)
+
+Disclaimer: The first author provides this software "as is", with no express or implied warranties.
+Also, the healthcare datasets mentioned in the paper/thesis above do not come with the software: users must request them from their owners or curators and preprocess them using the corresponding “read*.py” scripts found in the ./prototypes/readers folder.
