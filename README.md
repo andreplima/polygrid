@@ -29,7 +29,7 @@ cd polygrid
 createnv.bat
 activate polygrid
 cd prototypes\code
-python cli.py ..\configs\evaluate_H01_C4.cfg < ..\scripts\autotest.in
+python cli.py ..\configs\evaluate_H01_C1.cfg < ..\scripts\autotest.in
 ```
 
 ## Installation (Linux):
@@ -44,7 +44,7 @@ python cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
 
 ## Run a demo:
 ```
-python cli.py ../configs/evaluate_H01_C4.cfg < ../scripts/demo.in
+python cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/demo.in
 ```
 
 ## How to run the Polygrid CLI:
