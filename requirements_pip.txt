@@ -1,0 +1,93 @@
+amqp==5.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+beautifulsoup4==4.12.2
+billiard==4.2.0
+bootstrapped==0.0.2
+brotlipy==0.7.0
+celery==5.4.0
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+cffi @ file:///C:/b/abs_49n3v2hyhr/croot/cffi_1670423218144/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+clarabel==0.9.0
+click==8.1.7
+click-didyoumean==0.3.1
+click-plugins==1.1.1
+click-repl==0.3.0
+colorama==0.4.6
+cryptography @ file:///C:/b/abs_8ecplyc3n2/croot/cryptography_1677533105000/work
+cvxpy==1.5.3
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+ecos==2.0.14
+et-xmlfile==1.1.0
+filelock==3.12.0
+future==1.0.0
+gdown==4.7.1
+idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
+joblib @ file:///C:/b/abs_e60_bwl1v6/croot/joblib_1666298845728/work
+kiwisolver @ file:///C:/b/abs_88mdhvtahm/croot/kiwisolver_1672387921783/work
+kombu==5.3.7
+liac-arff==2.5.0
+matplotlib @ file:///C:/ci/matplotlib-base_1607956546480/work
+minio==7.2.5
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+mkl-service==2.4.0
+MouseInfo==0.1.3
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1667391556261/work
+numpy @ file:///C:/b/abs_datssh7cer/croot/numpy_and_numpy_base_1672336199388/work
+openml==0.14.2
+openpyxl==3.1.2
+osqp==0.6.7.post1
+packaging @ file:///C:/b/abs_ed_kb9w6g4/croot/packaging_1678965418855/work
+palmerpenguins==0.1.4
+pandas @ file:///D:/bld/pandas_1666802142864/work
+Pillow==9.4.0
+ply==3.11
+pooch @ file:///tmp/build/80754af9/pooch_1623324770023/work
+primefac==2.0.12
+prompt_toolkit==3.0.45
+psutil==5.9.8
+pyarrow==15.0.2
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycryptodome==3.20.0
+PyGetWindow==0.0.9
+PyMsgBox==1.0.9
+pyOpenSSL @ file:///C:/b/abs_552w85x1jz/croot/pyopenssl_1677607703691/work
+pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
+pyperclip==1.9.0
+PyQt5==5.15.7
+PyQt5-sip @ file:///C:/Windows/Temp/abs_d7gmd2jg8i/croots/recipe/pyqt-split_1659273064801/work/pyqt_sip
+pyreadstat @ file:///D:/bld/pyreadstat_1667210922742/work
+PyRect==0.2.0
+PyScreeze==1.0.1
+PySocks @ file:///C:/ci/pysocks_1605307512533/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-louvain==0.16
+pytweening==1.2.0
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1667391478166/work
+qdldl==0.1.7.post4
+requests @ file:///C:/b/abs_80_edxtvhu/croot/requests_1678709752318/work
+scikit-fuzzy==0.4.2
+scikit-learn @ file:///C:/b/abs_a0emltxu06/croot/scikit-learn_1680198772090/work
+scikit-multilearn-ng==0.0.6
+scipy==1.10.1
+scs==3.2.6
+shapely @ file:///C:/b/abs_e8n_rzfcjr/croot/shapely_1680636303476/work
+sip @ file:///C:/Windows/Temp/abs_b8fxd17m2u/croots/recipe/sip_1659012372737/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+soupsieve==2.4.1
+threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+tornado @ file:///C:/ci/tornado_1662458743919/work
+tqdm==4.65.0
+typing_extensions==4.11.0
+tzdata==2024.1
+ucimlrepo==0.0.6
+urllib3 @ file:///C:/b/abs_3ce53vrdcr/croot/urllib3_1680254693505/work
+vine==5.1.0
+wcwidth==0.2.13
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
+wincertstore==0.2
+xmltodict==0.13.0
