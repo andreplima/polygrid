@@ -81,9 +81,9 @@ def CI(vals, alpha=0.05, minval=None, maxval=None, decimals=3):
   res = bs.bootstrap(np.array(vals), stat_func=bs_stats.mean, alpha=alpha, is_pivotal=True)
   lb = res.lower_bound if (minval is None) else max(res.lower_bound, minval)
   ub = res.upper_bound if (maxval is None) else min(res.upper_bound, maxval)
-  return {'mean': np.round(res.value, decimals=decimals),
-          'lb':   np.round(lb,        decimals=decimals),
-          'ub':   np.round(ub,        decimals=decimals),
+  return {'mean': float(np.round(res.value, decimals=decimals)),
+          'lb':   float(np.round(lb,        decimals=decimals)),
+          'ub':   float(np.round(ub,        decimals=decimals)),
           'ss':   len(vals),
           'alpha': alpha,
          }

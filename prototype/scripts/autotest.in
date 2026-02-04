@@ -27,5 +27,7 @@ p         '+--------------------------------------------------------------------
 
 show cross 95
 
-quit
+set filename logo.png
+show cross 95
 
+quit

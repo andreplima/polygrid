@@ -7,7 +7,7 @@ It is a research prototype that was created to automate recurring tasks during t
 >     Rosa Maria Marcucci, Ruth Caldeira de Melo, Marcelo Garcia Manzato.
 >     An interpretable recommendation model for psychometric data,
 >     with an application to gerontological primary care. 2026.
->     Available at https://arxiv.org/abs/2601.19824 
+>     Available at https://arxiv.org/abs/2601.19824
 >     (and also here ./literature/polygrid_paper.pdf)
 
 Please cite the article if this software turns out to be useful for your research.
@@ -22,25 +22,30 @@ Polygrid is a transparent, interpretable recommendation model that displays an i
 
 ![A Polygrid explanation diagram for instance 95 of the Iris dataset](logo.png)
 
-## Installation (Windows):
-- After cloning this repository, run:
+## Installation
+
+Prerequisites: git and uv package manager.
+
+After cloning this repository, run:
+
+### on Windows:
 ```
-cd polygrid
-createnv.bat
-activate polygrid
-cd prototypes\code
-python cli.py ..\configs\evaluate_H01_C1.cfg < ..\scripts\autotest.in
+cd polygrid\prototypes\code
+uv run cli.py ..\configs\evaluate_H01_C1.cfg < ..\scripts\autotest.in
 ```
 
-## Installation (Linux):
-- After cloning this repository, run:
+### on Ubuntu:
 ```
-cd polygrid
-install.sh
-activate polygrid
-cd prototypes/code
-python cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
+cd polygrid/prototypes/code
+uv run cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
 ```
+
+If the installation is successfull, the image above will be displayed in a graphic window (separate from your terminal).
+Close the window.
+You should see the following message in your terminal: ' Quitting session with 0 exception(s).'
+
+Disclaimer: the procedures above were tested on Windows 11 and Ubuntu 24.04 (on WSL)
+
 
 ## Run a demo:
 ```

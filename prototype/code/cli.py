@@ -998,7 +998,7 @@ class PolygridCLI(cmd.Cmd):
     -- set maxlabels 2
     -- assign f 4
 
-    e.g., this creates 4 clusters, and keeps labels with membership >= 0.7 v_{\mu}:
+    e.g., this creates 4 clusters, and keeps labels with membership >= 0.7 v_{\\mu}:
     -- set fuzzfactor 0.7
     -- set maxlabels None
     -- assign f 4
@@ -1302,7 +1302,7 @@ class PolygridCLI(cmd.Cmd):
   def do_setup(self, line):
     """Trains with a Polygrid instance with parameters from an offline evaluation, e.g.,
 
-    >> python cli.py ..\configs\evaluate_H01_C1.cfg
+    >> python cli.py ../configs/evaluate_H01_C1.cfg
     -- load iris
     -- setup 64
 
@@ -1373,7 +1373,7 @@ class PolygridCLI(cmd.Cmd):
     """Performs a comparative evaluation of the relevant models, e.g.,
 
     Using the configuration file for general multiclass datasets:
-    >> python cli.py ..\configs\evaluate_H01_C1.cfg
+    >> python cli.py ../configs/evaluate_H01_C1.cfg
     -- set runs 5
     -- load cancer
     -- eval 64
