@@ -673,7 +673,7 @@ class Polygrid:
 
       if(self.scenario in [ECO_DB_MULTICLASS, ECO_DB_MULTILABEL]):
         """
-        Obtains a least squares solution to each [SW=Y]_{j \in 0..n-1} subsystem
+        Obtains a least squares solution to each [SW=Y]_{j \\in 0..n-1} subsystem
         In these scenarios, Y encodes label presence/absence
         According to the v-policy we adopted,
           We have   Y == U in multiclass, so W_j=S^{-1}Y_j == S^{-1}U_j
@@ -692,7 +692,7 @@ class Polygrid:
 
       elif(self.scenario in [ECO_DB_LABELRANK]):
         """
-        Obtains a least squares solution to each [SW=U]_{j \in 0..n-1} subsystem
+        Obtains a least squares solution to each [SW=U]_{j \\in 0..n-1} subsystem
         In this scenario, Y encodes label rankings
         In our experience, solving for SW=Y may leads to poor results
         """
@@ -2599,7 +2599,7 @@ class Polygrid:
        +1: a true negative (TN) case for the class j
        +2: a true positive (TP) case for the class j
     -- ys = ys1 * ys2 combines factors to determine the y-coordidate of each datapoint:
-       ys \in {-2, -1, +1, +2} \mapsto {te/TP, te/TN, tr/TN, tr/TP}
+       ys \\in {-2, -1, +1, +2} \\mapsto {te/TP, te/TN, tr/TN, tr/TP}
 
     Works for multilabel classification, but y2s has a different implementation
     for supporting label ranking

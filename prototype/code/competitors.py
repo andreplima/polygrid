@@ -328,7 +328,7 @@ class BaseCompetitor:
        +1: a true negative (TN) case for the class j
        +2: a true positive (TP) case for the class j
     -- ys = ys1 * ys2 combines factors to determine the y-coordidate of each datapoint:
-       ys \in {-2, -1, +1, +2} \mapsto {te/TP, te/TN, tr/TN, tr/TP}
+       ys \\in {-2, -1, +1, +2} \\mapsto {te/TP, te/TN, tr/TN, tr/TP}
 
     Works for multilabel classification, but y2s has a different implementation
     for supporting label ranking

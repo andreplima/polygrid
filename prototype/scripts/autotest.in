@@ -20,9 +20,9 @@ exec show_Polygrid_logo(self.configfile, static_logo=True)
 
 p         ''
 p         '+----------------------------------------------------------------------------------+'
-p         '| You should be able seeing the Polygrid explanation diagram shown in initial page |'
-p         '| of our github repo, at https://github.com/andreplima/polygrid. If the value of ..|'
-p         '| all tags match the reference values exactly, then this test was successful. .....|'
+p         '| You should be able to see the Polygrid explanation diagram shown in initial page |'
+p         '| of our github repo in a separate graphic windows. If all the tags of the diagram |'
+p         '| match the values in the image exactly, then you can assume this test successful. |'
 p         '+----------------------------------------------------------------------------------+'
 
 show cross 95

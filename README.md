@@ -30,21 +30,24 @@ After cloning this repository, run:
 
 ### on Windows:
 ```
+set PARAM_MOUNTEDON=%CD%
 cd polygrid\prototypes\code
 uv run cli.py ..\configs\evaluate_H01_C1.cfg < ..\scripts\autotest.in
 ```
 
 ### on Ubuntu:
 ```
+export PARAM_MOUNTEDON=`pwd`
 cd polygrid/prototypes/code
 uv run cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
 ```
 
-If the installation is successfull, the image above will be displayed in a graphic window (separate from your terminal).
-Close the window.
+The installation takes a couple of seconds to create a virtual environment and install the necessary packages, and then run the script.
+If the installation is successfull, the script will display the image above in a graphic window (separate from your terminal).
+Check if the value of all tags match the image, then close the window.
 You should see the following message in your terminal: ' Quitting session with 0 exception(s).'
 
-Disclaimer: the procedures above were tested on Windows 11 and Ubuntu 24.04 (on WSL)
+Disclaimer: the procedures above were tested on Windows 11 and Ubuntu 24.04 (on WSL).
 
 
 ## Run a demo:
