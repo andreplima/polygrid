@@ -75,8 +75,8 @@ def saveLog(filename):
   saveAsText('\n'.join(LogBuffer), filename)
 
 def headerfy(mask):
-  res = re.sub('\\:\d+\.\d+f', '', mask)
-  res = re.sub('\\:\d+d', '', res)
+  res = re.sub(r'\:\d+\.\d+f', '', mask)
+  res = re.sub(r'\:\d+d', '', res)
   return res
 
 def loadAsText(filename, _encoding = 'utf-8'):
