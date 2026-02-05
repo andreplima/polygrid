@@ -9,7 +9,7 @@
 touchpoint  = (0.78, 0.78) # 1.1 e^(i \pi/4)
 
 layout_data = {# generic layout configs
-               'family': 'arial',
+               'family': 'arial' if sys.platform == 'win32' else 'sans-serif',
                'color':  'black',
                'weight': 'normal',
                'clip':    False,
