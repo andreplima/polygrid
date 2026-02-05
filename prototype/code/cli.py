@@ -3,11 +3,14 @@ import os
 import cmd
 import sys
 import time
-import msvcrt
 import traceback
 import numpy  as np
 import psutil as pu
 import pandas as pd # used to support some external scripts
+
+# used in logo animation
+if(sys.platform == 'win32'):
+	import msvcrt
 
 from os           import makedirs
 from os.path      import join, exists, basename

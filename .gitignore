@@ -1,5 +1,6 @@
 __pycache__/
 .venv/
+datasets/offlineval/multiclass/figures/
 *.bak
 *.zip
 *.lnk
