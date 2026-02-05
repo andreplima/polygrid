@@ -44,8 +44,8 @@ uv run cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
 
 The installation takes a couple of seconds to create a virtual environment and install the necessary packages, and then run the script.
 If the installation is successfull, the script will display the image above in a graphic window (separate from your terminal).
-Check if the value of all tags match the image, then close the window.
-Then you should see the following message on your terminal: `Quitting session with 0 exception(s).`
+Check if the value of all tags match the ones in the image, then close the window.
+Then you should see this message on your terminal: `Quitting session with 0 exception(s).`
 
 Disclaimer: the procedures above were tested on Windows 11 and Ubuntu 24.04 (on WSL).
 
