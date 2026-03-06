@@ -8,4 +8,5 @@ datasets/offlineval/multiclass/figures/
 *.mp4
 *.jpg
 celeryconfig.py
+uv.lock
 ~*.*

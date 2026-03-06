@@ -42,22 +42,22 @@ cd polygrid/prototypes/code
 uv run cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
 ```
 
-The installation takes a couple of seconds to create a virtual environment and install the necessary packages, and then run the script.
+The installation may take a couple of minutes to create a virtual environment and install the necessary packages, and then run the script.
 If the installation is successfull, the script will display the image above in a graphic window (separate from your terminal).
-Check if the value of the tags match, then close the window.
-Then you should see this message on your terminal: `Quitting session with 0 exception(s).`
+Check if the value of the tags (numeric values) you see in your terminal match the ones in the image, then close the window.
+At the end, you should see this message on your terminal: `Quitting session with 0 exception(s).`
 
 Disclaimer: the procedures above were tested on Windows 11 and Ubuntu 24.04 (on WSL).
 
 
 ## Run a demo:
 ```
-python cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/demo.in
+uv run cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/demo.in
 ```
 
 ## How to run the Polygrid CLI:
 ```
-python cli.py ../configs/evaluate_H01_C1.cfg
+uv run cli.py ../configs/evaluate_H01_C1.cfg
 ```
 
 ## Where is the supplementary data?

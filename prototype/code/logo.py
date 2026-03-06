@@ -40,7 +40,7 @@ DELAY_SHORT = .1
 DELAY_LONG  = .4
 
 if(sys.platform == 'win32'):
-  import ctypes
+  #import ctypes
   from ctypes import wintypes
 else:
   import termios

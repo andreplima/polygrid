@@ -8,9 +8,12 @@ import numpy  as np
 import psutil as pu
 import pandas as pd # used to support some external scripts
 
-# used in logo animation
+# used to support user interaction when running external scripts
 if(sys.platform == 'win32'):
-	import msvcrt
+  import msvcrt
+else:
+  import tty
+  import termios
 
 from os           import makedirs
 from os.path      import join, exists, basename
@@ -424,11 +427,24 @@ class PolygridCLI(cmd.Cmd):
     self.buffer = input(line)
 
   def do_pause(self, line):
-    'Waits until ENTER is pressed'
-    print('Press ENTER to continue')
-    c = msvcrt.getch()
-    while(c != b'\r'):
+    'Waits until ENTER is pressed (works within external scripts)'
+    msg = 'Press ENTER to continue' if len(line) == 0 else line
+    print(f'\n{msg}')
+
+    if(sys.platform == 'win32'):
       c = msvcrt.getch()
+      while(c != b'\r'):
+        c = msvcrt.getch()
+    else:
+      orig_settings = termios.tcgetattr(sys.stdin)
+      try:
+        tty.setcbreak(sys.stdin)
+        c = None
+        while c != '\r':
+          c = sys.stdin.read(1)
+          print(f"You pressed: {repr(c)}")
+      finally:
+        termios.tcsetattr(sys.stdin, termios.TCSADRAIN, orig_settings)
 
   def do_ll(self, line, show_descr=True):
     """Shows the details about the internal state of the interface, e.g.,
@@ -588,9 +604,9 @@ class PolygridCLI(cmd.Cmd):
         # overrides the current performance evaluation with statistics
         # based on the cases in the training partition
         scenario = self._get_evaluation_scenario()
-        Y_real = self.Y[self.tr_idxs]
-        (Y_pred, YorU_hat) = self.model.predict(self.X[self.tr_idxs], return_scores=True)
-        (res, report) = evaluate(Y_real, Y_pred, YorU_hat, scenario)
+        self.Y_real = self.Y[self.tr_idxs]
+        (self.Y_pred, self.YorU_hat) = self.model.predict(self.X[self.tr_idxs], return_scores=True)
+        (res, report) = evaluate(self.Y_real, self.Y_pred, self.YorU_hat, scenario)
         self.performance = (res, report)
         self.performstat = 'training'
 
@@ -889,7 +905,7 @@ class PolygridCLI(cmd.Cmd):
       self.reset(ECO_VOID)
 
   def do_conflicts(self, line):
-    """Lists, reverses, or removes attributes that negatively correlate with others, e.g., 
+    """Lists, reverses, or removes attributes that negatively correlate with others, e.g.,
 
     Lists the attributes that negatively correlates with others, ranked by ocurrences
     -- conflicts
@@ -1481,8 +1497,8 @@ class PolygridCLI(cmd.Cmd):
       self.reset(ECO_SPLIT)
 
   def do_assess(self, line):
-    """Repeats the split-train or fit-evaluate cycle a number of times to compute the confidence 
-    intervals of relevant performance statistics, e.g., 
+    """Repeats the split-train or fit-evaluate cycle a number of times to compute the confidence
+    intervals of relevant performance statistics, e.g.,
     -- set runs 50
     -- load iris
     -- assign o
@@ -1976,7 +1992,7 @@ class PolygridCLI(cmd.Cmd):
        -- train: [(93, 0.5126544754090158), (57, 0.519297543403212), (15, 0.5445679691799669), (98, 0.544595737229199)]
           test : [(62, 0.6026417171161255), (94, 0.7468149297043077), (68, 0.7903412217941662), (106, 0.7941101716115474)]
 
-    If the number of instances is no informed, then topN items are shown:
+    If the number of instances is not informed, then topN items are shown:
     -- set topN 2
     -- search  .5 .8
        -- train: [(93, 0.5126544754090158), (57, 0.519297543403212)]
