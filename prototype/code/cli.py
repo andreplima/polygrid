@@ -9,11 +9,11 @@ import psutil as pu
 import pandas as pd # used to support some external scripts
 
 # used to support user interaction when running external scripts
-if(sys.platform == 'win32'):
-  import msvcrt
-else:
-  import tty
-  import termios
+#if(sys.platform == 'win32'):
+#  import msvcrt
+#else:
+#  import tty
+#  import termios
 
 from os           import makedirs
 from os.path      import join, exists, basename
@@ -429,22 +429,26 @@ class PolygridCLI(cmd.Cmd):
   def do_pause(self, line):
     'Waits until ENTER is pressed (works within external scripts)'
     msg = 'Press ENTER to continue' if len(line) == 0 else line
-    print(f'\n{msg}')
+    print(msg)
+    with open('/dev/tty', 'r') as tty:
+        tty.readline()
 
-    if(sys.platform == 'win32'):
-      c = msvcrt.getch()
-      while(c != b'\r'):
-        c = msvcrt.getch()
-    else:
-      orig_settings = termios.tcgetattr(sys.stdin)
-      try:
-        tty.setcbreak(sys.stdin)
-        c = None
-        while c != '\r':
-          c = sys.stdin.read(1)
-          print(f"You pressed: {repr(c)}")
-      finally:
-        termios.tcsetattr(sys.stdin, termios.TCSADRAIN, orig_settings)
+    #print(f'\n{msg}')
+    #
+    #if(sys.platform == 'win32'):
+    #  c = msvcrt.getch()
+    #  while(c != b'\r'):
+    #    c = msvcrt.getch()
+    #else:
+    #  orig_settings = termios.tcgetattr(sys.stdin)
+    #  try:
+    #    tty.setcbreak(sys.stdin)
+    #    c = None
+    #    while c != '\r':
+    #      c = sys.stdin.read(1)
+    #      print(f"You pressed: {repr(c)}")
+    #  finally:
+    #    termios.tcsetattr(sys.stdin, termios.TCSADRAIN, orig_settings)
 
   def do_ll(self, line, show_descr=True):
     """Shows the details about the internal state of the interface, e.g.,
