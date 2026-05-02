@@ -27,7 +27,7 @@ Prerequisites: git and uv package manager.
 
 After cloning this repository, run:
 
-### on Windows:
+### on Windows 11:
 ```
 set QT_LOGGING_RULES=qt.qpa.wayland.textinput=false
 set PARAM_MOUNTEDON=%CD%
@@ -35,7 +35,7 @@ cd polygrid\prototype\code
 uv run cli.py ..\configs\evaluate_H01_C1.cfg < ..\scripts\autotest.in
 ```
 
-### on Ubuntu:
+### on Ubuntu 26.04:
 ```
 export QT_LOGGING_RULES="qt.qpa.wayland.textinput=false"
 export PARAM_MOUNTEDON=`pwd`
@@ -47,8 +47,6 @@ The installation may take a couple of minutes to create a virtual environment an
 If the installation is successfull, the script will display the image above in a graphic window (separate from your terminal).
 Check if the value of the tags (numeric values) you see in your terminal match the ones in the image, then close the window.
 At the end, you should see this message on your terminal: `Quitting session with 0 exception(s).`
-
-Disclaimer: the procedures above were tested on Windows 11, Ubuntu 24.04 (on WSL) and 26.04.
 
 
 ## Run a demo:
