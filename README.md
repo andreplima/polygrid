@@ -15,8 +15,7 @@ This work has derived from the following doctoral thesis:
 
 > [2] Andre Paulino de Lima. An interpretable recommendation model for psychometric
 >     data in multilabel classification and label ranking tasks, with an application
->     to gerontological primary care. 2026. Doctoral thesis (to be defended; the
->     pre-examination version can be consulted here [literature/polygrid_thesis.pdf](literature/polygrid_thesis.pdf))
+>     to gerontological primary care. 2026. Doctoral thesis (can be consulted here [literature/polygrid_thesis.pdf](literature/polygrid_thesis.pdf))
 
 Polygrid is a transparent, interpretable recommendation model that displays an interactive diagram as a visual explanation for any recommendation it provides, as illustrated below:
 
@@ -30,6 +29,7 @@ After cloning this repository, run:
 
 ### on Windows:
 ```
+set QT_LOGGING_RULES="qt.qpa.wayland.textinput=false"
 set PARAM_MOUNTEDON=%CD%
 cd polygrid\prototypes\code
 uv run cli.py ..\configs\evaluate_H01_C1.cfg < ..\scripts\autotest.in
@@ -37,6 +37,7 @@ uv run cli.py ..\configs\evaluate_H01_C1.cfg < ..\scripts\autotest.in
 
 ### on Ubuntu:
 ```
+export QT_LOGGING_RULES="qt.qpa.wayland.textinput=false"
 export PARAM_MOUNTEDON=`pwd`
 cd polygrid/prototypes/code
 uv run cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
@@ -47,7 +48,7 @@ If the installation is successfull, the script will display the image above in a
 Check if the value of the tags (numeric values) you see in your terminal match the ones in the image, then close the window.
 At the end, you should see this message on your terminal: `Quitting session with 0 exception(s).`
 
-Disclaimer: the procedures above were tested on Windows 11 and Ubuntu 24.04 (on WSL).
+Disclaimer: the procedures above were tested on Windows 11, Ubuntu 24.04 (on WSL) and 26.04.
 
 
 ## Run a demo:
