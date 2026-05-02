@@ -9,8 +9,8 @@ import psutil as pu
 import pandas as pd # used to support some external scripts
 
 # used to support user interaction when running external scripts
-#if(sys.platform == 'win32'):
-#  import msvcrt
+if(sys.platform == 'win32'):
+  import msvcrt
 #else:
 #  import tty
 #  import termios
@@ -429,9 +429,15 @@ class PolygridCLI(cmd.Cmd):
   def do_pause(self, line):
     'Waits until ENTER is pressed (works within external scripts)'
     msg = 'Press ENTER to continue' if len(line) == 0 else line
-    print(msg)
-    with open('/dev/tty', 'r') as tty:
-        tty.readline()
+    print(f'\n{msg}')
+
+    if(sys.platform == 'win32'):
+      c = msvcrt.getch()
+      while(c != b'\r'):
+        c = msvcrt.getch()
+    else:
+      with open('/dev/tty', 'r') as tty:
+          tty.readline()
 
     #print(f'\n{msg}')
     #

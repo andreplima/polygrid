@@ -29,9 +29,9 @@ After cloning this repository, run:
 
 ### on Windows:
 ```
-set QT_LOGGING_RULES="qt.qpa.wayland.textinput=false"
+set QT_LOGGING_RULES=qt.qpa.wayland.textinput=false
 set PARAM_MOUNTEDON=%CD%
-cd polygrid\prototypes\code
+cd polygrid\prototype\code
 uv run cli.py ..\configs\evaluate_H01_C1.cfg < ..\scripts\autotest.in
 ```
 
@@ -39,7 +39,7 @@ uv run cli.py ..\configs\evaluate_H01_C1.cfg < ..\scripts\autotest.in
 ```
 export QT_LOGGING_RULES="qt.qpa.wayland.textinput=false"
 export PARAM_MOUNTEDON=`pwd`
-cd polygrid/prototypes/code
+cd polygrid/prototype/code
 uv run cli.py ../configs/evaluate_H01_C1.cfg < ../scripts/autotest.in
 ```
 
