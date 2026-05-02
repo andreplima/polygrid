@@ -5,3 +5,4 @@ uv add bootstrapped
 uv add palmerpenguins
 uv add scikit-multilearn-ng
 uv add primefac
+uv add pyqt6
