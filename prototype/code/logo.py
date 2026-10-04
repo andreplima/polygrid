@@ -163,7 +163,7 @@ def set_cursor_pos(x, y):
 
 def show_Polygrid_logo(configFile, static_logo=False, show_doctring=True):
 
-  vrs = 'Polygrid CLI (prototype 7)'
+  vrs = 'Polygrid CLI (research prototype)'
   msg = f'Loading config from {configFile}'
   sep = len(msg)*'-'
 
